@@ -159,7 +159,6 @@ button{
     --color-whitebg : #f8f9fa;
     --color-border : rgba(0, 0, 0, 0.2);
     --color-switch : #1e314f;
-    --switch-svg : url("../Ressource/Logo/moon.svg");
     --color-headersadow : 0 2px 2px -2px rgba(0,0,0,0.16);
     --color-cardbg :  #f8f9fa;
 }
@@ -174,7 +173,6 @@ button{
     --color-whitebg : #191919;
     --color-border : rgba(255,255,255, 0.8);
     --color-switch : #ffcf96;
-    --switch-svg : url("../Ressource/Logo/sun.svg");
     --color-headersadow : 0 2px 2px -2px rgba(255,255,255,0.6);
     --color-cardbg :  rgba(255,255,255, 0.05);
 

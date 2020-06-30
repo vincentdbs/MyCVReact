@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContactMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/All.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContactMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="ReactFunction" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources/Image" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,6 +52,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\JS" />
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\JSON" />
     </key>
@@ -90,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593528508158</updated>
-      <workItem from="1593528510293" duration="4016000" />
+      <workItem from="1593528510293" duration="4877000" />
     </task>
     <servers />
   </component>
@@ -118,5 +123,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593531014181" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593533752409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593533752409" />
   </component>
 </project>

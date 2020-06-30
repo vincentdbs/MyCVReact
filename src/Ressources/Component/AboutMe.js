@@ -1,4 +1,6 @@
 import React from "react";
+import "../CSS/All.css"
+import "../CSS/Top.css"
 
 const AboutMe = () => {
     return(
