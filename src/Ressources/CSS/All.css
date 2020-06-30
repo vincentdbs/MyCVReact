@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--color-whitebg);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover
+{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+p, li,a{
+    font-family: "Open Sans";
+}
+
+h2{
+    font-family: Avenir;
+    font-weight: lighter;
+}
+
+button{
+    outline: none;
+}
+
+.display-block{
+    display: block !important;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.width-initial{
+    width: initial !important;
+}
+
+.width-hundred{
+    width: 100% !important;
+}
+
+.width-zero{
+    width: 0 !important;
+}
+
+.section-title{
+    margin-top: 16px;
+    color: var(--color-main);
+    font-family: Avenir;
+    font-weight: lighter;
+}
+
+.blur{
+    backdrop-filter: blur(12px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.container{
+    background-color: var(--color-whitebg);
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.arrowdonw{
+    width: 50px;
+    height: 50px;
+    fill: var(--color-whitebg);
+}
+
+.container-arrowdown{
+    height: 60px;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    z-index: 99;
+    animation: upanddown 3s infinite;
+}
+
+.container-arrowdown:hover{
+    cursor: pointer;
+}
+
+@keyframes upanddown {
+    0%{
+        transform: translateY(0px);
+    }
+
+    6.25%{
+        transform: translateY(-20px);
+    }
+
+    12.5%{
+        transform: translateY(-22px);
+    }
+
+    25%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.top-margin{
+    margin-top: 32px;
+}
+
+.link-git{
+    color: var(--color-main);
+    display: block;
+    margin-top: 6px;
+    max-width: 100px;
+    font-family: "Open Sans";
+    border-radius: 16px;
+    transition: all  0.2s ease;
+}
+
+.link-git:hover{
+    margin-left: 8px;
+}
+
+:root{
+    --color-main : rgba(0,0,0, 0.87);
+    --color-mainhalf : rgba(0,0,0, 0.5);
+    --color-mainquarter : rgba(0,0,0, 0.25);
+    --color-mainthreequarter : rgba(255,255,255, 0.75);
+    --color-orange : #FFAA00;
+    --color-grey : #cccccc;
+    --color-whitebg : #f8f9fa;
+    --color-border : rgba(0, 0, 0, 0.2);
+    --color-switch : #1e314f;
+    --switch-svg : url("../Ressource/Logo/moon.svg");
+    --color-headersadow : 0 2px 2px -2px rgba(0,0,0,0.16);
+    --color-cardbg :  #f8f9fa;
+}
+
+[data-theme="dark"] {
+    --color-main : rgba(255,255,255, 0.95);
+    --color-mainhalf :rgba(255,255,255, 0.80);
+    --color-mainquarter : rgba(255,255,255, 0.67);
+    --color-mainthreequarter : rgba(0,0,0, 0.75);
+    --color-orange : #FFAA00;
+    --color-grey : #cccccc;
+    --color-whitebg : #191919;
+    --color-border : rgba(255,255,255, 0.8);
+    --color-switch : #ffcf96;
+    --switch-svg : url("../Ressource/Logo/sun.svg");
+    --color-headersadow : 0 2px 2px -2px rgba(255,255,255,0.6);
+    --color-cardbg :  rgba(255,255,255, 0.05);
+
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .section-title{
+        font-size: 2rem;
+    }
+
+    .little{
+        font-size: 0.8rem;
+    }
+
+    p, li{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 0.75rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .container-arrowdown{
+        left: 45%;
+    }
+
+    .arrowdonw{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .little{
+        font-size: 0.9rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    p, li{
+        font-size: 1.25rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.75rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .section-title{
+        font-size: 4rem;
+    }
+
+    .little{
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 1.125rem;
+    }
+
+    p,  li{
+        font-size: 1.25rem;
+    }
+
+    h1{
+        font-size: 2.75rem;
+    }
+
+    h2{
+        font-size: 1.75rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+}

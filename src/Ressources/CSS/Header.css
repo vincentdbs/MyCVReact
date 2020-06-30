@@ -1,0 +1,30 @@
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 45px;
+    position: fixed;
+    background-color: var(--color-whitebg);
+    z-index: 500;
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .header{
+        box-shadow: var(--color-headersadow)
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .header{
+        box-shadow: var(--color-headersadow)
+
+    }
+}
+
+@media (min-width: 1025px) {
+    .header{
+        background-color: transparent;
+    }
+}

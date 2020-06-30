@@ -1,0 +1,114 @@
+/*CARD*/
+.project-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.project-card{
+    margin: 32px;
+    padding: 32px;
+    flex: 0 0 28%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: var(--color-cardbg);
+
+}
+
+/*Content*/
+
+.des-projet h2{
+    color: var(--color-main);
+    font-family: "Avenir";
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 32px;
+}
+
+.des-projet p{
+    color: var(--color-mainhalf);
+}
+
+.des-projet > p{
+    display: block;
+    line-height: 2rem;
+    margin: 12px 0;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.project-icon{
+    display: inline;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--color-mainhalf);
+}
+
+.projet-specs > div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.projet-specs > div > *{
+    margin-right: 16px;
+}
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .project-card {
+        flex: 1 0 85%;
+    }
+
+    .des-projet p{
+        line-height: 24px;
+        max-width: 100%;
+    }
+
+    .project-icon{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+    .project-card {
+        flex: 1 0 90%;
+        max-width: 90%;
+    }
+
+    .des-projet{
+        padding: 0;
+    }
+
+    .des-projet p{
+        line-height: 24px;
+        max-width: 100%;
+    }
+
+    .projet-specs > *{
+        margin: 0 8px;
+    }
+
+    .project-icon{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .project-card-container{
+        margin: 80px 3% 80px 175px;
+        max-width: 90%;
+        justify-content: space-evenly;
+
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .project-card{
+        margin: 16px 0;
+        flex: 0 1 45%;
+    }
+}

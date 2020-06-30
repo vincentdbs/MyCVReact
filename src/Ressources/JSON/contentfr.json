@@ -1,0 +1,216 @@
+{
+   "info": {
+      "me": {
+         "name": "Vincent Dubois",
+         "major": "M1 Software Engineering",
+         "school": "EFREI"
+      },
+      "contact": {
+         "mail": "vincent.dubois@efrei.net",
+         "phone": "06 11 20 17 85",
+         "linkedin": "Vincent Dubois",
+         "address": "Sceaux, 92330",
+         "car": "Permis B"
+      }
+   },
+
+   "education": {
+      "title": "Parcours scolaire",
+      "timeline": [
+         {
+            "date":  "Janvier 2020 - Juin 2020",
+            "address": "EFREI Paris, Villejuif (94)",
+            "title": "1e année du cycle ingénieur",
+            "tasks": [
+               "Mathématiques pour la cryptographie, optimisation",
+               "Base de données avancées, introduction à la cybersécurité"
+            ]
+         },
+         {
+            "date":  "Septembre 2019 - Décembre 2019",
+            "address": "Asia Pacific University, Kuala Lumpur, Malaisie",
+            "title": "1e année du cycle ingénieur",
+            "tasks": [
+               "JAVA et programmation web (PHP, CSS, JS, HTML, SQL)",
+               "Base de données et système d'exploitation",
+               "Réseaux et protocoles"
+            ]
+         },
+         {
+            "date":  "2017 - 2019",
+            "address": "EFREI Paris, Villejuif (94)",
+            "title": "Cycle préparatoire intégré",
+            "tasks": [
+               "Développement d'une application Android de soutien scolaire et d'entraide étudiante",
+               "Physique, mathématiques, communication et sciences humaines",
+               "Meilleur classement : 5/371"
+            ]
+         },
+         {
+            "date":  "2017",
+            "address": "Lycée Marie Curie, Sceaux (92)",
+            "title": "Baccalauréat scientifique section Science de la Vie et de la Terre",
+            "tasks": [
+               "Spécialité mathématiques",
+               "Mention Bien"
+            ]
+         }
+      ]
+   },
+
+   "pro":{
+      "title": "Expériences professionnelles",
+      "jobs": [
+         {
+            "title": "Président",
+            "company": "EFREI Picture Studio",
+            "address": "EFREI Paris (94)",
+            "date": "Février 2020 - Février 2021",
+            "tasks": [
+               "Gestion de projets (expositions, concours, captation photo et vidéo)",
+               "Gestion d’une équipe d’une vingtaine de membres"
+            ]
+         },
+         {
+            "title": "Trésorier",
+            "company": "EFREI Picture Studio",
+            "address": "EFREI Paris (94)",
+            "date": "Février 2019 - Février 2020",
+            "tasks": [
+               "Création, défense et gestion du budget",
+               "Gestion des ventes et des dépenses"
+            ]
+         },
+         {
+            "title": "Conseiller de vente",
+            "company": "Boulanger",
+            "address": "Vélizy 2 (78)",
+            "date": "Janvier 2019",
+            "tasks": [
+               "Merchandising",
+               "Conseiller et aider les clients à trouver le produit désiré",
+               "Préparation des soldes d’hiver"
+            ]
+         },
+         {
+            "title": "Employé polyvalent",
+            "company": "Auchan Supermarché",
+            "address": "Sceaux (92)",
+            "date": "Juin - Juillet 2018",
+            "tasks": [
+               "Mise en rayon",
+               "Gestion des commandes",
+               "Mise en avant des produits",
+               "Relation client"
+            ]
+         }
+      ]
+   },
+
+   "project": {
+      "title": "Projets",
+      "projects" : [
+         {
+            "title": "Swapit (Android)",
+            "members" : 5,
+            "time": "1 an",
+            "date": "Sept 2018 - Juin 2019",
+            "tech": "JAVA, PHP, MySQL, Android Studio",
+            "github": null,
+            "description" : "Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
+         },
+         {
+            "title": "Swapit (WEB)",
+            "members" : 5,
+            "time": "4 mois",
+            "date": "Fev - Mai 2020",
+            "tech": "HTML, JS, CSS, PHP, MySQL",
+            "github": null,
+            "description" : "L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+         },
+         {
+            "title": "Quizz de culture générale",
+            "members" : 4,
+            "time": "1 mois",
+            "date": "Mai 2020",
+            "tech": "JAVA",
+            "github": null,
+            "description" : "Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture génèrale sur une dizaine de thèmes."
+         },
+         {
+            "title": "RDV d'une psychologue",
+            "members" : 2,
+            "time": "2 mois",
+            "date": "Avril - Mai 2020",
+            "tech": "JAVA, Microsoft SQL Server, JMerise",
+            "github": null,
+            "description" : "La prise de rendez-vous et la gestion des patients peuvent vite devenir compliqués sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
+         },
+         {
+            "title": "Manipulation de graphes",
+            "members" : 1,
+            "time": "1 mois",
+            "date": "Avril 2020",
+            "tech": "JAVA",
+            "github": null,
+            "description" : "Ce projet a pour but de manipuler des graphes et de réaliser plusieurs analyses comme la determination de la présence d'un circuit, le calcul du rang des sommets, le calcul des dates au plus tôt et au plus tard, la calcul du calendrier d'ordonnancement."
+         },
+         {
+            "title": "Automates finis",
+            "members" : 1,
+            "time": "2 mois",
+            "date": "Avril - Mai 2019",
+            "tech": "C++",
+            "github": null,
+            "description" : "Ce projet a pour but de manipuler des automates finis et de réaliser la lecture, l'affichage, la déterminisation, la minimisation, la standardisation et la reconnaissance de mots."
+         },
+         {
+            "title": "Location de voiture",
+            "members" : 1,
+            "time": "2 mois",
+            "date": "Oct - Nov 2019",
+            "tech": "HTML, JS, CSS, PHP, MySQL",
+            "github": null,
+            "description" : "Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture de gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
+         }
+      ]
+   },
+
+   "softskills": {
+      "title": "Compétences",
+      "skills": [
+         {
+            "title": "Programmation",
+            "desc": [
+               "Environnement : Windows",
+               "Langage : JAVA, C, HTML, CSS, JS, PHP, MySQL, SQLServer",
+               "IDE : Jetbrains",
+               "Logiciel : Microsoft office, Adobe Lightroom"
+            ]
+         },
+         {
+            "title": "Langue",
+            "desc": [
+               "Français : Langue natale",
+               "Anglais : Très bon niveau (TOEIC : 925)"
+            ]
+         },
+         {
+            "title": "Soft skills",
+            "desc": [
+               "Méthodique",
+               "Calme",
+               "Gestion du temps"
+            ]
+         },
+         {
+            "title": "Extrascolaire",
+            "desc": [
+               "Sport : Basketball (ASAS basket Sceaux, depuis 15 ans)",
+               "Culture : Photographie",
+               "Passion : Astronomie, nouvelles technologies"
+            ]
+         }
+      ]
+   }
+}
