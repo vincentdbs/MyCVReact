@@ -24,3 +24,5 @@ function switchTheme(e) {
 let light = true;
 document.getElementById("image-top").style.backgroundImage = "url(../Image/bg_header_dark.jpg)";
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+console.log("test");
