@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="XSLT Stylesheet" />
         <option value="ReactFunction" />
       </list>
     </option>
@@ -93,7 +94,7 @@
       <updated>1593528508158</updated>
       <workItem from="1593528510293" duration="6051000" />
       <workItem from="1593593193564" duration="313000" />
-      <workItem from="1593593518566" duration="508000" />
+      <workItem from="1593593518566" duration="1408000" />
     </task>
     <servers />
   </component>
