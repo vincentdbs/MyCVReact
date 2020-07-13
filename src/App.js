@@ -10,6 +10,7 @@ import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageCon
 import ContainerEducation from "./Ressources/Component/ContainerEducation";
 import ContainerExperience from "./Ressources/Component/ContainerExperience";
 import ContainerProject from "./Ressources/Component/ContainerProject";
+import ContainerSkills from "./Ressources/Component/ContainerSkills";
 
 class App extends Component{
     state = {
@@ -32,6 +33,7 @@ class App extends Component{
                 <ContainerEducation />
                 <ContainerExperience />
                 <ContainerProject />
+                <ContainerSkills />
             </LanguageContext.Provider>
         );
     }

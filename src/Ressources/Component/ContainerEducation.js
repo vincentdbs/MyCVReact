@@ -12,7 +12,7 @@ const ContainerEducation = () => {
             <div className="timeline-container">
                 <div className="timeline">
                     {language.education.timeline.map((data, index) => (
-                        <Education date={data.date} title={data.title}
+                        <Education key={index} date={data.date} title={data.title}
                                    address={data.address}
                                    tasks={data.tasks}/>
                     ))}
