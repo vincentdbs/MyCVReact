@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <workItem from="1593528510293" duration="6051000" />
       <workItem from="1593593193564" duration="313000" />
       <workItem from="1593593518566" duration="2343000" />
-      <workItem from="1594630596457" duration="6528000" />
+      <workItem from="1594630596457" duration="7147000" />
     </task>
     <servers />
   </component>
