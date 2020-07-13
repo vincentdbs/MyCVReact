@@ -1,8 +1,8 @@
 import React from "react";
 
-const CardExperience = ({title, company, address, date, tasks}) => {
+const CardExperience = ({title, company, address, date, tasks, index}) => {
     return (
-        <div className="column">
+        <div className={index%2 === 0 ? "column" : "column column-revert" }>
             <div className="center">
                 <img className="logo-company logo-eps" src={require('../Image/EPS-version-noire.png')} />
             </div>
@@ -32,12 +32,11 @@ const CardExperience = ({title, company, address, date, tasks}) => {
                         </svg>
                         <p>{date}</p>
                     </div>
-                    <p>
-                        {/*todo patch avec une liste pour map le tasks*/}
-                        dfsdf
-                        dflkdsf
-                    </p>
-
+                    {/*todo changer render du p pour la mise en forme*/}
+                    {tasks.map((data, index) => (
+                            <p>{data}</p>
+                        )
+                    )}
                 </div>
             </div>
         </div>

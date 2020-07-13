@@ -1,16 +1,26 @@
-import React from "react";
+import React, {useContext} from "react";
 import CardExperience from "./CardExperience";
+import {LanguageContext} from '../Language/LanguageContext';
+
 
 const ContainerExperience = () => {
+    let language = useContext(LanguageContext);
     return (
         <div className="container experience">
             <div className="center">
                 <h1 className="section-title">Expériences professionnelles</h1>
             </div>
             <div className="container-card">
-                {/*  todo complete map*/}
-                <CardExperience title={"Président"} company={"EFREI Picture Studio"} address={"EFREI Paris (94)"}
-                                date={"EFREI Paris (94)"}/>
+                {language.pro.jobs.map((data, index) => (
+                    <CardExperience
+                        key = {index}
+                        index = {index}
+                        title={data.title}
+                        company={data.company}
+                        address={data.address}
+                        date={data.date}
+                        tasks={data.tasks}/>
+                ))}
             </div>
         </div>
     );

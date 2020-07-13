@@ -8,6 +8,7 @@ import "../src/Ressources/CSS/Skills.css"
 import "../src/Ressources/CSS/Project.css"
 import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageContext';
 import ContainerEducation from "./Ressources/Component/ContainerEducation";
+import ContainerExperience from "./Ressources/Component/ContainerExperience";
 
 class App extends Component{
     state = {
@@ -27,7 +28,7 @@ class App extends Component{
     return(
             <LanguageContext.Provider value={this.state.language}>
                 <p onClick={this.toggleLanguage}>fsdlfkdslfj</p>
-                <ContainerEducation />
+                <ContainerExperience />
             </LanguageContext.Provider>
         );
     }
