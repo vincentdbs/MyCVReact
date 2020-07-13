@@ -1,17 +1,25 @@
-import React from "react";
+import React, {useContext} from "react";
 import CardProject from "./CardProject";
+import {LanguageContext} from '../Language/LanguageContext';
+
 
 const ContainerProject = () => {
+    let language = useContext(LanguageContext);
     return (
         <div className="container project">
             <div className="center">
-                <h1 className="section-title">Projets</h1>
+                <h1 className="section-title">{language.project.title}</h1>
             </div>
             <div className="project-card-container">
-            {/* todo complete with map   */}
-            <CardProject title={"Swapit (Android)"} members={5} time={"1 an"} date={"Sept 2018 - Juin 2019"}
-                         tech={"JAVA, PHP, MySQL, Android Studio"}
-                         description={"Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."}/>
+            {
+                language.project.projects.map((data, index) => (
+                    <CardProject title={data.title} members={data.members} time={data.time} date={data.date}
+                                 tech={data.tech}
+                                 description={data.description}
+                                 github={data.github}
+                    />
+                ))
+            }
             </div>
         </div>
     );

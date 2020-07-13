@@ -7,7 +7,7 @@ const ContainerEducation = () => {
     return (
         <div className="container education">
             <div className="center">
-                <h1 className="section-title">Parcours scolaire</h1>
+                <h1 className="section-title">{language.education.title}</h1>
             </div>
             <div className="timeline-container">
                 <div className="timeline">

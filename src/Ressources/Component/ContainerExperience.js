@@ -8,7 +8,7 @@ const ContainerExperience = () => {
     return (
         <div className="container experience">
             <div className="center">
-                <h1 className="section-title">Expériences professionnelles</h1>
+                <h1 className="section-title">{language.pro.title}</h1>
             </div>
             <div className="container-card">
                 {language.pro.jobs.map((data, index) => (
