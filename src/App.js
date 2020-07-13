@@ -26,6 +26,7 @@ class App extends Component{
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
+                <p onClick={this.toggleLanguage}>fsdlfkdslfj</p>
                 <ContainerEducation />
             </LanguageContext.Provider>
         );
