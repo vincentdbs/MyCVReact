@@ -1,102 +1,100 @@
 {
-   "info": {
-      "me": {
-         "name": "Vincent Dubois",
-         "major": "M1 Software Engineering",
-         "school": "EFREI"
+   "info":{
+      "me":{
+         "name":"Vincent Dubois",
+         "major":"M1 Software Engineering",
+         "school":"EFREI"
       },
-      "contact": {
-         "mail": "vincent.dubois@efrei.net",
-         "phone": "+33 6 11 20 17 85",
-         "linkedin": "Vincent Dubois",
-         "address": "Sceaux, 92330, France",
-         "car": "Car driving licence"
+      "contact":{
+         "mail":"vincent.dubois@efrei.net",
+         "phone":"+33 6 11 20 17 85",
+         "linkedin":"Vincent Dubois",
+         "address":"Sceaux, 92330, France",
+         "car":"Car driving licence"
       }
    },
-
-   "education": {
-      "title": "Education",
-      "timeline": [
+   "education":{
+      "title":"Education",
+      "timeline":[
          {
-            "date":  "Jan 2020 - June 2020",
-            "address": "EFREI Paris, Villejuif (94), France",
-            "title": "First year of engineer cycle",
-            "tasks": [
+            "date":"Jan 2020 - June 2020",
+            "address":"EFREI Paris, Villejuif (94), France",
+            "title":"First year of engineer cycle",
+            "tasks":[
                "Mathematics for cryptography, optimisation",
                "Data bases, introduction to cybersecurity"
             ]
          },
          {
-            "date":  "Sept 2019 - Dec 2019",
-            "address": "Asia Pacific University, Kuala Lumpur, Malaysia",
-            "title": "First year of engineer cycle",
-            "tasks": [
+            "date":"Sept 2019 - Dec 2019",
+            "address":"Asia Pacific University, Kuala Lumpur, Malaysia",
+            "title":"First year of engineer cycle",
+            "tasks":[
                "JAVA and web programming (PHP, CSS, JS, HTML, SQL)",
                "Data bases and operating systems",
                "Networks and protocols"
             ]
          },
          {
-            "date":  "2017 - 2019",
-            "address": "EFREI Paris, Villejuif (94)",
-            "title": "1st/2nd year of preparation to engineer cycle",
-            "tasks": [
+            "date":"2017 - 2019",
+            "address":"EFREI Paris, Villejuif (94)",
+            "title":"1st/2nd year of preparation to engineer cycle",
+            "tasks":[
                "Development of an Android app to help students find tutoring and\ndaily services in the school",
                "Physic, mathematics, communication and human sciences",
                "Highest rank : 5/371"
             ]
          },
          {
-            "date":  "2017",
-            "address": "Marie Curie Highschool, Sceaux (92)",
-            "title": "Scientific baccalaureate, life and earth sciences section",
-            "tasks": [
-               "Major in mathematics with honors",
+            "date":"2017",
+            "address":"Marie Curie Highschool, Sceaux (92)",
+            "title":"Scientific baccalaureate, life and earth sciences section",
+            "tasks":[
+               "Major in mathematics with honors"
             ]
          }
       ]
    },
-
    "pro":{
-      "title": "Professional experiences",
-      "jobs": [
+      "title":"Professional experiences",
+      "jobs":[
          {
-            "title": "President",
-            "company": "EFREI Picture Studio",
-            "address": "EFREI Paris (94)",
-            "date": "Feb 2020 - Feb 2021",
-            "tasks": [
+            "title":"President",
+            "company":"EFREI Picture Studio",
+            "address":"EFREI Paris (94)",
+            "date":"Feb 2020 - Feb 2021",
+            "tasks":[
                "Gestion de projets (expositions, concours, captation photo et vidéo)",
                "Gestion d’une équipe d’une vingtaine de membres"
             ]
          },
          {
-            "title": "Treasurer",
-            "company": "EFREI Picture Studio",
-            "address": "EFREI Paris (94)",
-            "date": "Feb 2019 - Feb 2020",
-            "tasks": [
+            "title":"Treasurer",
+            "company":"EFREI Picture Studio",
+            "address":"EFREI Paris (94)",
+            "date":"Feb 2019 - Feb 2020",
+            "tasks":[
                "Création, défense et gestion du budget",
                "Gestion des ventes et des dépenses"
             ]
          },
          {
-            "title": "Sales consultant internship",
-            "company": "Boulanger",
-            "address": "Vélizy 2 (78)",
-            "date": "January 2019",
-            "tasks": [
+            "title":"Sales consultant internship",
+            "company":"Boulanger",
+            "address":"Vélizy 2 (78)",
+            "date":"January 2019",
+            "tasks":[
                "Merchandising",
                "Advise and help customer to find the desired product",
                "Prepare sales period"
             ]
          },
          {
-            "title": "Blue-collar internship",
-            "company": "Auchan Supermarket",
-            "address": "Sceaux (92)",
-            "date": "June- July 2018",
-            "tasks": [
+            "title":"Blue-collar internship",
+            "company":"Auchan Supermarket",
+            "address":"Sceaux (92)",
+            "date":"June- July 2018",
+            "tasks":[
                "Shelving products",
                "Controlling orders",
                "Shelf facing",
@@ -105,82 +103,80 @@
          }
       ]
    },
-
-   "project": {
-      "title": "Projets",
-      "projects" : [
+   "project":{
+      "title":"Projets",
+      "projects":[
          {
-            "title": "Swapit (Android)",
-            "members" : 5,
-            "time": "1 year",
-            "date": "Sept 2018 - June 2019",
-            "tech": "JAVA, PHP, MySQL, Android Studio",
-            "github": null,
-            "description" : "Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
+            "title":"Swapit (Android)",
+            "members":5,
+            "time":"1 year",
+            "date":"Sept 2018 - June 2019",
+            "tech":"JAVA, PHP, MySQL, Android Studio",
+            "github":null,
+            "description":"Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
          },
          {
-            "title": "Swapit (WEB)",
-            "members" : 5,
-            "time": "4 months",
-            "date": "Feb - May 2020",
-            "tech": "HTML, JS, CSS, PHP, MySQL",
-            "github": null,
-            "description" : "L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+            "title":"Swapit (WEB)",
+            "members":5,
+            "time":"4 months",
+            "date":"Feb - May 2020",
+            "tech":"HTML, JS, CSS, PHP, MySQL",
+            "github":null,
+            "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
          },
          {
-            "title": "Quizz de culture générale",
-            "members" : 4,
-            "time": "1 month",
-            "date": "May 2020",
-            "tech": "JAVA",
-            "github": null,
-            "description" : "Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture génèrale sur une dizaine de thèmes."
+            "title":"Quizz de culture générale",
+            "members":4,
+            "time":"1 month",
+            "date":"May 2020",
+            "tech":"JAVA",
+            "github":null,
+            "description":"Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture génèrale sur une dizaine de thèmes."
          },
          {
-            "title": "RDV d'une psychologue",
-            "members" : 2,
-            "time": "2 months",
-            "date": "April - May 2020",
-            "tech": "JAVA, Microsoft SQL Server, JMerise",
-            "github": null,
-            "description" : "La prise de rendez-vous et la gestion des patients peuvent vite devenir compliqués sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
+            "title":"RDV d'une psychologue",
+            "members":2,
+            "time":"2 months",
+            "date":"April - May 2020",
+            "tech":"JAVA, Microsoft SQL Server, JMerise",
+            "github":null,
+            "description":"La prise de rendez-vous et la gestion des patients peuvent vite devenir compliqués sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
          },
          {
-            "title": "Manipulation de graphes",
-            "members" : 1,
-            "time": "1 month",
-            "date": "April 2020",
-            "tech": "JAVA",
-            "github": null,
-            "description" : "Ce projet a pour but de manipuler des graphes et de réaliser plusieurs analyses comme la determination de la présence d'un circuit, le calcul du rang des sommets, le calcul des dates au plus tôt et au plus tard, la calcul du calendrier d'ordonnancement."
+            "title":"Manipulation de graphes",
+            "members":1,
+            "time":"1 month",
+            "date":"April 2020",
+            "tech":"JAVA",
+            "github":null,
+            "description":"Ce projet a pour but de manipuler des graphes et de réaliser plusieurs analyses comme la determination de la présence d'un circuit, le calcul du rang des sommets, le calcul des dates au plus tôt et au plus tard, la calcul du calendrier d'ordonnancement."
          },
          {
-            "title": "Automates finis",
-            "members" : 1,
-            "time": "2 months",
-            "date": "April - May 2019",
-            "tech": "C++",
-            "github": null,
-            "description" : "Ce projet a pour but de manipuler des automates finis et de réaliser la lecture, l'affichage, la déterminisation, la minimisation, la standardisation et la reconnaissance de mots."
+            "title":"Automates finis",
+            "members":1,
+            "time":"2 months",
+            "date":"April - May 2019",
+            "tech":"C++",
+            "github":null,
+            "description":"Ce projet a pour but de manipuler des automates finis et de réaliser la lecture, l'affichage, la déterminisation, la minimisation, la standardisation et la reconnaissance de mots."
          },
          {
-            "title": "Location de voiture",
-            "members" : 1,
-            "time": "2 months",
-            "date": "Oct - Nov 2019",
-            "tech": "HTML, JS, CSS, PHP, MySQL",
-            "github": null,
-            "description" : "Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture de gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
+            "title":"Location de voiture",
+            "members":1,
+            "time":"2 months",
+            "date":"Oct - Nov 2019",
+            "tech":"HTML, JS, CSS, PHP, MySQL",
+            "github":null,
+            "description":"Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture de gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          }
       ]
    },
-
-   "softskills": {
-      "title": "Skills",
-      "skills": [
+   "softskills":{
+      "title":"Skills",
+      "skills":[
          {
-            "title": "Programming",
-            "desc": [
+            "title":"Programming",
+            "desc":[
                "Environment : Windows",
                "Language : JAVA, C, HTML, CSS, JS, PHP, MySQL, SQLServer",
                "IDE : Jetbrains",
@@ -188,23 +184,23 @@
             ]
          },
          {
-            "title": "Language",
-            "desc": [
+            "title":"Language",
+            "desc":[
                "French : mother tongue",
                "English : Very good level (TOEIC : 925)"
             ]
          },
          {
-            "title": "Soft skills",
-            "desc": [
+            "title":"Soft skills",
+            "desc":[
                "methodical",
                "Calm",
                "Time-management"
             ]
          },
          {
-            "title": "Extracurricular activities",
-            "desc": [
+            "title":"Extracurricular activities",
+            "desc":[
                "Sport : Basketball (ASAS basket Sceaux, for 15 ans)",
                "Culture : Photography",
                "Passion : Astronomy, new technologies"

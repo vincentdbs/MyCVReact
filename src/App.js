@@ -1,19 +1,33 @@
 import React, {Component} from 'react';
 import './App.css';
-import ContainerInfo from "./Ressources/Component/ContainerInfo";
 import "../src/Ressources/CSS/All.css"
 import "../src/Ressources/CSS/Top.css"
 import "../src/Ressources/CSS/EducationalBackground.css"
 import "../src/Ressources/CSS/Experience.css"
 import "../src/Ressources/CSS/Skills.css"
 import "../src/Ressources/CSS/Project.css"
-import ContainerProject from "./Ressources/Component/ContainerProject";
-import ContainerSkills from "./Ressources/Component/ContainerSkills";
+import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageContext';
+import ContainerEducation from "./Ressources/Component/ContainerEducation";
 
 class App extends Component{
+    state = {
+      language: dictionaryList.fr,
+    };
+
+    toggleLanguage = () =>{
+      this.setState(state => ({
+          language:
+              state.language === dictionaryList.fr
+              ? dictionaryList.en
+              : dictionaryList.fr,
+      }));
+    };
+
     render() {
     return(
-          <ContainerSkills />
+            <LanguageContext.Provider value={this.state.language}>
+                <ContainerEducation />
+            </LanguageContext.Provider>
         );
     }
 }
