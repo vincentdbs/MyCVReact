@@ -1,5 +1,5 @@
 .menu-slider{
-    display: none; /*by default and add in JS*/
+    display: block; /*by default and add in JS*/
     position: fixed;
     z-index: 99;
     top: 40%;

@@ -4,12 +4,8 @@
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContactMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContactMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/MenuSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/MenuSlider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JS/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/SwitchTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JS/SwitchTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Language/LanguageContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Language/LanguageContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
-        <option value="ReactFunction" />
         <option value="JavaScript File" />
+        <option value="ReactFunction" />
       </list>
     </option>
   </component>
@@ -44,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources/Image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\public" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\JS" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS" />
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\JSON" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -102,7 +98,7 @@
       <workItem from="1593593193564" duration="313000" />
       <workItem from="1593593518566" duration="2343000" />
       <workItem from="1594630596457" duration="9087000" />
-      <workItem from="1594732394889" duration="2114000" />
+      <workItem from="1594732394889" duration="3546000" />
     </task>
     <servers />
   </component>
@@ -130,10 +126,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593531014181" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1594652662623">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594735081262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594652662623" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594735081262" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594734737165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594734737165" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1593593631064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

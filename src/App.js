@@ -12,6 +12,7 @@ import ContainerExperience from "./Ressources/Component/ContainerExperience";
 import ContainerProject from "./Ressources/Component/ContainerProject";
 import ContainerSkills from "./Ressources/Component/ContainerSkills";
 import ContainerInfo from "./Ressources/Component/ContainerInfo";
+import Navbar from "./Ressources/Component/Navbar";
 
 class App extends Component{
     state = {
@@ -30,7 +31,8 @@ class App extends Component{
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
-                <p onClick={this.toggleLanguage}>fsdlfkdslfj</p>
+                {/*<p onClick={this.toggleLanguage}>fsdlfkdslfj</p>*/}
+                <Navbar/>
                 <ContainerInfo />
                 <ContainerEducation />
                 <ContainerExperience />
