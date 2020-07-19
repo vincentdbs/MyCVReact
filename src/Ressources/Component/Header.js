@@ -1,6 +1,25 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 const Header = () => {
+    useEffect(() => {
+        var burger = document.getElementById("burgerButton");
+        let slider = document.getElementById("navbar");
+
+        burger.addEventListener("click", function() {
+            burger.classList.toggle("is-active");
+            if (burger.classList.contains('is-active')){
+                slider.classList.add("width-zero");
+                slider.classList.remove("width-hundred");
+                console.log("become not active")
+
+            }else{
+                console.log("become is active")
+                slider.classList.add("width-hundred");
+                slider.classList.remove("width-zero");
+            }
+        });
+    });
+
     return (
         <div className="header" id="header">
             <button id="burgerButton" className="hamburger hamburger--slider" type="button">
