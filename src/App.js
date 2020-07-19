@@ -25,6 +25,7 @@ class App extends Component{
       language: dictionaryList.fr,
     };
 
+    //Arrow fx for binding
     toggleLanguage = () =>{
       this.setState(state => ({
           language:
@@ -34,9 +35,15 @@ class App extends Component{
       }));
     };
 
-    handleScroll = (event) => {
-
+    toggleTheme = (event) => {
+        if (event.target.checked) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+        else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
     };
+
 
     componentDidMount() {
 //Get position of each container
@@ -110,16 +117,6 @@ class App extends Component{
             }
         }
 
-
-        function displayMobileNavbar() {
-            if (burger.classList.contains('is-active')){
-                slider.classList.add("width-zero");
-                slider.classList.remove("width-hundred");
-            }else{
-                slider.classList.add("width-hundred");
-                slider.classList.remove("width-zero");
-            }
-        }
 
 //link visibility depending on user Y position
         function linklistvisibility(userPosition){
@@ -244,7 +241,7 @@ class App extends Component{
     return(
             <LanguageContext.Provider value={this.state.language}>
                 {/*<p onClick={this.toggleLanguage}>fsdlfkdslfj</p>*/}
-                <Header/>
+                <Header toggleTheme={this.toggleTheme}/>
                 <Navbar/>
                 <ContainerInfo />
                 <ContainerEducation />

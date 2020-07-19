@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 
-const Header = () => {
+const Header = ({toggleTheme}) => {
     useEffect(() => {
         var burger = document.getElementById("burgerButton");
         let slider = document.getElementById("navbar");
@@ -27,10 +27,10 @@ const Header = () => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
-            <div className="theme-switch-wrapper" id="toggleWrapper">
+            <div className="theme-switch-wrapper" id="toggleWrapper" onClick={(event) => toggleTheme(event)}>
                 <label className="theme-switch" htmlFor="checkbox" id="labelThemeSwitch">
                     <input type="checkbox" id="checkbox"/>
-                    <div className="slider round"></div>
+                    <div className="slider round" ></div>
                 </label>
             </div>
         </div>
