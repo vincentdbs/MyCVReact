@@ -37,7 +37,7 @@ const CardSkill = ({title, skills}) => {
             </div>
             <h2>{title}</h2>
             <ul className="skills-list">
-                {skills.map((item, index) => <li>{item}</li>)}
+                {skills.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
         </div>
     );

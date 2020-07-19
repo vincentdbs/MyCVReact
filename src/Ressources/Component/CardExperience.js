@@ -34,7 +34,7 @@ const CardExperience = ({title, company, address, date, tasks, index}) => {
                     </div>
                     {/*todo changer render du p pour la mise en forme*/}
                     {tasks.map((data, index) => (
-                            <p>{data}</p>
+                            <p key={index}>{data}</p>
                         )
                     )}
                 </div>

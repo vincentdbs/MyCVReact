@@ -3,8 +3,7 @@ import React from "react";
 const Header = () => {
     return (
         <div className="header" id="header">
-            <button id="burgerButton" className="hamburger hamburger--slider" type="button"
-                    onClick="displayMobileNavbar()">
+            <button id="burgerButton" className="hamburger hamburger--slider" type="button">
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
               </span>

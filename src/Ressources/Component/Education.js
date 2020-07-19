@@ -10,7 +10,7 @@ const Education = ({date, address, title, tasks}) => {
             <div className="body">
                 <p>{title}</p>
                 <ul>
-                    {tasks.map((item, index) => <li>{item}</li>)}
+                    {tasks.map((item, index) => <li key={index}>{item}</li>)}
                 </ul>
             </div>
         </div>

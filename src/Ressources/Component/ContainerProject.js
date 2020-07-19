@@ -13,7 +13,11 @@ const ContainerProject = () => {
             <div className="project-card-container">
             {
                 language.project.projects.map((data, index) => (
-                    <CardProject title={data.title} members={data.members} time={data.time} date={data.date}
+                    <CardProject key={index}
+                                 title={data.title}
+                                 members={data.members}
+                                 time={data.time}
+                                 date={data.date}
                                  tech={data.tech}
                                  description={data.description}
                                  github={data.github}

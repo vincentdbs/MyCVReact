@@ -1,20 +1,4 @@
-//Get position of each container
-let containers = document.getElementsByClassName("container");
-let position = [];
 
-
-//get list and link of the navbar
-let slider = document.getElementById("navbar");
-let slider_li = document.getElementsByClassName("menu-slider-li");
-let slider_a = document.getElementsByClassName("menu-slider-a");
-let selectedMenuIndex = 0;
-
-//toggle theme
-let togle_theme = document.getElementById("toggleWrapper");
-
-//burger
-var burger = document.getElementById("burgerButton");
-var header = document.getElementById("header");
 
 function getContainerPosition() {
     for (let i = 0; i < containers.length ; i++) {
@@ -148,6 +132,23 @@ function hoverlinkRemove() {
     }
 }
 
+//Get position of each container
+let containers = document.getElementsByClassName("container");
+let position = [];
+
+
+//get list and link of the navbar
+let slider = document.getElementById("navbar");
+let slider_li = document.getElementsByClassName("menu-slider-li");
+let slider_a = document.getElementsByClassName("menu-slider-a");
+let selectedMenuIndex = 0;
+
+//toggle theme
+let togle_theme = document.getElementById("toggleWrapper");
+
+//burger
+var burger = document.getElementById("burgerButton");
+var header = document.getElementById("header");
 
 
 let positionUser = document.documentElement.scrollTop;
