@@ -31,6 +31,10 @@ class App extends Component{
       }));
     };
 
+    componentDidMount() {
+
+    }
+
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
