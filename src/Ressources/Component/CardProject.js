@@ -28,7 +28,7 @@ const CardProject = ({title, members, time, date, tech, github, description}) =>
                         <p>{tech}</p>
                     </div>
                 </div>
-                <a className="link-git">Github</a>
+                <a className="link-git" href={"/#"}>Github</a>
                 <p>{description}</p>
             </div>
         </div>

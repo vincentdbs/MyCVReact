@@ -4,7 +4,7 @@ const CardExperience = ({title, company, address, date, tasks, index}) => {
     return (
         <div className={index%2 === 0 ? "column" : "column column-revert" }>
             <div className="center">
-                <img className="logo-company logo-eps" src={require('../Image/EPS-version-noire.png')} />
+                <img className="logo-company logo-eps" alt={"logo-EPS"} src={require('../Image/EPS-version-noire.png')} />
             </div>
             <div className="card">
                 <div>

@@ -5,7 +5,7 @@ const CardSkill = ({title, skills}) => {
         <div>
             <div className="center">
                 {/*todo passer le svg dans les props*/}
-                <svg className="skills-icon" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512"
+                <svg className="skills-icon" enableBackground="new 0 0 512 512" height="512" viewBox="0 0 512 512"
                      width="512" xmlns="http://www.w3.org/2000/svg">
                     <g>
                         <g>
