@@ -5,9 +5,9 @@ import "../CSS/All.css"
 import "../CSS/Top.css"
 import Bg from '../Image/bg_header_dark.jpg';
 
-const ContainerInfo = () => {
+const ContainerInfo = ({bgImage}) => {
     var style = {
-        backgroundImage: `url(${Bg})`
+        backgroundImage: `url(${bgImage})`
     };
 
     return(

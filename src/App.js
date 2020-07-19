@@ -18,11 +18,13 @@ import ContainerSkills from "./Ressources/Component/ContainerSkills";
 import ContainerInfo from "./Ressources/Component/ContainerInfo";
 import Navbar from "./Ressources/Component/Navbar";
 import Header from "./Ressources/Component/Header";
-
+import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
+import BG_light from "../src/Ressources/Image/bg_header-light3.jpg";
 
 class App extends Component{
     state = {
-      language: dictionaryList.fr,
+        language: dictionaryList.fr,
+        bgImage: BG_dark,
     };
 
     //Arrow fx for binding
@@ -36,6 +38,13 @@ class App extends Component{
     };
 
     toggleTheme = (event) => {
+        this.setState(state => ({
+            bgImage:
+                state.bgImage === BG_dark
+                ? BG_light
+                : BG_dark,
+        }));
+
         if (event.target.checked) {
             document.documentElement.setAttribute('data-theme', 'dark');
         }
@@ -243,7 +252,7 @@ class App extends Component{
                 {/*<p onClick={this.toggleLanguage}>fsdlfkdslfj</p>*/}
                 <Header toggleTheme={this.toggleTheme}/>
                 <Navbar/>
-                <ContainerInfo />
+                <ContainerInfo bgImage={this.state.bgImage} />
                 <ContainerEducation />
                 <ContainerExperience />
                 <ContainerProject />

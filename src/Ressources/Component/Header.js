@@ -27,10 +27,10 @@ const Header = ({toggleTheme}) => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
-            <div className="theme-switch-wrapper" id="toggleWrapper" onClick={(event) => toggleTheme(event)}>
+            <div className="theme-switch-wrapper" id="toggleWrapper" >
                 <label className="theme-switch" htmlFor="checkbox" id="labelThemeSwitch">
-                    <input type="checkbox" id="checkbox"/>
-                    <div className="slider round" ></div>
+                    <input type="checkbox" id="checkbox" onClick={(event) => toggleTheme(event)}/>
+                    <div className="slider round"></div>
                 </label>
             </div>
         </div>
