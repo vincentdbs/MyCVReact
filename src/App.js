@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import "../src/Ressources/CSS/All.css"
+import "../src/Ressources/CSS/Scrollbar.css"
+
 import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageContext';
 import ContainerEducation from "./Ressources/Component/ContainerEducation";
 import ContainerExperience from "./Ressources/Component/ContainerExperience";
