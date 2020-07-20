@@ -38,11 +38,6 @@
     letter-spacing: 2px;
 }
 
-.card > div > p{
-    color: var(--color-mainhalf);
-    margin-top: 12px;
-}
-
 /*Logo + Text*/
 .experience-line > *{
     display: inline;
@@ -58,6 +53,14 @@
     margin-right: 24px;
 }
 
+.experience-tasks{
+    color: var(--color-mainhalf);
+    margin-top: 2px;
+}
+
+.experience-tasks:before{
+    content: "- ";
+}
 
 
 @media (min-width: 0px) and (max-width: 480px) {
