@@ -1,6 +1,9 @@
-import React, {useEffect} from "react";
+import React, {useContext, useEffect} from "react";
+import {LanguageContext} from "../Language/LanguageContext";
 
-const Header = ({toggleTheme}) => {
+const Header = ({toggleTheme, onClickSwitchLanguage}) => {
+    let language = useContext(LanguageContext);
+
     useEffect(() => {
         var burger = document.getElementById("burgerButton");
         let slider = document.getElementById("navbar");
@@ -27,6 +30,7 @@ const Header = ({toggleTheme}) => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
+            <img className="logo-language" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
             <div className="theme-switch-wrapper" id="toggleWrapper" >
                 <label className="theme-switch" htmlFor="checkbox" id="labelThemeSwitch">
                     <input type="checkbox" id="checkbox" onClick={(event) => toggleTheme(event)}/>

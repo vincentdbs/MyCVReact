@@ -8,6 +8,16 @@
     z-index: 500;
 }
 
+.logo-language{
+    position: absolute;
+    top: 16px;
+    right: 90px;
+    width: 26px;
+    height: 26px;
+    border: var(--color-main) 2px solid;
+    border-radius: 50%;
+}
+
 
 @media (min-width: 0px) and (max-width: 480px) {
     .header{

@@ -254,7 +254,7 @@ class App extends Component{
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
-                <Header toggleTheme={this.toggleTheme}/>
+                <Header toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage}/>
                 <Navbar/>
                 <ContainerInfo bgImage={this.state.bgImage} />
                 <ContainerEducation />
