@@ -1,13 +1,13 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext} from "react";
 import {LanguageContext} from "../Language/LanguageContext";
 import SVG from "./SVG";
 import "../CSS/Header.css"
-import "../CSS/BurgerButton.css"
+import BurgerButton from "./BurgerButton";
 
 const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     let language = useContext(LanguageContext);
 
-    function displayNavbarMobile() {
+    let displayNavbarMobile = () => {
         var burger = document.getElementById("burgerButton");
         let slider = document.getElementById("navbar");
         console.log(burger.classList);
@@ -20,15 +20,11 @@ const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
             slider.classList.add("width-hundred");
             slider.classList.remove("width-zero");
         }
-    }
+    };
 
     return (
         <div className="header" id="header">
-            <button id="burgerButton" className="hamburger hamburger--slider" type="button" onClick={() => displayNavbarMobile()}>
-              <span className="hamburger-box">
-                <span className="hamburger-inner"></span>
-              </span>
-            </button>
+            <BurgerButton type={"hamburger--slider"} onClickBurger={displayNavbarMobile}/>
             <img alt="flag" className="logo-header logo-flag" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
 
 
