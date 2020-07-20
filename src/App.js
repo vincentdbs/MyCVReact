@@ -11,6 +11,7 @@ import Navbar from "./Ressources/Component/Navbar";
 import Header from "./Ressources/Component/Header";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "../src/Ressources/Image/bg_header-light3.jpg";
+import Footer from "./Ressources/Component/Footer";
 
 class App extends Component{
     state = {
@@ -266,6 +267,7 @@ class App extends Component{
                 <ContainerExperience epsLogo={this.state.epsLogo}/>
                 <ContainerProject />
                 <ContainerSkills />
+                <Footer/>
             </LanguageContext.Provider>
         );
     }

@@ -2,9 +2,18 @@ import React from "react";
 
 const SVG = ({className, id, xmlns, viewBox, path, onClick}) => {
     return (
-        <svg id={id} className={className} xmlns={xmlns} viewBox={viewBox} onClick={() => onClick()}>
-            <path d={path}/>
-        </svg>
+        onClick === null
+            ?
+            (
+                <svg id={id} className={className} xmlns={xmlns} viewBox={viewBox}>
+                    <path d={path}/>
+                </svg>
+            )
+            :(
+                <svg id={id} className={className} xmlns={xmlns} viewBox={viewBox} onClick={() => onClick()}>
+                    <path d={path}/>
+                </svg>
+            )
     );
 };
 

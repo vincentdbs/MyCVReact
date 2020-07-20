@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/BurgerButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/BurgerButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerSkills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerSkills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="ReactFunction" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,6 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources/Logo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,7 +102,7 @@
       <workItem from="1594630596457" duration="9087000" />
       <workItem from="1594732394889" duration="4266000" />
       <workItem from="1595166470429" duration="6037000" />
-      <workItem from="1595228737917" duration="18091000" />
+      <workItem from="1595228737917" duration="21686000" />
     </task>
     <servers />
   </component>
