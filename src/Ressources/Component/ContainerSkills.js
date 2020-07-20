@@ -6,7 +6,6 @@ import {LanguageContext} from '../Language/LanguageContext';
 const ContainerSkills = () => {
     let language = useContext(LanguageContext);
     return (
-        //todo mise en forme
         <div className="container skills">
             <div className="center">
                 <h1 className="section-title">{language.softskills.title}</h1>

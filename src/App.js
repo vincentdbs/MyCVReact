@@ -20,14 +20,12 @@ import Navbar from "./Ressources/Component/Navbar";
 import Header from "./Ressources/Component/Header";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "../src/Ressources/Image/bg_header-light3.jpg";
-import EPS_dark from "../src/Ressources/Image/EPS-version-noire.png";
-import EPS_light from "../src/Ressources/Image/EPS-version-blanche.png";
 
 class App extends Component{
     state = {
         language: dictionaryList.fr,
         bgImage: BG_dark,
-        epsLogo: EPS_dark,
+        epsLogo: "EPS-version-noire.png",
     };
 
     //Arrow fx for binding
@@ -47,9 +45,9 @@ class App extends Component{
                 ? BG_light
                 : BG_dark,
             epsLogo:
-                state.epsLogo === EPS_dark
-                    ? EPS_light
-                    : EPS_dark,
+                state.epsLogo === "EPS-version-noire.png"
+                    ? "EPS-version-blanche.png"
+                    : "EPS-version-noire.png",
         }));
 
         if (event.target.checked) {
@@ -248,7 +246,7 @@ class App extends Component{
 
         window.addEventListener('scroll', listenerOnScroll, true);
 
-        window.addEventListener('scroll', listenerOnResize, true);
+        window.addEventListener('resize', listenerOnResize, true);
 
 
     }
