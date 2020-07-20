@@ -1,4 +1,5 @@
 import React from "react";
+import "../CSS/CardExperience.css"
 
 const CardExperience = ({title, company, address, date, tasks, index, logo}) => {
     return (

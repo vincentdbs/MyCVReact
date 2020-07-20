@@ -1,6 +1,8 @@
 import React, {useContext, useEffect} from "react";
 import {LanguageContext} from "../Language/LanguageContext";
 import SVG from "./SVG";
+import "../CSS/Header.css"
+import "../CSS/BurgerButton.css"
 
 const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     let language = useContext(LanguageContext);
@@ -37,5 +39,4 @@ const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     );
 };
 
-
-export default Header;
+export default Header

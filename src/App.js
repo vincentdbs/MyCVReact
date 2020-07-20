@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import "../src/Ressources/CSS/All.css"
-import "../src/Ressources/CSS/BurgerButton.css"
 import "../src/Ressources/CSS/EducationalBackground.css"
-import "../src/Ressources/CSS/Experience.css"
-import "../src/Ressources/CSS/Header.css"
 import "../src/Ressources/CSS/Project.css"
 import "../src/Ressources/CSS/Skills.css"
-import "../src/Ressources/CSS/SwitchTheme.css"
 import "../src/Ressources/CSS/Top.css"
 import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageContext';
 import ContainerEducation from "./Ressources/Component/ContainerEducation";

@@ -4,18 +4,10 @@
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/automate_fini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/graphe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/moon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/ordonnacement.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/projetweb.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/SmoothScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/SwitchTheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/CardExperience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/SwitchTheme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,12 +103,23 @@
       <workItem from="1594630596457" duration="9087000" />
       <workItem from="1594732394889" duration="4266000" />
       <workItem from="1595166470429" duration="6037000" />
-      <workItem from="1595228737917" duration="16376000" />
+      <workItem from="1595228737917" duration="17485000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#JavaScript" timestamp="1595234050963">
@@ -147,10 +150,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594735081262" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595236897577">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595254346327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595236897577" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595254346327" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1595174269649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
