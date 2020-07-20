@@ -119,7 +119,9 @@
     .projet-specs > div {
         margin-bottom: 4px;
     }
+}
 
+@media (min-width: 1025px) {
     .projet-specs > div > *{
         margin-right: 16px;
     }
