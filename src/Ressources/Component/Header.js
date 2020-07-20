@@ -26,8 +26,6 @@ const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
         <div className="header" id="header">
             <BurgerButton type={"hamburger--slider"} onClickBurger={displayNavbarMobile}/>
             <img alt="flag" className="logo-header logo-flag" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
-
-
             <SVG className={"logo-header logo-theme"} id={"toggleWrapper"}
                  path={themeLogo}
                  onClick={toggleTheme}/>

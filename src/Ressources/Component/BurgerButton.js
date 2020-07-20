@@ -5,7 +5,7 @@ const BurgerButton = ({type, onClickBurger}) => {
     return (
         <button id="burgerButton" className={"hamburger " + type} type="button" onClick={() => onClickBurger()}>
               <span className="hamburger-box">
-                <span className="hamburger-inner"></span>
+                <span className="hamburger-inner" />
               </span>
         </button>
     );

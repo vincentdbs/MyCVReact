@@ -1,4 +1,5 @@
 import React from "react";
+import "../CSS/Project.css"
 
 const CardProject = ({title, members, time, date, tech, github, description}) => {
     return (
