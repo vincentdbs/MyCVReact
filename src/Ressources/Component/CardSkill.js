@@ -1,5 +1,6 @@
 import React from "react";
 import SVG from "./SVG";
+import PropTypes from "prop-types";
 
 const CardSkill = ({title, skills, svgPath}) => {
     return (
@@ -16,5 +17,10 @@ const CardSkill = ({title, skills, svgPath}) => {
     );
 };
 
+CardSkill.propTypes = {
+    title: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+    svgPath: PropTypes.string.isRequired,
+};
 
 export default CardSkill;

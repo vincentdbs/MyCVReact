@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import "../CSS/All.css"
 import "../CSS/Top.css"
+import PropTypes from "prop-types";
 
 const ContainerInfo = ({bgImage}) => {
     var style = {
@@ -25,6 +26,10 @@ const ContainerInfo = ({bgImage}) => {
           </div>
       </div>
     );
+};
+
+ContainerInfo.propTypes = {
+    bgImage: PropTypes.string.isRequired,
 };
 
 export default ContainerInfo

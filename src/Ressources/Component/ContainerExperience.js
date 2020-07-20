@@ -1,4 +1,5 @@
 import React, {useContext} from "react";
+import PropTypes from "prop-types";
 import CardExperience from "./CardExperience";
 import {LanguageContext} from '../Language/LanguageContext';
 
@@ -41,5 +42,8 @@ const ContainerExperience = ({epsLogo}) => {
     );
 };
 
+ContainerExperience.propTypes = {
+    epsLogo: PropTypes.string.isRequired,
+};
 
 export default ContainerExperience;

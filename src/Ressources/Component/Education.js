@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Education = ({date, address, title, tasks}) => {
     return (
@@ -15,6 +16,13 @@ const Education = ({date, address, title, tasks}) => {
             </div>
         </div>
     );
+};
+
+Education.propTypes = {
+    date: PropTypes.string.isRequired,
+    address: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    tasks: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 

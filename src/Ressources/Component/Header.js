@@ -3,6 +3,7 @@ import {LanguageContext} from "../Language/LanguageContext";
 import SVG from "./SVG";
 import "../CSS/Header.css"
 import BurgerButton from "./BurgerButton";
+import PropTypes from "prop-types";
 
 const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     let language = useContext(LanguageContext);
@@ -31,6 +32,12 @@ const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
                  onClick={toggleTheme}/>
         </div>
     );
+};
+
+Header.propTypes = {
+    toggleTheme: PropTypes.func.isRequired,
+    onClickSwitchLanguage: PropTypes.func.isRequired,
+    themeLogo: PropTypes.string.isRequired,
 };
 
 export default Header
