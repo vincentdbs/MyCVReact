@@ -31,7 +31,7 @@
             "address":"Asia Pacific University, Kuala Lumpur, Malaisie",
             "title":"1e année du cycle ingénieur",
             "tasks":[
-               "JAVA et programmation web (PHP, CSS, JS, HTML, SQL)",
+               "JAVA et programmation web (PHP, CSS, JS, HTML, MySQL)",
                "Base de données et système d'exploitation",
                "Réseaux et protocoles"
             ]
@@ -119,7 +119,7 @@
             "date":"Sept 2018 - Juin 2019",
             "tech":"JAVA, PHP, MySQL, Android Studio",
             "github":null,
-            "description":"Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
+            "description":"Swap-it! est une application Android créee par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
          },
          {
             "title":"Swapit (WEB)",
@@ -137,7 +137,7 @@
             "date":"Mai 2020",
             "tech":"JAVA",
             "github":null,
-            "description":"Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture génèrale sur une dizaine de thèmes."
+            "description":"Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture générale sur une dizaine de thèmes."
          },
          {
             "title":"RDV d'une psychologue",
@@ -146,7 +146,7 @@
             "date":"Avril - Mai 2020",
             "tech":"JAVA, Microsoft SQL Server, JMerise",
             "github":null,
-            "description":"La prise de rendez-vous et la gestion des patients peuvent vite devenir compliqués sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
+            "description":"La prise de rendez-vous et la gestion des patients peuvent vite devenir compliquées sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
          },
          {
             "title":"Manipulation de graphes",
@@ -173,7 +173,7 @@
             "date":"Oct - Nov 2019",
             "tech":"HTML, JS, CSS, PHP, MySQL",
             "github":null,
-            "description":"Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture de gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
+            "description":"Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture à gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          }
       ]
    },

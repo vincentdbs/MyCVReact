@@ -18,6 +18,10 @@
     border-radius: 50%;
 }
 
+.logo-language:hover{
+    cursor: pointer;
+}
+
 
 @media (min-width: 0px) and (max-width: 480px) {
     .header{
@@ -29,12 +33,15 @@
 @media (min-width: 481px) and (max-width: 1024px) {
     .header{
         box-shadow: var(--color-headersadow)
-
     }
 }
 
 @media (min-width: 1025px) {
     .header{
         background-color: transparent;
+    }
+
+    .logo-language{
+        top: 20px;
     }
 }

@@ -30,7 +30,7 @@ const Header = ({toggleTheme, onClickSwitchLanguage}) => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
-            <img className="logo-language" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
+            <img alt="flag" className="logo-language" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
             <div className="theme-switch-wrapper" id="toggleWrapper" >
                 <label className="theme-switch" htmlFor="checkbox" id="labelThemeSwitch">
                     <input type="checkbox" id="checkbox" onClick={(event) => toggleTheme(event)}/>

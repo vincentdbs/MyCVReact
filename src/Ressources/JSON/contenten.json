@@ -4,7 +4,7 @@
       "me":{
          "name":"Vincent Dubois",
          "major":"M1 Software Engineering",
-         "school":"EFREI"
+         "school":"EFREI Paris"
       },
       "contact":{
          "mail":"vincent.dubois@efrei.net",
@@ -18,21 +18,21 @@
       "title":"Education",
       "timeline":[
          {
-            "date":"Jan 2020 - June 2020",
+            "date":"January 2020 - June 2020",
             "address":"EFREI Paris, Villejuif (94), France",
             "title":"First year of engineer cycle",
             "tasks":[
                "Mathematics for cryptography, optimisation",
-               "Data bases, introduction to cybersecurity"
+               "Databases, introduction to cybersecurity"
             ]
          },
          {
-            "date":"Sept 2019 - Dec 2019",
+            "date":"September 2019 - December 2019",
             "address":"Asia Pacific University, Kuala Lumpur, Malaysia",
             "title":"First year of engineer cycle",
             "tasks":[
-               "JAVA and web programming (PHP, CSS, JS, HTML, SQL)",
-               "Data bases and operating systems",
+               "JAVA and web programming (PHP, CSS, JS, HTML, MySQL)",
+               "Databases and operating systems",
                "Networks and protocols"
             ]
          },
@@ -41,7 +41,7 @@
             "address":"EFREI Paris, Villejuif (94)",
             "title":"1st/2nd year of preparation to engineer cycle",
             "tasks":[
-               "Development of an Android app to help students find tutoring and\ndaily services in the school",
+               "Development of an Android app to help students find tutoring and daily services in the school",
                "Physic, mathematics, communication and human sciences",
                "Highest rank : 5/371"
             ]
@@ -63,10 +63,10 @@
             "title":"President",
             "company":"EFREI Picture Studio",
             "address":"EFREI Paris (94)",
-            "date":"Feb 2020 - Feb 2021",
+            "date":"February 2020 - February 2021",
             "tasks":[
-               "Gestion de projets (expositions, concours, captation photo et vidéo)",
-               "Gestion d’une équipe d’une vingtaine de membres"
+               "Project management (expositions, contests, photography and video recording)",
+               "Management of a team of twenty members"
             ],
             "logo":"EPS-version-blanche.png"
          },
@@ -74,10 +74,9 @@
             "title":"Treasurer",
             "company":"EFREI Picture Studio",
             "address":"EFREI Paris (94)",
-            "date":"Feb 2019 - Feb 2020",
+            "date":"February 2019 - February 2020",
             "tasks":[
-               "Création, défense et gestion du budget",
-               "Gestion des ventes et des dépenses"
+               "Financial management of the association"
             ],
             "logo":"EPS-version-blanche.png"
          },
@@ -97,7 +96,7 @@
             "title":"Blue-collar internship",
             "company":"Auchan Supermarket",
             "address":"Sceaux (92)",
-            "date":"June- July 2018",
+            "date":"June - July 2018",
             "tasks":[
                "Shelving products",
                "Controlling orders",
@@ -118,7 +117,7 @@
             "date":"Sept 2018 - June 2019",
             "tech":"JAVA, PHP, MySQL, Android Studio",
             "github":null,
-            "description":"Swap-it! est une application Android crée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
+            "description":"Swap-it! is an Android application, developed by 5 students of EFREI Paris, to help students to find tutoring and daily services request."
          },
          {
             "title":"Swapit (WEB)",
@@ -127,7 +126,7 @@
             "date":"Feb - May 2020",
             "tech":"HTML, JS, CSS, PHP, MySQL",
             "github":null,
-            "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+            "description":"EFREI's students liked so much the concept of the application that we have decided to develop the WEB version."
          },
          {
             "title":"Quizz de culture générale",
@@ -136,7 +135,7 @@
             "date":"May 2020",
             "tech":"JAVA",
             "github":null,
-            "description":"Ce jeu pour quatre personnes determine le joueur ayant la meilleure culture génèrale sur une dizaine de thèmes."
+            "description":"This quiz will determine who has the best general culture among you and three of your friends."
          },
          {
             "title":"RDV d'une psychologue",
@@ -145,7 +144,7 @@
             "date":"April - May 2020",
             "tech":"JAVA, Microsoft SQL Server, JMerise",
             "github":null,
-            "description":"La prise de rendez-vous et la gestion des patients peuvent vite devenir compliqués sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
+            "description":"Handle RDV and patient's information can be a tough task for medical staff. We have created an JAVA application to help a psychologist to do these tasks."
          },
          {
             "title":"Manipulation de graphes",
@@ -200,7 +199,7 @@
          {
             "title":"Soft skills",
             "desc":[
-               "methodical",
+               "Methodical",
                "Calm",
                "Time-management"
             ],
