@@ -18,12 +18,12 @@
 .logo-flag{
     border: var(--color-main) 2px solid;
     border-radius: 50%;
-    right: 56px;
+    right: 48px;
 }
 
 .logo-theme{
     fill: var(--color-main);
-    right: 24px;
+    right: 16px;
 }
 
 .logo-header:hover{
