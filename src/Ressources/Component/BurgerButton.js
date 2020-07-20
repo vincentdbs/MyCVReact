@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import "../CSS/BurgerButton.css"
 
 const BurgerButton = ({type, onClickBurger}) => {
@@ -11,5 +12,9 @@ const BurgerButton = ({type, onClickBurger}) => {
     );
 };
 
+BurgerButton.prototype = {
+    type: PropTypes.string,
+    onClickBurger: PropTypes.func
+};
 
 export default BurgerButton;
