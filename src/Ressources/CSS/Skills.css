@@ -19,7 +19,8 @@
 
 .skills-wrapper-intro-in h2{
     font-family: Avenir;
-    font-weight: lighter;
+    font-weight: 600;
+    letter-spacing: 2px;
     margin: 24px;
     color: var(--color-orange);
 }
@@ -40,11 +41,10 @@
 }
 
 
-
-
 @media (min-width: 0px) and (max-width: 480px) {
     .skills-wrapper-intro-in{
         width: 90%;
+        padding-bottom: 32px;
     }
 
     .skills-info{
@@ -75,6 +75,12 @@
     .skills-info{
         transform: translate(0);
     }
+
+    .skills-wrapper-intro-in{
+        width: 90%;
+        padding-bottom: 32px;
+    }
+
 
     .skills-wrapper-intro-in > div{
         min-width: 45%;
