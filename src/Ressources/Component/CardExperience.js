@@ -32,7 +32,6 @@ const CardExperience = ({title, company, address, date, tasks, index, logo}) => 
                         </svg>
                         <p>{date}</p>
                     </div>
-                    {/*todo changer render du p pour la mise en forme*/}
                     {tasks.map((data, index) => (
                             <p className="experience-tasks" key={index}>{data}</p>
                         )
