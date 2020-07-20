@@ -1,8 +1,8 @@
 import React from "react";
 
-const SVG = ({className, xmlns, viewBox, path}) => {
+const SVG = ({className, id, xmlns, viewBox, path, onClick}) => {
     return (
-        <svg className={className} xmlns={xmlns} viewBox={viewBox}>
+        <svg id={id} className={className} xmlns={xmlns} viewBox={viewBox} onClick={() => onClick()}>
             <path d={path}/>
         </svg>
     );
@@ -11,7 +11,9 @@ const SVG = ({className, xmlns, viewBox, path}) => {
 SVG.defaultProps = {
     className: "",
     xlmns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 512 512"
+    viewBox: "0 0 512 512",
+    onClick: null,
+    id: "",
 };
 
 export default SVG;

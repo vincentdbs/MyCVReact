@@ -1,7 +1,8 @@
 import React, {useContext, useEffect} from "react";
 import {LanguageContext} from "../Language/LanguageContext";
+import SVG from "./SVG";
 
-const Header = ({toggleTheme, onClickSwitchLanguage}) => {
+const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     let language = useContext(LanguageContext);
 
     function displayNavbarMobile() {
@@ -26,13 +27,12 @@ const Header = ({toggleTheme, onClickSwitchLanguage}) => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
-            <img alt="flag" className="logo-language" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
-            <div className="theme-switch-wrapper" id="toggleWrapper" >
-                <label className="theme-switch" htmlFor="checkbox" id="labelThemeSwitch">
-                    <input type="checkbox" id="checkbox" onClick={(event) => toggleTheme(event)}/>
-                    <div className="slider round"></div>
-                </label>
-            </div>
+            <img alt="flag" className="logo-header logo-flag" src={require(`../Image/${language.logoLanguage}`)} onClick={() => onClickSwitchLanguage()}/>
+
+
+            <SVG className={"logo-header logo-theme"} id={"toggleWrapper"}
+                 path={themeLogo}
+                 onClick={toggleTheme}/>
         </div>
     );
 };

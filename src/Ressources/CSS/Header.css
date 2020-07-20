@@ -8,17 +8,25 @@
     z-index: 500;
 }
 
-.logo-language{
+.logo-header{
     position: absolute;
     top: 16px;
-    right: 90px;
     width: 26px;
     height: 26px;
-    border: var(--color-main) 2px solid;
-    border-radius: 50%;
 }
 
-.logo-language:hover{
+.logo-flag{
+    border: var(--color-main) 2px solid;
+    border-radius: 50%;
+    right: 56px;
+}
+
+.logo-theme{
+    fill: var(--color-main);
+    right: 24px;
+}
+
+.logo-header:hover{
     cursor: pointer;
 }
 
@@ -41,7 +49,7 @@
         background-color: transparent;
     }
 
-    .logo-language{
+    .logo-header{
         top: 20px;
     }
 }

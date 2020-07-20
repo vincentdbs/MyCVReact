@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Logo/moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/sun.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources/Image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Ressources/Logo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\JS" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources" />
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -99,7 +104,7 @@
       <workItem from="1594630596457" duration="9087000" />
       <workItem from="1594732394889" duration="4266000" />
       <workItem from="1595166470429" duration="6037000" />
-      <workItem from="1595228737917" duration="12140000" />
+      <workItem from="1595228737917" duration="14641000" />
     </task>
     <servers />
   </component>
