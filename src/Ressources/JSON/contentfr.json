@@ -67,7 +67,8 @@
             "tasks":[
                "Gestion de projets (expositions, concours, captation photo et vidéo)",
                "Gestion d’une équipe d’une vingtaine de membres"
-            ]
+            ],
+            "logo":"EPS-version-blanche.png"
          },
          {
             "title":"Trésorier",
@@ -77,7 +78,8 @@
             "tasks":[
                "Création, défense et gestion du budget",
                "Gestion des ventes et des dépenses"
-            ]
+            ],
+            "logo":"EPS-version-blanche.png"
          },
          {
             "title":"Conseiller de vente",
@@ -88,7 +90,8 @@
                "Merchandising",
                "Conseiller et aider les clients à trouver le produit désiré",
                "Préparation des soldes d’hiver"
-            ]
+            ],
+            "logo":"boulanger.png"
          },
          {
             "title":"Employé polyvalent",
@@ -100,7 +103,8 @@
                "Gestion des commandes",
                "Mise en avant des produits",
                "Relation client"
-            ]
+            ],
+            "logo":"auchan.png"
          }
       ]
    },

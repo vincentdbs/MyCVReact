@@ -4,8 +4,12 @@
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Top2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerExperience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +105,7 @@
       <workItem from="1594630596457" duration="9087000" />
       <workItem from="1594732394889" duration="4266000" />
       <workItem from="1595166470429" duration="6037000" />
+      <workItem from="1595228737917" duration="1189000" />
     </task>
     <servers />
   </component>
@@ -108,22 +113,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595171091507">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595230744620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595171091507" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1595171091507">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595230744620" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1595230744620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595171091507" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1595171091507">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595230744620" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1595230744619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595171091507" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1595171091507">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595230744619" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1595230744620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595171091507" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595230744620" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1593531014181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

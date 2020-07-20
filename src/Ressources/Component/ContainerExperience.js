@@ -19,7 +19,8 @@ const ContainerExperience = () => {
                         company={data.company}
                         address={data.address}
                         date={data.date}
-                        tasks={data.tasks}/>
+                        tasks={data.tasks}
+                        logo={data.logo}/>
                 ))}
             </div>
         </div>

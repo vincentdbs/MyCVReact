@@ -3,7 +3,6 @@ import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import "../CSS/All.css"
 import "../CSS/Top.css"
-import Bg from '../Image/bg_header_dark.jpg';
 
 const ContainerInfo = ({bgImage}) => {
     var style = {

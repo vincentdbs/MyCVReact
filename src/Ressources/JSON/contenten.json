@@ -66,7 +66,8 @@
             "tasks":[
                "Gestion de projets (expositions, concours, captation photo et vidéo)",
                "Gestion d’une équipe d’une vingtaine de membres"
-            ]
+            ],
+            "logo":"EPS-version-blanche.png"
          },
          {
             "title":"Treasurer",
@@ -76,7 +77,8 @@
             "tasks":[
                "Création, défense et gestion du budget",
                "Gestion des ventes et des dépenses"
-            ]
+            ],
+            "logo":"EPS-version-blanche.png"
          },
          {
             "title":"Sales consultant internship",
@@ -87,7 +89,8 @@
                "Merchandising",
                "Advise and help customer to find the desired product",
                "Prepare sales period"
-            ]
+            ],
+            "logo":"boulanger.png"
          },
          {
             "title":"Blue-collar internship",
@@ -99,7 +102,8 @@
                "Controlling orders",
                "Shelf facing",
                "Answering to customer’s request"
-            ]
+            ],
+            "logo":"auchan.png"
          }
       ]
    },

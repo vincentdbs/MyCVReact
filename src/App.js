@@ -20,11 +20,14 @@ import Navbar from "./Ressources/Component/Navbar";
 import Header from "./Ressources/Component/Header";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "../src/Ressources/Image/bg_header-light3.jpg";
+import EPS_dark from "../src/Ressources/Image/EPS-version-noire.png";
+import EPS_light from "../src/Ressources/Image/EPS-version-blanche.png";
 
 class App extends Component{
     state = {
         language: dictionaryList.fr,
         bgImage: BG_dark,
+        epsLogo: EPS_dark,
     };
 
     //Arrow fx for binding
@@ -43,6 +46,10 @@ class App extends Component{
                 state.bgImage === BG_dark
                 ? BG_light
                 : BG_dark,
+            epsLogo:
+                state.epsLogo === EPS_dark
+                    ? EPS_light
+                    : EPS_dark,
         }));
 
         if (event.target.checked) {
@@ -249,12 +256,11 @@ class App extends Component{
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
-                {/*<p onClick={this.toggleLanguage}>fsdlfkdslfj</p>*/}
                 <Header toggleTheme={this.toggleTheme}/>
                 <Navbar/>
                 <ContainerInfo bgImage={this.state.bgImage} />
                 <ContainerEducation />
-                <ContainerExperience />
+                <ContainerExperience epsLogo={this.state.epsLogo}/>
                 <ContainerProject />
                 <ContainerSkills />
             </LanguageContext.Provider>

@@ -1,10 +1,10 @@
 import React from "react";
 
-const CardExperience = ({title, company, address, date, tasks, index}) => {
+const CardExperience = ({title, company, address, date, tasks, index, logo}) => {
     return (
         <div className={index%2 === 0 ? "column" : "column column-revert" }>
             <div className="center">
-                <img className="logo-company logo-eps" alt={"logo-EPS"} src={require('../Image/EPS-version-noire.png')} />
+                <img className="logo-company logo-eps" alt={"logo-company"} src={require(`../Image/${logo}`)} />
             </div>
             <div className="card">
                 <div>
