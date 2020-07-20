@@ -1,5 +1,12 @@
 {
    "logoLanguage":"united-kingdom-flag-round.png",
+   "navbar": {
+      "menu1": "Présentation",
+      "menu2": "Parcours",
+      "menu3": "Expériences",
+      "menu4": "Projets",
+      "menu5": "Compétences"
+   },
    "info":{
       "me":{
          "name":"Vincent Dubois",

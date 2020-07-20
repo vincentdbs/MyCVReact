@@ -4,11 +4,18 @@
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Logo/moon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/automate_fini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/graphe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/ordonnacement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/projetweb.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/SmoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JS/SwitchTheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +111,7 @@
       <workItem from="1594630596457" duration="9087000" />
       <workItem from="1594732394889" duration="4266000" />
       <workItem from="1595166470429" duration="6037000" />
-      <workItem from="1595228737917" duration="14971000" />
+      <workItem from="1595228737917" duration="16376000" />
     </task>
     <servers />
   </component>

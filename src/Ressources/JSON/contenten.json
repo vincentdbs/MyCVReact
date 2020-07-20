@@ -1,5 +1,12 @@
 {
    "logoLanguage":"france-flag-round.png",
+   "navbar": {
+      "menu1": "About me",
+      "menu2": "Education",
+      "menu3": "Experiences",
+      "menu4": "Projects",
+      "menu5": "Skills"
+   },
    "info":{
       "me":{
          "name":"Vincent Dubois",

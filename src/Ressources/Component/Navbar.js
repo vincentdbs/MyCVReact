@@ -1,6 +1,10 @@
-import React, {useEffect} from "react";
+import React, {useContext, useEffect} from "react";
 import "../CSS/MenuSlider.css"
+import {LanguageContext} from '../Language/LanguageContext';
+
+
 const Navbar = () => {
+    let language = useContext(LanguageContext);
 
     useEffect( () => {
             var info = document.querySelector('.container-arrowdown');
@@ -51,11 +55,11 @@ const Navbar = () => {
     return (
         <nav className="menu-slider" id="navbar">
             <ul className="menu-slider-list">
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-top">Présentation</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-education">Parcours</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-experience">Experience</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-project">Projets</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-skill">Compétences</a></li>
+                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-top">{language.navbar.menu1}</a></li>
+                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-education">{language.navbar.menu2}</a></li>
+                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-experience">{language.navbar.menu3}</a></li>
+                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-project">{language.navbar.menu4}</a></li>
+                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-skill">{language.navbar.menu5}</a></li>
             </ul>
         </nav>
     );
