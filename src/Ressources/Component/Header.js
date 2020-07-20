@@ -4,28 +4,24 @@ import {LanguageContext} from "../Language/LanguageContext";
 const Header = ({toggleTheme, onClickSwitchLanguage}) => {
     let language = useContext(LanguageContext);
 
-    useEffect(() => {
+    function displayNavbarMobile() {
         var burger = document.getElementById("burgerButton");
         let slider = document.getElementById("navbar");
-
-        burger.addEventListener("click", function() {
-            burger.classList.toggle("is-active");
-            if (burger.classList.contains('is-active')){
-                slider.classList.add("width-zero");
-                slider.classList.remove("width-hundred");
-                console.log("become not active")
-
-            }else{
-                console.log("become is active")
-                slider.classList.add("width-hundred");
-                slider.classList.remove("width-zero");
-            }
-        });
-    });
+        console.log(burger.classList);
+        burger.classList.toggle("is-active");
+        console.log(burger.classList);
+        if (!burger.classList.contains('is-active')){
+            slider.classList.add("width-zero");
+            slider.classList.remove("width-hundred");
+        }else{
+            slider.classList.add("width-hundred");
+            slider.classList.remove("width-zero");
+        }
+    }
 
     return (
         <div className="header" id="header">
-            <button id="burgerButton" className="hamburger hamburger--slider" type="button">
+            <button id="burgerButton" className="hamburger hamburger--slider" type="button" onClick={() => displayNavbarMobile()}>
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
               </span>
