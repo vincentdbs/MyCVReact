@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types"
 import "../CSS/CardExperience.css"
 import SVG from "./SVG";
 
@@ -37,6 +38,16 @@ const CardExperience = ({title, company, address, date, tasks, index, logo}) => 
             </div>
         </div>
     );
+};
+
+CardExperience.propTypes = {
+    title: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    address: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    tasks: PropTypes.arrayOf(PropTypes.string).isRequired,
+    index: PropTypes.number.isRequired,
+    logo: PropTypes.string.isRequired,
 };
 
 

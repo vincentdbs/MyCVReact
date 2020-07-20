@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Project.css"
+import PropTypes from "prop-types";
 
 const CardProject = ({title, members, time, date, tech, github, description}) => {
     return (
@@ -36,5 +37,13 @@ const CardProject = ({title, members, time, date, tech, github, description}) =>
     );
 };
 
+CardProject.propTypes = {
+    title: PropTypes.string.isRequired,
+    members: PropTypes.number.isRequired,
+    time: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    github: PropTypes.string,
+    description: PropTypes.string.isRequired,
+};
 
 export default CardProject;

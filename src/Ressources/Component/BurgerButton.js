@@ -12,8 +12,8 @@ const BurgerButton = ({type, onClickBurger}) => {
     );
 };
 
-BurgerButton.prototype = {
-    type: PropTypes.string,
+BurgerButton.propTypes  = {
+    type: PropTypes.string.isRequired,
     onClickBurger: PropTypes.func
 };
 
