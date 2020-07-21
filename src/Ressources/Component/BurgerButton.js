@@ -12,6 +12,10 @@ const BurgerButton = ({type, onClickBurger}) => {
     );
 };
 
+BurgerButton.defaultProps = {
+    type: "hamburger--slider",
+};
+
 BurgerButton.propTypes  = {
     type: PropTypes.string.isRequired,
     onClickBurger: PropTypes.func

@@ -120,7 +120,7 @@
       "title":"Projets",
       "projects":[
          {
-            "title":"Swapit (Android)",
+            "title":"Swap-it! (Android)",
             "members":5,
             "time":"1 an",
             "date":"Sept 2018 - Juin 2019",
@@ -129,7 +129,7 @@
             "description":"Swap-it! est une application Android créee par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour les services de la vie courante."
          },
          {
-            "title":"Swapit (WEB)",
+            "title":"Swap-it! (WEB)",
             "members":5,
             "time":"4 mois",
             "date":"Fev - Mai 2020",
@@ -138,7 +138,7 @@
             "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
          },
          {
-            "title":"Quizz de culture générale",
+            "title":"Quiz de culture générale",
             "members":4,
             "time":"1 mois",
             "date":"Mai 2020",
