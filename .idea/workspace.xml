@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardExperience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/SVG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Logo/code.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/svgPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Logo/svgPath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/timer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Logo/timer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,8 @@
       <workItem from="1595228737917" duration="23993000" />
       <workItem from="1595272842324" duration="4128000" />
       <workItem from="1595315419505" duration="4474000" />
-      <workItem from="1595341644466" duration="3410000" />
+      <workItem from="1595341644466" duration="4640000" />
+      <workItem from="1595358863285" duration="1368000" />
     </task>
     <servers />
   </component>
@@ -139,22 +135,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#JavaScript/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595234050963" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595342706351">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595359704443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595342706351" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1595342706351">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595359704443" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1595359704442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595342706351" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1595342706351">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595359704442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1595359704442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595342706351" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1595342706351">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595359704442" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1595359704442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595342706351" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595359704442" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1593531014181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,9 +167,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595345350221" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595259171741">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595345675541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595259171741" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595345675541" />
   </component>
 </project>

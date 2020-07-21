@@ -91,12 +91,23 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1250px) {
+
+    .skills-wrapper-intro-in{
+        margin: 0 3% 0 175px;
+        max-width: 90%;
+    }
+
     .skills-wrapper-intro-in > div{
         min-width: 45%;
     }
 }
 
 @media (min-width: 1251px) {
+    .skills-wrapper-intro-in{
+        margin: 0 3% 0 175px;
+        max-width: 90%;
+    }
+
     /* Main div */
     .skills-info{
         transform: translateY(20%);
