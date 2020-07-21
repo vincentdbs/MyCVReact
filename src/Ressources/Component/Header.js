@@ -11,9 +11,7 @@ const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
     let displayNavbarMobile = () => {
         var burger = document.getElementById("burgerButton");
         let slider = document.getElementById("navbar");
-        console.log(burger.classList);
         burger.classList.toggle("is-active");
-        console.log(burger.classList);
         if (!burger.classList.contains('is-active')){
             slider.classList.add("width-zero");
             slider.classList.remove("width-hundred");
