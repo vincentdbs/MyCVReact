@@ -18,15 +18,10 @@
 
 .des-projet h2{
     color: var(--color-main);
-    font-family: "Avenir";
-    font-weight: 600;
     letter-spacing: 2px;
     padding-bottom: 32px;
 }
 
-.des-projet p{
-    color: var(--color-mainhalf);
-}
 
 .des-projet > p{
     display: block;
@@ -34,20 +29,25 @@
     margin: 12px 0;
     max-width: 100%;
     text-align: justify;
+    color: var(--color-mainhalf);
 }
 
 .project-icon{
     display: inline;
-    width: 1.5rem;
-    height: 1.5rem;
-    fill: var(--color-mainhalf);
+    width: 18px;
+    height: 18px;
+    fill: var(--color-main);
 }
 
 .projet-specs > div{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+}
+
+.projet-specs > p{
+    color: var(--color-main);
 }
 
 
@@ -62,8 +62,8 @@
     }
 
     .project-icon{
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
     }
 
     .projet-specs > div > *{
@@ -92,8 +92,8 @@
     }
 
     .project-icon{
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
     }
 
     .projet-specs > div > *{

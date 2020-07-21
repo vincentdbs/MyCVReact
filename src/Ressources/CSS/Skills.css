@@ -13,8 +13,6 @@
 }
 
 .skills-wrapper-intro-in h2{
-    font-family: Avenir;
-    font-weight: 600;
     letter-spacing: 2px;
     margin: 24px;
     color: var(--color-orange);
@@ -30,7 +28,6 @@
 
 .skills-list > li{
     list-style: none;
-    font-family: "Open Sans";
     margin: 12px 24px;
     color: var(--color-main);
 }
