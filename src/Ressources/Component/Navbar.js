@@ -55,11 +55,11 @@ const Navbar = () => {
     return (
         <nav className="menu-slider" id="navbar">
             <ul className="menu-slider-list">
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-top">{language.navbar.menu1}</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-education">{language.navbar.menu2}</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-experience">{language.navbar.menu3}</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-project">{language.navbar.menu4}</a></li>
-                <li className="menu-slider-li"><a className="menu-slider-a" id="navbar-skill">{language.navbar.menu5}</a></li>
+                <li className="menu-slider-li"><p className="menu-slider-a" id="navbar-top">{language.navbar.menu1}</p></li>
+                <li className="menu-slider-li"><p className="menu-slider-a" id="navbar-education">{language.navbar.menu2}</p></li>
+                <li className="menu-slider-li"><p className="menu-slider-a" id="navbar-experience">{language.navbar.menu3}</p></li>
+                <li className="menu-slider-li"><p className="menu-slider-a" id="navbar-project">{language.navbar.menu4}</p></li>
+                <li className="menu-slider-li"><p className="menu-slider-a" id="navbar-skill">{language.navbar.menu5}</p></li>
             </ul>
         </nav>
     );
