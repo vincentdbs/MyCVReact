@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types"
 
 const SVG = ({className, id, xmlns, viewBox, path, onClick}) => {
     return (
         onClick === null
             ?
             (
-                <svg id={id} className={className} xmlns={xmlns} viewBox={viewBox}>
+                <svg id={id} className={"svg " + className} xmlns={xmlns} viewBox={viewBox}>
                     <path d={path}/>
                 </svg>
             )
@@ -23,6 +24,14 @@ SVG.defaultProps = {
     viewBox: "0 0 512 512",
     onClick: null,
     id: "",
+};
+
+SVG.propTypes = {
+    className: PropTypes.string.isRequired,
+    xlmns: PropTypes.string.isRequired,
+    viewBox: PropTypes.string.isRequired,
+    onClick: PropTypes.func,
+    id: PropTypes.string.isRequired,
 };
 
 export default SVG;
