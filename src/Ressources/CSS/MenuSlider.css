@@ -37,6 +37,10 @@
 
 
 @media (min-width: 0px) and (max-width: 480px) {
+    .menu-slider-list{
+        margin-top: 32px;
+    }
+
     .menu-slider{
         height: 100%;
         width: 0;
@@ -55,7 +59,7 @@
     }
 
     .menu-slider-li{
-        width: 40%;
+        width: 100%;
         padding-left: 12px;
         padding-top: 2px;
         padding-bottom: 2px;
@@ -74,6 +78,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
+    .menu-slider-list{
+        margin-top: 32px;
+    }
+
     .menu-slider{
         height: 100%;
         width: 0;
@@ -92,7 +100,7 @@
     }
 
     .menu-slider-li{
-        width: 35%;
+        width: 100%;
         padding-left: 12px;
         padding-top: 12px;
         padding-bottom: 2px;
