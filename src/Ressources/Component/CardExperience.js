@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types"
 import "../CSS/CardExperience.css"
 import SVG from "./SVG";
+import {svgPath} from "../Logo/svgPath";
 
 const CardExperience = ({title, company, address, date, tasks, index, logo}) => {
     return (
@@ -23,11 +24,11 @@ const CardExperience = ({title, company, address, date, tasks, index, logo}) => 
                         <p>{company}</p>
                     </div>
                     <div className="experience-line">
-                        <SVG className={"experience--icon"} path={"M256 232c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z M256.001 512c-11.176 0-21.184-5.796-26.77-15.505-.059-.102-.116-.205-.173-.308L102.096 263.801C71.79 208.33 72.659 142.489 104.421 87.677 135.494 34.053 190.686 1.292 252.06.04c2.622-.054 5.258-.054 7.878 0 61.375 1.252 116.567 34.013 147.641 87.637 31.762 54.812 32.631 120.652 2.325 176.124L282.942 496.187c-.057.103-.114.206-.173.308-5.585 9.708-15.592 15.505-26.768 15.505zM256 32c-1.099 0-2.195.011-3.289.033-50.099 1.022-95.185 27.821-120.604 71.688-26.107 45.055-26.829 99.162-1.93 144.736L256 478.757l125.822-230.299c24.899-45.575 24.178-99.682-1.931-144.737-25.419-43.866-70.505-70.666-120.604-71.688-1.091-.022-2.188-.033-3.287-.033z"} />
+                        <SVG className={"experience--icon"} path={svgPath.locationPin} />
                         <p>{address}</p>
                     </div>
                     <div className="experience-line">
-                        <SVG className={"experience--icon"} path={"M446 40h-46V16c0-8.836-7.163-16-16-16s-16 7.164-16 16v24H144V16c0-8.836-7.163-16-16-16s-16 7.164-16 16v24H66C29.607 40 0 69.607 0 106v340c0 36.393 29.607 66 66 66h380c36.393 0 66-29.607 66-66V106c0-36.393-29.607-66-66-66zM66 72h46v16c0 8.836 7.163 16 16 16s16-7.164 16-16V72h224v16c0 8.836 7.163 16 16 16s16-7.164 16-16V72h46c18.748 0 34 15.252 34 34v38H32v-38c0-18.748 15.252-34 34-34zm380 408H66c-18.748 0-34-15.252-34-34V176h448v270c0 18.748-15.252 34-34 34z"} />
+                        <SVG className={"experience--icon"} path={svgPath.calendar} />
                         <p>{date}</p>
                     </div>
                     {tasks.map((data, index) => (

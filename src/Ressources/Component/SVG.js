@@ -28,7 +28,7 @@ SVG.defaultProps = {
 
 SVG.propTypes = {
     className: PropTypes.string.isRequired,
-    xlmns: PropTypes.string.isRequired,
+    xmlns: PropTypes.string.isRequired,
     viewBox: PropTypes.string.isRequired,
     onClick: PropTypes.func,
     id: PropTypes.string.isRequired,
