@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/bg_header-light3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Image/bg_header-light.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/bg_header_dark.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Image/bg_header_dark.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/bg_header_light.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/bg_header_light2.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +127,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Images" timestamp="1595337845716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Images/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595337845716" />
     <state x="552" y="178" key="#JavaScript" timestamp="1595234050963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

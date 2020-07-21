@@ -12,7 +12,7 @@ import ContainerInfo from "./Ressources/Component/ContainerInfo";
 import Navbar from "./Ressources/Component/Navbar";
 import Header from "./Ressources/Component/Header";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
-import BG_light from "../src/Ressources/Image/bg_header-light3.jpg";
+import BG_light from "./Ressources/Image/bg_header-light.jpg";
 import Footer from "./Ressources/Component/Footer";
 
 class App extends Component{
