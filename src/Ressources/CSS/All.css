@@ -143,19 +143,6 @@ button{
     margin-top: 32px;
 }
 
-.link-git{
-    color: var(--color-main);
-    display: block;
-    margin-top: 6px;
-    max-width: 100px;
-    font-family: "Open Sans";
-    border-radius: 16px;
-    transition: all  0.2s ease;
-}
-
-.link-git:hover{
-    margin-left: 8px;
-}
 
 :root{
     --color-main : rgba(0,0,0, 0.87);

@@ -13,6 +13,8 @@ const CardProject = ({title, members, time, date, tech, github, description}) =>
                     <div className="projet-specs-top">
                         <SVG className={"project-icon"} path={svgPath.userAvatar} />
                         <p>{members}</p>
+                    </div>
+                    <div>
                         <SVG className={"project-icon"} path={svgPath.stopwatch} />
                         <p>{time}</p>
                     </div>
@@ -24,8 +26,13 @@ const CardProject = ({title, members, time, date, tech, github, description}) =>
                         <SVG className={"project-icon"} path={svgPath.code} />
                         <p>{tech}</p>
                     </div>
+                    {(github !== null) &&
+                    (
+                        <a href={github} rel="noopener noreferrer" target="_blank">
+                            <SVG className="card-project-git" path={svgPath.github} />
+                        </a>
+                    )}
                 </div>
-                {(github !== null) && <a className="link-git" rel="noopener noreferrer" target="_blank" href={github}>Github</a>}
                 <p>{description}</p>
             </div>
         </div>
