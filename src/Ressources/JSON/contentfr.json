@@ -161,7 +161,7 @@
             "time":"1 mois",
             "date":"Avril 2020",
             "tech":"JAVA",
-            "github":null,
+            "github":"https://github.com/vincentdbs/ProjetTheorieDesGraphes",
             "description":"Ce projet a pour but de manipuler des graphes et de réaliser plusieurs analyses comme la determination de la présence d'un circuit, le calcul du rang des sommets, le calcul des dates au plus tôt et au plus tard, la calcul du calendrier d'ordonnancement."
          },
          {
@@ -170,7 +170,7 @@
             "time":"2 mois",
             "date":"Avril - Mai 2019",
             "tech":"C++",
-            "github":null,
+            "github":"https://github.com/vincentdbs/ProjetMPI",
             "description":"Ce projet a pour but de manipuler des automates finis et de réaliser la lecture, l'affichage, la déterminisation, la minimisation, la standardisation et la reconnaissance de mots."
          },
          {
@@ -179,7 +179,7 @@
             "time":"2 mois",
             "date":"Oct - Nov 2019",
             "tech":"HTML, JS, CSS, PHP, MySQL",
-            "github":null,
+            "github":"https://github.com/vincentdbs/WebProject",
             "description":"Le site, créé en utilsant les langages principaux du web, est un outil aidant une agence de location de voiture à gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          }
       ]

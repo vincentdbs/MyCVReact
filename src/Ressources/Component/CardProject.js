@@ -25,7 +25,7 @@ const CardProject = ({title, members, time, date, tech, github, description}) =>
                         <p>{tech}</p>
                     </div>
                 </div>
-                {(github !== null) && <a className="link-git" href={"/#"}>Github</a>}
+                {(github !== null) && <a className="link-git" rel="noopener noreferrer" target="_blank" href={github}>Github</a>}
                 <p>{description}</p>
             </div>
         </div>

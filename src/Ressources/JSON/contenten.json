@@ -159,7 +159,7 @@
             "time":"1 month",
             "date":"April 2020",
             "tech":"JAVA",
-            "github":null,
+            "github":"https://github.com/vincentdbs/ProjetTheorieDesGraphes",
             "description":"This tool is used to manipulate graph. You can do operation such as reading a graph from text files, displaying adjacency and values matrix, detect cycles, calculate the rank of the vertices and compute the calendar if the graph is a scheduling graph."
          },
          {
@@ -168,7 +168,7 @@
             "time":"2 months",
             "date":"April - May 2019",
             "tech":"C++",
-            "github":null,
+            "github":"https://github.com/vincentdbs/ProjetMPI",
             "description":"This tool is used to manipulate finite-state machine. You can read, display, do determinization, minimize and do word recognition."
          },
          {
@@ -177,7 +177,7 @@
             "time":"2 months",
             "date":"Oct - Nov 2019",
             "tech":"HTML, JS, CSS, PHP, MySQL",
-            "github":null,
+            "github":"https://github.com/vincentdbs/WebProject",
             "description":"This car rental website help the company to manage their stocks and allow customers to book cars."
          }
       ]
