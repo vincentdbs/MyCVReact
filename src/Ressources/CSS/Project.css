@@ -46,7 +46,7 @@
     margin-bottom: 2px;
 }
 
-.projet-specs > p{
+.projet-specs > div p{
     color: var(--color-main);
 }
 
