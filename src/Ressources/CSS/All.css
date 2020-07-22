@@ -30,6 +30,7 @@ a:hover
 
 p, li,a{
     font-family: "Open Sans";
+    font-weight: 400;
 }
 
 h1{
