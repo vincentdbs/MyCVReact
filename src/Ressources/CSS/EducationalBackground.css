@@ -1,16 +1,9 @@
-:root{
-    --container-shadow : 0.5rem 0.5rem 2rem 0 rgba(0,0,0, 0.2);
-    --gutter : 30px;
-    --border-width : 4px;
-    --dot-diameter : 8px
-}
 .timeline-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: 32px 0;
-    font-family: "Open Sans";
 }
 
 .timeline {
