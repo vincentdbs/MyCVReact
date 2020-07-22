@@ -125,14 +125,14 @@
             "time":"1 an",
             "date":"Sept 2018 - Juin 2019",
             "tech":"JAVA, PHP, MySQL, Android Studio",
-            "github": "test",
+            "github": null,
             "description":"Swap-it! est une application Android créée par 5 étudiants d'EFREI Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour des services de la vie courante."
          },
          {
             "title":"Swap-it! (WEB)",
             "members":5,
             "time":"4 mois",
-            "date":"Fev - Mai 2020",
+            "date":"Févr - Mai 2020",
             "tech":"HTML, JS, CSS, PHP, MySQL",
             "github":null,
             "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
