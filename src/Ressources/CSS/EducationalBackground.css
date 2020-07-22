@@ -174,4 +174,8 @@
         padding-left: 30px;
     }
 
+    .timeline-container {
+        margin: 32px 64px 0;
+    }
+
 }
