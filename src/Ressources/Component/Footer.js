@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-div-icon">
-                <a href={"https://www.linkedin.com/in/vincent-dbs/"} target={"__blank"}>
+                <a href="https://www.linkedin.com/in/vincent-dbs/" rel="noopener noreferrer" target="_blank">
                     <SVG className="logo-footer" path={svgPath.linkedin} />
                 </a>
-                <a href={"https://github.com/vincentdbs/"} target={"__blank"}>
+                <a href="https://github.com/vincentdbs/" rel="noopener noreferrer" target="_blank">
                     <SVG className="logo-footer" path={svgPath.github} />
                 </a>
             </div>
