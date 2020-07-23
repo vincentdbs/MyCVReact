@@ -273,6 +273,10 @@ class App extends Component{
                 <Footer/>
             </LanguageContext.Provider>
         );
+        // todo icon dans l'onglet
+        //todo description dans lien à changer (voir mp nathan
+        //todo skills cassé à 1400px
+        //todo no justify for education card description
     }
 }
 
