@@ -11,12 +11,13 @@
 }
 
 .menu-slider-li{
-    padding-left: 20px;
+    padding-left: 16px;
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
     width: 100%;
     margin: 4px;
     color: var(--color-main);
+    border: 2px solid transparent;
 }
 
 .menu-slider-li:hover{
@@ -25,8 +26,8 @@
 
 
 .slider-see{
-    background: var(--color-orange);
-    border-radius: 12px;
+    border: 2px solid var(--color-orange);
+    border-radius: 24px;
 }
 
 .slider-hidden{
@@ -118,9 +119,8 @@
 @media (min-width: 1025px) {
     .menu-slider-li:hover{
         cursor: pointer;
-        background: var(--color-orange);
-        color: var(--color-main);
-        border-radius: 12px;
+        border: 2px solid var(--color-orange);
+        border-radius: 24px;
     }
 
     .menu-slider-a{
@@ -137,6 +137,10 @@
         border: 2px solid var(--color-orange);
         border-radius: 50%;
         left: -6px;
+    }
+
+    .slider-see:before{
+        background-color: var(--color-orange);
     }
 
 
