@@ -59,7 +59,19 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 650px) {
+    .skills-wrapper-intro-in{
+        width: 90%;
+        padding-bottom: 32px;
+    }
+
+    .skills-wrapper-intro-in > div{
+        min-width: 100%;
+    }
+}
+
+
+@media (min-width: 651px) and (max-width: 1024px) {
     .skills-wrapper-intro-in{
         width: 90%;
         padding-bottom: 32px;
@@ -99,7 +111,18 @@
     }
 }
 
-@media (min-width: 1251px) {
+@media (min-width: 1251px) and (max-width: 1330px){
+    .skills-wrapper-intro-in{
+        margin: 0 3% 0 175px;
+        max-width: 90%;
+    }
+
+    .skills-wrapper-intro-in > div{
+        min-width: 45%;
+    }
+}
+
+@media (min-width: 1331px)  {
     .skills-wrapper-intro-in{
         margin: 0 3% 0 175px;
         max-width: 90%;
