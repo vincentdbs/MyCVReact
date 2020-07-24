@@ -26,4 +26,4 @@ yarn-error.log*
 /.gitignore
 
 README-create-react-app.md
-connexion.txt
+deploy.sh

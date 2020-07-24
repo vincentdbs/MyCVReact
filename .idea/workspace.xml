@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Scrollbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,15 +49,15 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vincent\CV\cvreact" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact" />
       <recent name="D:\Vincent\CV\cvreact\src" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\JS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -114,7 +112,7 @@
       <workItem from="1595507448269" duration="464000" />
       <workItem from="1595531926363" duration="84000" />
       <workItem from="1595534372799" duration="2420000" />
-      <workItem from="1595575693145" duration="2783000" />
+      <workItem from="1595575693145" duration="6432000" />
     </task>
     <servers />
   </component>
@@ -143,6 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#JavaScript/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595234050963" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595594276491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595594276491" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1595576332496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
