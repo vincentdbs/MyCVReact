@@ -15,7 +15,8 @@ const Footer = () => {
                 </a>
             </div>
             <div>
-               <p>©Vincent Dubois</p>
+                <p>©Vincent Dubois</p>
+                <p>2020</p>
             </div>
         </div>
     );

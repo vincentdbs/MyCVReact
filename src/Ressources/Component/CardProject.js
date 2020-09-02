@@ -46,6 +46,7 @@ CardProject.propTypes = {
     date: PropTypes.string.isRequired,
     github: PropTypes.string,
     description: PropTypes.string.isRequired,
+    classes: PropTypes.string,
 };
 
 export default CardProject;
