@@ -38,6 +38,10 @@
     border-bottom: var(--color-whitebg) 10px solid;
 }
 
+.me > *{
+    margin: 8px 0;
+}
+
 .me > h1{
     font-size: 80px;
     font-family: Gotham;
@@ -54,7 +58,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    margin: 2px 0;
+    margin: 8px 0;
 }
 
 .contact-line > *{
