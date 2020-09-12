@@ -27,3 +27,5 @@ yarn-error.log*
 
 README-create-react-app.md
 deploy.sh
+.idea
+/src/Ressources/CV/
