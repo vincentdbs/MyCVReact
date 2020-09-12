@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 
 const Education = ({date, address, title, tasks}) => {
     return (
-        <div className="entry">
-            <div className="title">
+        <div className="education">
+            <div className="education--title">
                 <h3>{date}</h3>
                 <p>{address}</p>
             </div>
-            <div className="body">
+            <div className="education--body">
                 <p>{title}</p>
                 <ul>
                     {tasks.map((item, index) => <li key={index}>{item}</li>)}
