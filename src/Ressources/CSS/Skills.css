@@ -1,7 +1,35 @@
 .skills-wrapper-intro-in{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    column-gap: 128px;
+    grid-template-columns: repeat(auto-fill, minmax(27%, 1fr));
+    column-gap: 144px;
     row-gap: 128px;
-    margin: 64px 20% 10%;
+    margin: 64px 15% 10% 20%;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .skills-wrapper-intro-in {
+        grid-template-columns: 100%;
+        column-gap: 48px;
+        row-gap: 48px;
+        margin: 64px 15% 10%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .skills-wrapper-intro-in {
+        grid-template-columns: 100%;
+        column-gap: 64px;
+        row-gap: 64px;
+        margin: 64px 15% 10%;
+    }
+
+
+}
+
+@media (min-width: 1025px) {
+    .skills-wrapper-intro-in{
+        margin: 128px 15% 10% 20%;
+    }
+
 }
