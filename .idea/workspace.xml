@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardSkill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardSkill.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="ReactFunction" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1598256223427" duration="475000" />
       <workItem from="1599032471695" duration="2452000" />
       <workItem from="1599551196607" duration="175000" />
-      <workItem from="1599926083984" duration="290000" />
+      <workItem from="1599926083984" duration="1088000" />
     </task>
     <servers />
   </component>
@@ -189,10 +189,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="192" width="737" height="596" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595521921965" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1595345350221">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599926553782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595345350221" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599926553782" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599034109814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

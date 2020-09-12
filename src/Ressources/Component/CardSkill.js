@@ -1,15 +1,16 @@
 import React from "react";
 import SVG from "./SVG";
 import PropTypes from "prop-types";
+import "../CSS/CardSkills.css"
+
 
 const CardSkill = ({title, skills, svgPath}) => {
     return (
-        <div>
-            <div className="center">
-                <SVG className={"skills-icon"}
-                     path={svgPath}/>
+        <div className={"cardSkills"}>
+            <div className={"cardskills-title"}>
+                <SVG className={"skills-icon"} path={svgPath}/>
+                <h2>{title}</h2>
             </div>
-            <h2>{title}</h2>
             <ul className="skills-list">
                 {skills.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
