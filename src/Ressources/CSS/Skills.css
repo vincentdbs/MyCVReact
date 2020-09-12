@@ -1,8 +1,7 @@
 .skills-wrapper-intro-in{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    column-gap: 10%;
-    row-gap: 64px;
-    margin: 0 20%;
-    margin-top: 64px;
+    column-gap: 128px;
+    row-gap: 128px;
+    margin: 64px 20% 10%;
 }
