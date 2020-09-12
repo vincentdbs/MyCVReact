@@ -25,18 +25,19 @@
       "title":"Education",
       "timeline":[
          {
-            "date":"January 2020 - June 2020",
+            "date":"2020 - June 2021",
             "address":"Efrei Paris, Villejuif (94), France",
-            "title":"First year of engineer cycle",
+            "title":"M1 Software Engineering",
             "tasks":[
-               "Mathematics for cryptography, optimisation",
-               "Databases, introduction to cybersecurity"
+               "JEE, .NET, C#",
+               "Devops",
+               "Project management"
             ]
          },
          {
-            "date":"September 2019 - December 2019",
+            "date":"Sept 2019 - Dec 2019",
             "address":"Asia Pacific University, Kuala Lumpur, Malaysia",
-            "title":"First year of engineer cycle",
+            "title":"International semester",
             "tasks":[
                "JAVA and web programming (PHP, CSS, JS, HTML, MySQL)",
                "Databases and operating systems",
@@ -46,7 +47,7 @@
          {
             "date":"2017 - 2019",
             "address":"Efrei Paris, Villejuif (94)",
-            "title":"1st/2nd year of preparation to engineer cycle",
+            "title":"Licence cycle",
             "tasks":[
                "Development of an Android app to help students find tutoring and daily services in the school",
                "Physic, mathematics, communication and human sciences",

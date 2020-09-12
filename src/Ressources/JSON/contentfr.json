@@ -25,18 +25,19 @@
       "title":"Parcours scolaire",
       "timeline":[
          {
-            "date":"Janvier 2020 - Juin 2020",
+            "date":"2020 - 2021",
             "address":"Efrei Paris, Villejuif (94)",
-            "title":"1e année du cycle ingénieur",
+            "title":"M1 Software Engineering",
             "tasks":[
-               "Mathématiques pour la cryptographie, optimisation",
-               "Base de données avancées, introduction à la cybersécurité"
+               "JEE, .NET, C#",
+               "Devops",
+               "Gestion de projet"
             ]
          },
          {
-            "date":"Septembre 2019 - Décembre 2019",
+            "date":"Sept 2019 - Déc 2019",
             "address":"Asia Pacific University, Kuala Lumpur, Malaisie",
-            "title":"1e année du cycle ingénieur",
+            "title":"Semestre international",
             "tasks":[
                "JAVA et programmation web (PHP, CSS, JS, HTML, MySQL)",
                "Base de données et système d'exploitation",
@@ -44,9 +45,9 @@
             ]
          },
          {
-            "date":"2017 - 2019",
+            "date":"2017 - 2020",
             "address":"Efrei Paris, Villejuif (94)",
-            "title":"Cycle préparatoire intégré",
+            "title":"Cycle licence",
             "tasks":[
                "Développement d'une application Android de soutien scolaire et d'entraide étudiante",
                "Physique, mathématiques, communication et sciences humaines",
