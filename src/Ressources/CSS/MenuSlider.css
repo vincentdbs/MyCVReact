@@ -10,7 +10,6 @@
     padding-top: 60px;
     transition: 0.5s all ease;
     font-weight: 500;
-    letter-spacing: 3px;
     font-size: 2rem;
 }
 
@@ -37,7 +36,7 @@
 .menu-slider-li p{
     font-family: Poppins, sans-serif;
     font-weight: 800;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
 }
 
 .slider-hidden{
@@ -72,16 +71,12 @@
         font-size: 3rem;
     }
 
-
-    .menu-slider-li:hover {
-        cursor: pointer;
-    }
-
     .menu-slider-li p{
         transition: transform 0.5s ease;
     }
 
     .menu-slider-li p:hover{
         transform: translateX(12px);
+        cursor: pointer;
     }
 }
