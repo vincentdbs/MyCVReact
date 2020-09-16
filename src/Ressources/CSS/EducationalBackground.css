@@ -75,16 +75,20 @@
 .education .education--body ul {
     color: var(--color-mainhalf);
     padding-left: 0;
-    /*margin-top: 4px;*/
     list-style-type: none;
+}
+
+.education .education--body ul li{
+    margin-bottom: 4px;
 }
 
 .education .education--body ul li:before {
     content: "-";
-    margin-right: 0.5em;
+    margin-right: 8px;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+
     .timeline:before {
         left: 0;
     }
