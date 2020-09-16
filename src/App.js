@@ -172,40 +172,6 @@ class App extends Component{
             }
         }
 
-        function removeAllSliderSee() {
-            for (let i = 0; i < slider_li.length; i++) {
-                slider_li[i].classList.remove("slider-see");
-            }
-        }
-
-        //link visibility on hover mouse or out
-        function mouseoverlistener(i) {
-            if(selectedMenuIndex !== i){ //prevent hidding selected menu item
-                slider_a[i].classList.remove("slider-hidden");
-            }
-        }
-
-        function mouseoutlistener(i) {
-            if(selectedMenuIndex !== i){
-                slider_a[i].classList.add("slider-hidden");
-            }
-        }
-
-        function hoverlinkAdd() {
-            for (let i = 0; i < slider_a.length ; i++) {
-                //listener on list element but change link property
-                slider_li[i].addEventListener('mouseover', () => mouseoverlistener(i));
-                slider_li[i].addEventListener('mouseout', () => mouseoutlistener(i));
-            }
-        }
-
-        function hoverlinkRemove() {
-            for (let i = 0; i < slider_a.length ; i++) {
-                //listener on list element but change link property
-                slider_li[i].removeEventListener('mouseover', mouseoverlistener, false);
-                slider_li[i].removeEventListener('mouseout', mouseoutlistener, false);
-            }
-        }
 
         /**
          * First load
@@ -217,12 +183,6 @@ class App extends Component{
         toggleDisplayThemeSwitch(positionUser);
         toggleDisplayNavbar(positionUser);
 
-        //add or remove listener on list item dependant on window size at launch
-        if(window.innerWidth < 1080){
-            hoverlinkRemove();
-        }else{
-            hoverlinkAdd()
-        }
 
         /**
          * Listener onScroll onResize
@@ -233,31 +193,13 @@ class App extends Component{
             toggleDisplayThemeSwitch(userPosition);
             toggleDisplayNavbar(userPosition);
             toggleDisplayHeader(userPosition);
-            if(window.innerWidth < 1025){
-                toggleDisplayBurger(userPosition);
-            }else{
-                burger.classList.add("display-none");
-                burger.classList.remove("display-block");
-                linklistvisibility(userPosition);
-            }
+            linklistvisibility(userPosition);
+            toggleDisplayBurger(userPosition);
         }
 
-        function listenerOnResize(){
-            getContainerPosition();
-            if(window.innerWidth < 1025){
-                hoverlinkRemove();
-                removeAllSliderSee();
-            }else{
-                linklistvisibility(document.documentElement.scrollTop);
-                hoverlinkAdd();
-                slider.classList.remove("width-zero");
-                slider.classList.remove("width-hundred");
-            }
-        }
 
         window.addEventListener('scroll', listenerOnScroll, true);
 
-        window.addEventListener('resize', listenerOnResize, true);
     }
 
     render() {
