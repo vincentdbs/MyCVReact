@@ -168,20 +168,25 @@ class App extends Component{
                         slider_li[i].classList.remove("slider-see");
                     }
                 }
-
             }
         }
 
+        /**
+        * Toggle all element
+        * */
+        function toggleAllElement(userPosition){
+            toggleDisplayThemeSwitch(userPosition);
+            toggleDisplayNavbar(userPosition);
+            toggleDisplayHeader(userPosition);
+            toggleDisplayBurger(userPosition);
+        }
 
         /**
          * First load
          */
         let positionUser = document.documentElement.scrollTop;
         getContainerPosition();
-        toggleDisplayBurger(positionUser);
-        toggleDisplayHeader(positionUser);
-        toggleDisplayThemeSwitch(positionUser);
-        toggleDisplayNavbar(positionUser);
+        toggleAllElement(positionUser);
 
 
         /**
@@ -190,11 +195,8 @@ class App extends Component{
         function listenerOnScroll(){
             getContainerPosition();
             let userPosition = document.documentElement.scrollTop;
-            toggleDisplayThemeSwitch(userPosition);
-            toggleDisplayNavbar(userPosition);
-            toggleDisplayHeader(userPosition);
+            toggleAllElement(positionUser);
             linklistvisibility(userPosition);
-            toggleDisplayBurger(userPosition);
         }
 
 
