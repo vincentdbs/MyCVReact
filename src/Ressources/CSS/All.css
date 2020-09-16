@@ -157,6 +157,8 @@ button{
     --color-switch : #1e314f;
     --color-headersadow : 0 2px 2px -2px rgba(0,0,0,0.16);
     --color-cardbg :  #f8f9fa;
+    --color-navbarbg : #252525;
+
 }
 
 [data-theme="dark"] {
@@ -170,7 +172,8 @@ button{
     --color-border : rgba(255,255,255, 0.8);
     --color-switch : #ffcf96;
     --color-headersadow : 0 2px 2px -2px rgba(255,255,255,0.6);
-    --color-cardbg :  rgba(255,255,255, 0.05);
+    --color-cardbg :  #252525;
+    --color-navbarbg : #f8f9fa;
 
 }
 

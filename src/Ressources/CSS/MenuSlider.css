@@ -5,7 +5,7 @@
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: var(--color-main);
+    background-color: var(--color-navbarbg);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s all ease;
@@ -19,20 +19,9 @@
     list-style: none;
 }
 
-.menu-slider-li{
-    padding-left: 16px;
-    padding-top: 2px;
-    padding-bottom: 4px;
-    width: 100%;
-    margin: 4px;
-    color: var(--color-main);
-    border: 2px solid transparent;
-}
-
 .menu-slider-li:hover{
     cursor: pointer;
 }
-
 
 .slider-see{
     border-radius: 24px;
@@ -42,15 +31,20 @@
     margin-top: 32px;
 }
 
-
-
 .menu-slider-li{
     width: 100%;
     padding-left: 12px;
     padding-top: 2px;
     padding-bottom: 2px;
-    margin: 4px auto;
+    margin: 40px auto;
     color: var(--color-whitebg);
+}
+
+.menu-slider-li p{
+    font-size: 2rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
 }
 
 .slider-hidden{
