@@ -80,7 +80,7 @@
 
     .project-card {
         flex: 1 0 90%;
-        max-width: 90%;
+        max-width: 100%
     }
 
     .des-projet{
@@ -108,8 +108,7 @@
 
 @media (min-width: 1025px) {
     .project-card-container{
-        margin: 80px 3% 80px 175px;
-        max-width: 90%;
+        margin: 80px 3% 80px 3%;
         justify-content: space-evenly;
 
     }

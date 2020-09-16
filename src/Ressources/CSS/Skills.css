@@ -29,7 +29,10 @@
 
 @media (min-width: 1025px) {
     .skills-wrapper-intro-in{
-        padding: 128px 10% 10% 20%;
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-top: 5%;
+        padding-bottom: 8%;
     }
 
 }
