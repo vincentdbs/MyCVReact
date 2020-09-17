@@ -2,10 +2,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 45px;
+    min-height: 54px;
     position: fixed;
     background-color: var(--color-whitebg);
     z-index: 500;
+}
+
+#burgerButton{
+    right: 0;
 }
 
 .logo-header{
@@ -18,12 +22,12 @@
 .logo-flag{
     border: var(--color-main) 2px solid;
     border-radius: 50%;
-    right: 48px;
+    left: 16px;
 }
 
 .logo-theme{
     fill: var(--color-main);
-    right: 16px;
+    left: 48px;
 }
 
 .logo-header:hover{
