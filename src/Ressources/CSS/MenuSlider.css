@@ -72,7 +72,7 @@
     }
 
     .menu-slider-li p{
-        transition: transform 0.5s ease;
+        transition: transform 0.3s ease;
     }
 
     .menu-slider-li p:hover{
