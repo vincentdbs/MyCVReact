@@ -5,7 +5,7 @@ import "../CSS/Header.css"
 import BurgerButton from "./BurgerButton";
 import PropTypes from "prop-types";
 
-const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo}) => {
+const Header = ({toggleTheme, onClickSwitchLanguage, themeLogo, onClickBurger}) => {
     let language = useContext(LanguageContext);
 
     let displayNavbarMobile = () => {
