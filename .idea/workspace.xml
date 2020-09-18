@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Project.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +66,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vincent\CV\cvreact" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vincent\CV\cvreact" />
       <recent name="D:\Vincent\CV\cvreact\src" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -141,7 +144,7 @@
       <workItem from="1600160553695" duration="15000" />
       <workItem from="1600239620968" duration="1301000" />
       <workItem from="1600419986782" duration="370000" />
-      <workItem from="1600432314916" duration="1947000" />
+      <workItem from="1600432314916" duration="4133000" />
     </task>
     <servers />
   </component>
@@ -214,9 +217,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599926553782" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600356554348">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600434922217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600356554348" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600434922217" />
   </component>
 </project>
