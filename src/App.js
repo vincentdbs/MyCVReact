@@ -15,6 +15,7 @@ import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "./Ressources/Image/bg_header-light.jpg";
 import Footer from "./Ressources/Component/Footer";
 import {svgPath} from "./Ressources/Logo/svgPath";
+import Navigation from "./Ressources/Component/Navigation";
 
 class App extends Component{
     state = {
@@ -207,8 +208,7 @@ class App extends Component{
     render() {
     return(
             <LanguageContext.Provider value={this.state.language}>
-                <Header toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
-                <Navbar/>
+                <Navigation toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
                 <ContainerInfo bgImage={this.state.bgImage} />
                 <ContainerEducation />
                 <ContainerExperience epsLogo={this.state.epsLogo}/>

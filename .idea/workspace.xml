@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/All.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
-        <option value="ReactFunction" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="ReactFunction" />
       </list>
     </option>
   </component>
@@ -143,7 +140,7 @@
       <workItem from="1600160553695" duration="15000" />
       <workItem from="1600239620968" duration="1301000" />
       <workItem from="1600419986782" duration="370000" />
-      <workItem from="1600432314916" duration="5613000" />
+      <workItem from="1600432314916" duration="6686000" />
     </task>
     <servers />
   </component>
