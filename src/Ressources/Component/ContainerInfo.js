@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import "../CSS/All.css"
@@ -11,6 +11,16 @@ const ContainerInfo = ({bgImage}) => {
     var style = {
         backgroundImage: `url(${bgImage})`
     };
+
+    useEffect( () => {
+        var info = document.querySelector('.container-arrowdown');
+        info.addEventListener('click', function () {
+            document.querySelector('.education').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+        }
+    );
 
     return(
       <div className="container-top info container" id="image-top" style={style}>

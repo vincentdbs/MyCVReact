@@ -6,16 +6,6 @@ import {LanguageContext} from '../Language/LanguageContext';
 const Navbar = ({onClickLink}) => {
     let language = useContext(LanguageContext);
 
-    useEffect( () => {
-            var info = document.querySelector('.container-arrowdown');
-            info.addEventListener('click', function () {
-                document.querySelector('.education').scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        }
-    );
-
     return (
         <nav className="menu-slider" id="navbar">
             <ul className="menu-slider-list">
