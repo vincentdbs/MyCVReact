@@ -66,8 +66,14 @@
 
 
 @media (min-width: 0px) and (max-width: 480px) {
+    .project-card-container{
+        margin-top: 16px;
+    }
+
     .project-card {
-        flex: 1 0 85%;
+        flex: 1 100%;
+        margin-left: 48px;
+        margin-right: 48px;
     }
 
     .des-projet p{
@@ -86,10 +92,14 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
+    .project-card-container{
+       margin-top: 48px;
+    }
 
     .project-card {
-        flex: 1 0 90%;
-        max-width: 100%
+        flex: 1 100%;
+        margin-left: 64px;
+        margin-right: 64px;
     }
 
     .des-projet{
@@ -119,7 +129,10 @@
     .project-card-container{
         margin: 80px 3% 0 3%;
         justify-content: space-evenly;
+    }
 
+    .projet-specs > div > *{
+        margin-right: 16px;
     }
 }
 
@@ -131,11 +144,5 @@
 
     .projet-specs > div {
         margin-bottom: 4px;
-    }
-}
-
-@media (min-width: 1025px) {
-    .projet-specs > div > *{
-        margin-right: 16px;
     }
 }
