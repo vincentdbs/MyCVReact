@@ -16,7 +16,6 @@ const Navbar = ({onClickLink}) => {
         }
     );
 
-
     return (
         <nav className="menu-slider" id="navbar">
             <ul className="menu-slider-list">
