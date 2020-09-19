@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/ContainerInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Container/ContainerInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/EducationalBackground.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Container/ContainerEducation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerSkills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerSkills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/ContainerTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerTop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +71,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
+      <recent name="D:\Vincent\CV\cvreact" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vincent\CV\cvreact" />
       <recent name="D:\Vincent\CV\cvreact\src" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vincent\CV\cvreact" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -142,6 +153,7 @@
       <workItem from="1600419986782" duration="370000" />
       <workItem from="1600432314916" duration="10305000" />
       <workItem from="1600522448468" duration="11082000" />
+      <workItem from="1600542443325" duration="1349000" />
     </task>
     <servers />
   </component>

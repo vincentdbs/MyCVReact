@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
-import "../CSS/ContainerInfo.css"
-import AboutMe from "./AboutMe";
-import ContactMe from "./ContactMe";
-import {svgPath} from "../Logo/svgPath";
-import SVG from "./SVG";
+import "../../CSS/Container/ContainerInfo.css"
+import AboutMe from "../AboutMe";
+import ContactMe from "../ContactMe";
+import {svgPath} from "../../Logo/svgPath"
+import SVG from "../SVG";
 
 const ContainerTop = () => {
     useEffect(() => {
@@ -25,7 +25,7 @@ const ContainerTop = () => {
                 </div>
             </div>
             <div className="container-top-right">
-                <img src={require("../Image/flat_programming.png")} alt={"logo"}/>
+                <img src={require("../../Image/flat_programming.png")} alt={"logo"}/>
             </div>
             <div className="center container-arrowdown">
                 <SVG className={"arrowdonw"} path={svgPath.arrowdown} />

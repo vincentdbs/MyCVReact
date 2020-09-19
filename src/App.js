@@ -4,16 +4,16 @@ import "../src/Ressources/CSS/All.css"
 import "../src/Ressources/CSS/Scrollbar.css"
 
 import {LanguageContext, dictionaryList} from './Ressources/Language/LanguageContext';
-import ContainerEducation from "./Ressources/Component/ContainerEducation";
-import ContainerExperience from "./Ressources/Component/ContainerExperience";
-import ContainerProject from "./Ressources/Component/ContainerProject";
-import ContainerSkills from "./Ressources/Component/ContainerSkills";
+import ContainerEducation from "./Ressources/Component/Container/ContainerEducation";
+import ContainerExperience from "./Ressources/Component/Container/ContainerExperience";
+import ContainerProject from "./Ressources/Component/Container/ContainerProject";
+import ContainerSkills from "./Ressources/Component/Container/ContainerSkills";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "./Ressources/Image/bg_header-light.jpg";
 import Footer from "./Ressources/Component/Footer";
 import {svgPath} from "./Ressources/Logo/svgPath";
 import Navigation from "./Ressources/Component/Navigation";
-import ContainerTop from "./Ressources/Component/ContainerTop";
+import ContainerTop from "./Ressources/Component/Container/ContainerTop";
 
 class App extends Component{
     state = {

@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
-import CardProject from "./CardProject";
-import {LanguageContext} from '../Language/LanguageContext';
+import CardProject from "../CardProject";
+import {LanguageContext} from '../../Language/LanguageContext';
 
 
 const ContainerProject = () => {

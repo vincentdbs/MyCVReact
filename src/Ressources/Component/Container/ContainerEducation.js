@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
-import Education from "./Education";
-import {LanguageContext} from '../Language/LanguageContext';
-import "../CSS/EducationalBackground.css"
+import Education from "../Education";
+import {LanguageContext} from '../../Language/LanguageContext';
+import "../../CSS/Container/ContainerEducation.css"
 
 const ContainerEducation = () => {
     let language = useContext(LanguageContext);

@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
-import CardSkill from "./CardSkill";
-import {LanguageContext} from '../Language/LanguageContext';
-import "../CSS/Skills.css"
+import CardSkill from "../CardSkill";
+import {LanguageContext} from '../../Language/LanguageContext';
+import "../../CSS/Skills.css"
 
 
 const ContainerSkills = () => {

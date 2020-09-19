@@ -1,7 +1,7 @@
 /*Orange background*/
 .container-top{
     padding-top: 0;
-    background-image: url("../Image/bg_orange_top.png");
+    background-image: url("../../Image/bg_orange_top.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
