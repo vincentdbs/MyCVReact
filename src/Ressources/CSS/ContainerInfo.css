@@ -1,0 +1,29 @@
+.container-top{
+    padding-top: 0;
+    background-image: url("../Image/bg_orange_top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-top{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container-top > div{
+    flex: 1;
+}
+
+.container-top-right{
+
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+
+}
