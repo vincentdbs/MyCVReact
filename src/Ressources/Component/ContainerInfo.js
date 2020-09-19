@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import "../CSS/All.css"
-import "../CSS/Top.css"
+// import "../CSS/Top.css"
 import PropTypes from "prop-types";
 import {svgPath} from "../Logo/svgPath";
 import SVG from "./SVG";
