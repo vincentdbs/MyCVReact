@@ -8,9 +8,6 @@ import ContainerEducation from "./Ressources/Component/ContainerEducation";
 import ContainerExperience from "./Ressources/Component/ContainerExperience";
 import ContainerProject from "./Ressources/Component/ContainerProject";
 import ContainerSkills from "./Ressources/Component/ContainerSkills";
-import ContainerInfo from "./Ressources/Component/ContainerInfo";
-import Navbar from "./Ressources/Component/Navbar";
-import Header from "./Ressources/Component/Header";
 import BG_dark from "../src/Ressources/Image/bg_header_dark.jpg";
 import BG_light from "./Ressources/Image/bg_header-light.jpg";
 import Footer from "./Ressources/Component/Footer";
@@ -210,7 +207,6 @@ class App extends Component{
     return(
             <LanguageContext.Provider value={this.state.language}>
                 <Navigation toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
-                {/*<ContainerInfo bgImage={this.state.bgImage} />*/}
                 <ContainerTop/>
                 <ContainerEducation />
                 <ContainerExperience epsLogo={this.state.epsLogo}/>
