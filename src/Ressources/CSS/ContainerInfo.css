@@ -26,15 +26,32 @@
     display: block;
 }
 
+.wrapper-me{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrapper-me p, .wrapper-me h1, .wrapper-me svg, .wrapper-me a{
+    color: var(--color-main);
+}
 
 @media (min-width: 0px) and (max-width: 480px) {
-
+    .container-top-right > img{
+        width: 70%;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 849px) {
     .container-top{
         flex-direction: column;
     }
+
+    .container-top-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     /*Center developer image*/
     .container-top-right{
@@ -47,7 +64,6 @@
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        padding-left: 12%;
     }
 
     .container-top-right > img{
