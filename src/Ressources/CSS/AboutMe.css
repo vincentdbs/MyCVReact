@@ -1,8 +1,6 @@
 .me{
     padding-bottom: 24px;
     padding-top: 24px;
-    /*border-top: var(--color-whitebg) 10px solid;*/
-    /*border-bottom: var(--color-whitebg) 10px solid;*/
 }
 
 .me > *{
