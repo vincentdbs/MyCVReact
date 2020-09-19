@@ -1,11 +1,20 @@
+/*Orange background*/
 .container-top{
     padding-top: 0;
     background-image: url("../Image/bg_orange_top.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+.container-top > div{
+    flex: 1;
+}
+
+/*Center developer image*/
 .container-top-right{
     display: flex;
     align-items: center;
@@ -24,30 +33,16 @@
 
 @media (min-width: 0px) and (max-width: 849px) {
     .container-top{
-        display: flex;
-        flex-wrap: nowrap;
         flex-direction: column;
     }
 
-    .container-top > div{
-        flex: 1;
-    }
-
+    /*Center developer image*/
     .container-top-right{
         justify-content: center;
     }
 }
 
 @media (min-width: 850px) {
-    .container-top{
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .container-top > div{
-        flex: 1;
-    }
-
     .wrapper-me{
         position: relative;
         top: 50%;
