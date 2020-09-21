@@ -142,6 +142,26 @@ button{
     margin-top: 32px;
 }
 
+.btn-square-orange{
+     padding: 8px;
+     border: 2px var(--color-orange) solid;
+     background-color: inherit;
+     margin-top: 8px;
+     transition: ease background-color 0.1s;
+}
+
+.btn-square-orange > *{
+    color: var(--color-orange);
+}
+
+.btn-square-orange:hover{
+    background-color: var(--color-orange);
+}
+
+.btn-square-orange:hover > *{
+    color: var(--color-cardbg);
+}
+
 
 :root{
     --color-main : rgba(0,0,0, 0.87);

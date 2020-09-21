@@ -11,7 +11,9 @@ const Error404 = () => {
                 <h1 className="title-error404">Error 404</h1>
                 <img src={require("../Image/error404.png")} alt="broken_computer"/>
                 <p>{language.dictionary.error404.notfound}</p>
-                <a href="http://www.vincentdbs.fr">{language.dictionary.error404.homepage}</a>
+                <button className="btn-square-orange">
+                    <a href="http://www.vincentdbs.fr">{language.dictionary.error404.homepage}</a>
+                </button>
             </div>
         </div>
     );
