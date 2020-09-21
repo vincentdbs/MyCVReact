@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext} from "react";
 import "../CSS/MenuSlider.css"
 import {LanguageContext} from '../Language/LanguageContext';
 

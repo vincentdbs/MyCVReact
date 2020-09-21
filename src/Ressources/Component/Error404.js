@@ -6,7 +6,7 @@ const Error404 = () => {
         <div className="container container-404">
             <div className="div-error404">
                 <h1 className="title-error404">Error 404</h1>
-                <img src={require("../Image/error404.png")} />
+                <img src={require("../Image/error404.png")} alt="broken_computer"/>
                 <p>Sorry page not found</p>
                 <a href="http://www.vincentdbs.fr">Go back to homepage</a>
             </div>
