@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Container/ContainerInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/Container/ContainerInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/All.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/All.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,7 @@
       <workItem from="1600542443325" duration="1349000" />
       <workItem from="1600611012146" duration="2473000" />
       <workItem from="1600679544188" duration="2366000" />
-      <workItem from="1600696299620" duration="709000" />
+      <workItem from="1600696299620" duration="1207000" />
     </task>
     <servers />
   </component>
@@ -224,9 +222,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599926553782" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600534506208">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600697134959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600534506208" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600697134959" />
   </component>
 </project>

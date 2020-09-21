@@ -101,7 +101,6 @@ button{
 }
 
 .container-arrowdown{
-    height: 60px;
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -205,15 +204,17 @@ button{
         font-size: 1.2rem;
     }
 
-    .container-arrowdown{
-        left: 45%;
-    }
-
     .arrowdonw{
         width: 40px;
         height: 40px;
     }
 
+}
+
+@media (min-width: 0px) and (max-width: 849px) {
+    .container-arrowdown{
+        left: 85%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
