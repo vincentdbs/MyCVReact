@@ -3,10 +3,6 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 
 class Navigation extends Component{
-    state = {
-        burgerActive: true,
-    };
-
     //Arrow fx for binding
     onClickLink = (strContainer) => {
         //Undisplay navbar
@@ -20,7 +16,7 @@ class Navigation extends Component{
 
     //Arrow fx for binding
      toggleDiplayNavbar = () => {
-         var burger = document.getElementById("burgerButton");
+         let burger = document.getElementById("burgerButton");
          let slider = document.getElementById("navbar");
          burger.classList.toggle("is-active");
          if (!burger.classList.contains('is-active')){
