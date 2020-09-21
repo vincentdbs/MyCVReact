@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Error404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Error404.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +35,8 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="ReactFunction" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,17 +64,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
-      <recent name="D:\Vincent\CV\cvreact" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vincent\CV\cvreact" />
       <recent name="D:\Vincent\CV\cvreact\src" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
+      <recent name="D:\Vincent\CV\cvreact" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -147,7 +147,8 @@
       <workItem from="1600432314916" duration="10305000" />
       <workItem from="1600522448468" duration="11082000" />
       <workItem from="1600542443325" duration="1349000" />
-      <workItem from="1600611012146" duration="1901000" />
+      <workItem from="1600611012146" duration="2473000" />
+      <workItem from="1600679544188" duration="1868000" />
     </task>
     <servers />
   </component>
@@ -184,22 +185,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598022683033" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600611588791">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600680298196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600611588791" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600611588790">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600680298196" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600680298196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600611588790" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600611588790">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600680298196" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600680298195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600611588790" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600611588790">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600680298195" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600680298196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600611588790" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600680298196" />
     <state x="739" y="212" key="SettingsEditor" timestamp="1599551387443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,42 @@
+.container-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-error404{
+    text-align: center;
+}
+
+.div-error404 *{
+    margin-bottom: 8px;
+}
+
+
+.div-error404 img{
+    width: 80%;
+}
+
+.div-error404 a{
+    color: var(--color-orange);
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .div-error404 h1{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .div-error404 h1{
+        font-size: 4rem;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .div-error404 h1{
+        font-size: 5rem;
+    }
+
+}
