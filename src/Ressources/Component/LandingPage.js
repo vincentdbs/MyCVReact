@@ -12,7 +12,7 @@ import BG_light from "../Image/bg_header-light.jpg";
 import Footer from "../Component/Footer";
 import {svgPath} from "../Logo/svgPath";
 import Navigation from "../Component/Navigation";
-import ContainerTop from "../Component/Container/ContainerTop";
+import ContainerTop from "./Container/ContainerInfo";
 
 
 class LandingPage extends Component{
