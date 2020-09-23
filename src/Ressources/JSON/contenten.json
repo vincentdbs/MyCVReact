@@ -20,7 +20,10 @@
          "address":"Sceaux , France",
          "car":"Car driving licence"
       },
-      "CV": "My resume"
+      "CV":{
+         "text": "My resume",
+         "url": "https://drive.google.com/file/d/11eMqdPM-Et0_QT2F-OD42hFLyZzTgiP6/view?usp=sharing"
+      }
    },
    "education":{
       "title":"Education",

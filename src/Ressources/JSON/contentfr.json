@@ -20,7 +20,10 @@
          "address":"Sceaux",
          "car":"Permis B"
       },
-      "CV": "My resume"
+      "CV":{
+         "text": "CV",
+         "url": "https://drive.google.com/file/d/1joKyQ5wsRhXwz_tLVB-q9xJpbyxsjZHH/view?usp=sharing"
+      }
    },
    "education":{
       "title":"Parcours scolaire",

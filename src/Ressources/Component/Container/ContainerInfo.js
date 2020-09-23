@@ -17,7 +17,7 @@ const ContainerTop = () => {
             });
         }
     );
-
+    let language = useContext(LanguageContext);
 
     return (
         <div className="container-top info container" id="image-top">
@@ -26,7 +26,7 @@ const ContainerTop = () => {
                     <AboutMe/>
                     <ContactMe/>
                     {/*todo remplacer par language context*/}
-                    <ButtonOrange text={"Mon CV"} href={"https://drive.google.com/file/d/1joKyQ5wsRhXwz_tLVB-q9xJpbyxsjZHH/view?usp=sharing"}/>
+                    <ButtonOrange text={language.info.CV.text} href={language.info.CV.url}/>
                 </div>
             </div>
             <div className="container-top-right">
