@@ -110,7 +110,6 @@ class LandingPage extends Component{
 
 
         window.addEventListener('scroll', listenerOnScroll, true);
-
     }
 
     render() {

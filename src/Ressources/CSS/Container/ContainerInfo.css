@@ -41,6 +41,7 @@
 
     .wrapper-me{
         padding-top: 48px;
+        padding-left: 8%;
     }
 }
 
@@ -48,7 +49,6 @@
     .wrapper-me{
         padding-top: 68px;
     }
-
 }
 
 @media (min-width: 0px) and (max-width: 849px) {
