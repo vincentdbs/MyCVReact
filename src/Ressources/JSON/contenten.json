@@ -19,7 +19,8 @@
          "linkedin":"Vincent Dubois",
          "address":"Sceaux , France",
          "car":"Car driving licence"
-      }
+      },
+      "CV": "My resume"
    },
    "education":{
       "title":"Education",

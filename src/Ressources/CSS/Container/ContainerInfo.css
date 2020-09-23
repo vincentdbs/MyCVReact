@@ -30,6 +30,10 @@
     padding-right: 10%;
 }
 
+.wrapper-me .buttonOrange{
+    margin-top: 24px;
+}
+
 .wrapper-me p, .wrapper-me h1, .wrapper-me svg, .wrapper-me a{
     color: var(--color-main);
 }

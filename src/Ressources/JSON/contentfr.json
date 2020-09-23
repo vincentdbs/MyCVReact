@@ -19,7 +19,8 @@
          "linkedin":"Vincent Dubois",
          "address":"Sceaux",
          "car":"Permis B"
-      }
+      },
+      "CV": "My resume"
    },
    "education":{
       "title":"Parcours scolaire",

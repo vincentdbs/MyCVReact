@@ -1,0 +1,28 @@
+.buttonOrange{
+    outline: none;
+    text-decoration: none;
+    border: 2px solid var(--color-orange);
+    padding: 8px 16px;
+    background-color: transparent;
+    transition: all ease 0.2s;
+}
+
+.buttonOrange a{
+    color: var(--color-orange);
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+    .buttonOrange:hover a{
+        color: var(--color-main);
+    }
+
+    .buttonOrange:hover{
+        background-color: var(--color-orange);
+    }
+}
