@@ -24,6 +24,7 @@ const TestContainerProject = () => {
                                      description={data.description}
                                      photo={data.photo}
                                      github={data.github}
+                                     language={data.language}
                         />
 
                     ))
