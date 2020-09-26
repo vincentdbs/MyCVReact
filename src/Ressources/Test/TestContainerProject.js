@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import '../Test/TestContainerProject.css'
 import {LanguageContext} from "../Language/LanguageContext";
-import CardProject from "../Component/CardProject";
 import TestCardProject from "./TestCardProject";
 
 
