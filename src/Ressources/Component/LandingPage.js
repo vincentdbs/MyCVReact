@@ -11,6 +11,7 @@ import Footer from "../Component/Footer";
 import {svgPath} from "../Logo/svgPath";
 import Navigation from "../Component/Navigation";
 import ContainerTop from "./Container/ContainerInfo";
+import TestContainerProject from "../Test/TestContainerProject";
 
 
 class LandingPage extends Component{
@@ -122,7 +123,7 @@ class LandingPage extends Component{
                 <Navigation toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
                 <ContainerTop/>
                 <ContainerEducation />
-                <ContainerProject />
+                <TestContainerProject />
                 <ContainerExperience epsLogo={this.state.epsLogo}/>
                 <ContainerSkills />
                 <Footer/>

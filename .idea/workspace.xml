@@ -4,7 +4,6 @@
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,17 +63,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
+      <recent name="D:\Vincent\CV\cvreact" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vincent\CV\cvreact" />
       <recent name="D:\Vincent\CV\cvreact\src" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
-      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
-      <recent name="D:\Vincent\CV\cvreact" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -152,7 +152,8 @@
       <workItem from="1600696299620" duration="5762000" />
       <workItem from="1600703564475" duration="682000" />
       <workItem from="1600888141588" duration="4142000" />
-      <workItem from="1600974388814" duration="1368000" />
+      <workItem from="1600974388814" duration="1768000" />
+      <workItem from="1601122348008" duration="2383000" />
     </task>
     <servers />
   </component>
@@ -189,22 +190,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598022683033" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1600975061607">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601122515941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600975061607" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1600975061607">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601122515941" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601122515940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600975061607" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1600975061607">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601122515940" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601122515940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600975061607" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1600975061607">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601122515940" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601122515940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600975061607" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601122515940" />
     <state x="739" y="212" key="SettingsEditor" timestamp="1599551387443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
