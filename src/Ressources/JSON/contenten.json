@@ -163,6 +163,16 @@
             "description":"This car rental website help the company to manage their stocks and allow customers to book cars."
          },
          {
+            "title":"Photography",
+            "members":1,
+            "time":"1 week",
+            "date":"Sept 2020",
+            "tech":"HTML, JS, CSS, React",
+            "github":null,
+            "photo": "Photography.png",
+            "description":""
+         },
+         {
             "title":"General culture quiz",
             "members":4,
             "time":"1 month",

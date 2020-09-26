@@ -165,6 +165,16 @@
             "description":"Ce site web est un outil aidant une agence de location de voiture à gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          },
          {
+            "title":"Photographie",
+            "members":1,
+            "time":"1 week",
+            "date":"Sept 2020",
+            "tech":"HTML, JS, CSS, React",
+            "github":null,
+            "photo": "Photography.png",
+            "description":""
+         },
+         {
             "title":"Quiz de culture générale",
             "members":4,
             "time":"1 mois",
