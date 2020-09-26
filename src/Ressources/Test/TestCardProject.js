@@ -1,11 +1,11 @@
 import React from "react";
 import '../Test/TestCardProject.css'
 
-const TestCardProject = ({title, members, time, date, tech, github, description}) => {
+const TestCardProject = ({title, members, time, date, tech, github, description, photo}) => {
     return (
         <div className="test-project-card">
             <div className="test-project-card-recto">
-                <img alt={"swapit"} src={require("../Image/Swapit_android.png")}/>
+                <img alt={"swapit"} src={require(`../Image/ProjectIllustration/${photo}`)}/>
                 <div className={"test-project-card-info"}>
                     <h2>{title}</h2>
                     <div className="test-project-card-info-language">

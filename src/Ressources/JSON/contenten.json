@@ -129,6 +129,7 @@
             "date":"Sept 2018 - June 2019",
             "tech":"JAVA, PHP, MySQL, Android Studio",
             "github":null,
+            "photo": "Swapit_android.png",
             "description":"Swap-it! is an Android application developed by 5 students of Efrei Paris to help students to find tutoring and daily services requests."
          },
          {
@@ -138,7 +139,28 @@
             "date":"Feb - May 2020",
             "tech":"HTML, JS, CSS, PHP, MySQL",
             "github":null,
+            "photo": "Swapit_desktop.png",
             "description":"Efrei's students liked so much the concept of the application that we have decided to develop the WEB version."
+         },
+         {
+            "title":"Portfolio",
+            "members":1,
+            "time":"3 months",
+            "date":"July - Aug 2020",
+            "tech":"HTML, JS, CSS, React",
+            "github":null,
+            "photo": "CVreact.png",
+            "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+         },
+         {
+            "title":"Car rental website",
+            "members":1,
+            "time":"2 months",
+            "date":"Oct - Nov 2019",
+            "tech":"HTML, JS, CSS, PHP, MySQL",
+            "github":"https://github.com/vincentdbs/WebProject",
+            "photo": "Project_malaisie.png",
+            "description":"This car rental website help the company to manage their stocks and allow customers to book cars."
          },
          {
             "title":"General culture quiz",
@@ -147,6 +169,7 @@
             "date":"May 2020",
             "tech":"JAVA",
             "github":"https://github.com/vincentdbs/ProjetL3Java",
+            "photo": "CultureG.png",
             "description":"This quiz will determine who has the best general culture among you and three of your friends."
          },
          {
@@ -156,6 +179,7 @@
             "date":"April - May 2020",
             "tech":"JAVA, Microsoft SQL Server, JMerise",
             "github":null,
+            "photo": "CultureG.png",
             "description":"Handle RDV and patient's information can be a tough task for medical staff. We have created an JAVA application to help a psychologist to do these tasks."
          },
          {
@@ -165,6 +189,7 @@
             "date":"April 2020",
             "tech":"JAVA",
             "github":"https://github.com/vincentdbs/ProjetTheorieDesGraphes",
+            "photo": "Graphe.png",
             "description":"This tool is used to manipulate graph. You can do operation such as reading a graph from text files, displaying adjacency and values matrix, detect cycles, calculate the rank of the vertices and compute the calendar if the graph is a scheduling graph."
          },
          {
@@ -174,16 +199,8 @@
             "date":"April - May 2019",
             "tech":"C++",
             "github":"https://github.com/vincentdbs/ProjetMPI",
+            "photo": "Automate.png",
             "description":"This tool is used to manipulate finite-state machine. You can read, display, do determinization, minimize and do word recognition."
-         },
-         {
-            "title":"Car rental website",
-            "members":1,
-            "time":"2 months",
-            "date":"Oct - Nov 2019",
-            "tech":"HTML, JS, CSS, PHP, MySQL",
-            "github":"https://github.com/vincentdbs/WebProject",
-            "description":"This car rental website help the company to manage their stocks and allow customers to book cars."
          }
       ]
    },

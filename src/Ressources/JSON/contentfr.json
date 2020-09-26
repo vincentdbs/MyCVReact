@@ -131,6 +131,7 @@
             "date":"Sept 2018 - Juin 2019",
             "tech":"JAVA, PHP, MySQL, Android Studio",
             "github": null,
+            "photo": "Swapit_android.png",
             "description":"Swap-it! est une application Android créée par 5 étudiants d'Efrei Paris. Elle permet aux étudiants de l'école de demander de l'aide pour du soutien scolaire et pour des services de la vie courante."
          },
          {
@@ -140,7 +141,28 @@
             "date":"Févr - Mai 2020",
             "tech":"HTML, JS, CSS, PHP, MySQL",
             "github":null,
+            "photo": "Swapit_desktop.png",
             "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+         },
+         {
+            "title":"Portfolio",
+            "members":1,
+            "time":"3 mois",
+            "date":"Juil - Août 2020",
+            "tech":"HTML, JS, CSS, React",
+            "github":null,
+            "photo": "CVreact.png",
+            "description":"L'engouement autour de l'application nous a poussé à réaliser la version WEB. Ainsi, tous les étudiants ont accès aux services proposés."
+         },
+         {
+            "title":"Location de voiture",
+            "members":1,
+            "time":"2 mois",
+            "date":"Oct - Nov 2019",
+            "tech":"HTML, JS, CSS, PHP, MySQL",
+            "github":"https://github.com/vincentdbs/WebProject",
+            "photo": "Project_malaisie.png",
+            "description":"Ce site web est un outil aidant une agence de location de voiture à gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          },
          {
             "title":"Quiz de culture générale",
@@ -149,6 +171,7 @@
             "date":"Mai 2020",
             "tech":"JAVA",
             "github":"https://github.com/vincentdbs/ProjetL3Java",
+            "photo": "CultureG.png",
             "description":"Ce jeu pour quatre personnes détermine le joueur ayant la meilleure culture générale sur une dizaine de thèmes."
          },
          {
@@ -158,6 +181,7 @@
             "date":"Avril - Mai 2020",
             "tech":"JAVA, Microsoft SQL Server, JMerise",
             "github":null,
+            "photo": "CultureG.png",
             "description":"La prise de rendez-vous et la gestion des patients peuvent vite devenir compliquées sur papier pour les profesionnels de santé. Nous avons donc créer une application permettant à une psychologue de gérer ses RDV et ses patients."
          },
          {
@@ -167,6 +191,7 @@
             "date":"Avril 2020",
             "tech":"JAVA",
             "github":"https://github.com/vincentdbs/ProjetTheorieDesGraphes",
+            "photo": "Graphe.png",
             "description":"Ce projet a pour but de manipuler des graphes et de réaliser plusieurs analyses comme la determination de la présence d'un circuit, le calcul du rang des sommets, le calcul des dates au plus tôt et au plus tard, la calcul du calendrier d'ordonnancement."
          },
          {
@@ -176,16 +201,8 @@
             "date":"Avril - Mai 2019",
             "tech":"C++",
             "github":"https://github.com/vincentdbs/ProjetMPI",
+            "photo": "Automate.png",
             "description":"Ce projet a pour but de manipuler des automates finis et de réaliser la lecture, l'affichage, la déterminisation, la minimisation, la standardisation et la reconnaissance de mots."
-         },
-         {
-            "title":"Location de voiture",
-            "members":1,
-            "time":"2 mois",
-            "date":"Oct - Nov 2019",
-            "tech":"HTML, JS, CSS, PHP, MySQL",
-            "github":"https://github.com/vincentdbs/WebProject",
-            "description":"Ce site web est un outil aidant une agence de location de voiture à gérer les locations. Il permet aussi aux clients de louer différents types de voitures en fonction de leurs besoins."
          }
       ]
    },

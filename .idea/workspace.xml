@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Image/Swapit_android.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Image/ProjectIllustration/Swapit_android.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image\ProjectIllustration" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
@@ -152,7 +159,7 @@
       <workItem from="1600703564475" duration="682000" />
       <workItem from="1600888141588" duration="4142000" />
       <workItem from="1600974388814" duration="1768000" />
-      <workItem from="1601122348008" duration="3161000" />
+      <workItem from="1601122348008" duration="5106000" />
     </task>
     <servers />
   </component>
