@@ -1,27 +1,27 @@
-.test-project-card{
+.project-card{
     box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
     background-color: var(--color-cardbg);
     padding: 5% 5% 2%;
 }
 
-.test-project-card *{
+.project-card *{
     color: var(--color-main);
 }
 
-.test-project-card img{
+.project-card img{
     width: 90%;
     display: block;
     margin: 0 auto;
 }
 
-.test-project-card-info{
+.project-card-info{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 24px;
 }
 
-.test-project-card-info-language svg{
+.project-card-info-language svg{
     width: 32px;
     margin-left: 8px;
     fill: var(--color-main);
@@ -29,7 +29,7 @@
 
 
 /*Reveal description on hover*/
-.test-project-card-verso{
+.project-card-verso{
     display: none;
 }
 

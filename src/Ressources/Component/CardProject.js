@@ -4,12 +4,12 @@ import SVG from "../Component/SVG";
 
 const CardProject = ({title, members, time, date, tech, github, description, photo, language}) => {
     return (
-        <div className="test-project-card">
-            <div className="test-project-card-recto">
+        <div className="project-card">
+            <div className="project-card-recto">
                 <img alt={"swapit"} src={require(`../Image/ProjectIllustration/${photo}`)}/>
-                <div className={"test-project-card-info"}>
+                <div className={"project-card-info"}>
                     <h2>{title}</h2>
-                    <div className="test-project-card-info-language">
+                    <div className="project-card-info-language">
                         {language.map((data, index) => (
                                 <SVG path={data} key={index} id={index}/>
                             ))
@@ -17,7 +17,7 @@ const CardProject = ({title, members, time, date, tech, github, description, pho
                     </div>
                 </div>
             </div>
-            <div className="test-project-card-verso">
+            <div className="project-card-verso">
                 <p>{description}</p>
             </div>
         </div>

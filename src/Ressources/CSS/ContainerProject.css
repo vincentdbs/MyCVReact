@@ -1,4 +1,4 @@
-.test-project-card-container {
+.project-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     grid-auto-rows: 1fr;
@@ -8,28 +8,28 @@
 }
 
 
-.test-project-card-container::before {
+.project-card-container::before {
     content: '';
     padding-bottom: 100%;
     grid-row: 1 / 1;
     grid-column: 1 / 1;
 }
 
-.test-project-card-container > *:first-child {
+.project-card-container > *:first-child {
     grid-row: 1 / 1;
     grid-column: 1 / 1;
 }
 
 
 @media (min-width: 0px) and (max-width: 480px) {
-    .test-project-card-container {
+    .project-card-container {
         grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
         padding: 10%;
     }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-    .test-project-card-container {
+    .project-card-container {
         grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
         padding: 10%;
     }
@@ -37,7 +37,7 @@
 
 
 @media (min-width: 1025px) and (max-width: 1500px) {
-    .test-project-card-container {
+    .project-card-container {
         grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     }
 

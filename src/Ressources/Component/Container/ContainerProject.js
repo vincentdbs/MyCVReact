@@ -11,7 +11,7 @@ const ContainerProject = () => {
             <div className="center">
                 <h1 className="section-title">{language.project.title}</h1>
             </div>
-            <div className="test-project-card-container">
+            <div className="project-card-container">
                 {
                     language.project.projects.map((data, index) => (
                         <CardProject key={index}
