@@ -20,16 +20,24 @@
 
 
 @media (min-width: 0px) and (max-width: 480px) {
-
+    .test-project-card-container {
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+        padding: 10%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-
+    .test-project-card-container {
+        grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+        padding: 10%;
+    }
 }
 
 
 @media (min-width: 1025px) and (max-width: 1500px) {
-
+    .test-project-card-container {
+        grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    }
 
 }
 
