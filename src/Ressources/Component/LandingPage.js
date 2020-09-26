@@ -5,13 +5,12 @@ import "../CSS/Scrollbar.css"
 import {LanguageContext, dictionaryList} from '../Language/LanguageContext';
 import ContainerEducation from "../Component/Container/ContainerEducation";
 import ContainerExperience from "../Component/Container/ContainerExperience";
-import ContainerProject from "../Component/Container/ContainerProject";
 import ContainerSkills from "../Component/Container/ContainerSkills";
 import Footer from "../Component/Footer";
 import {svgPath} from "../Logo/svgPath";
 import Navigation from "../Component/Navigation";
 import ContainerTop from "./Container/ContainerInfo";
-import TestContainerProject from "../Test/TestContainerProject";
+import ContainerProject from "./Container/ContainerProject";
 
 
 class LandingPage extends Component{
@@ -123,7 +122,7 @@ class LandingPage extends Component{
                 <Navigation toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
                 <ContainerTop/>
                 <ContainerEducation />
-                <TestContainerProject />
+                <ContainerProject />
                 <ContainerExperience epsLogo={this.state.epsLogo}/>
                 <ContainerSkills />
                 <Footer/>
