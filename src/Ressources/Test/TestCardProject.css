@@ -17,10 +17,6 @@
     margin-top: 24px;
 }
 
-.test-project-card-info-language{
-
-}
-
 .test-project-card-info-language svg{
     width: 32px;
     height: 32px;
@@ -28,6 +24,20 @@
     top: 50%;
     transform: translateY(-50%);
     margin-left: 8px;
+}
+
+
+/*Reveal description on hover*/
+.test-project-card-verso{
+    display: none;
+}
+
+.test-project-card:hover .test-project-card-verso{
+    display: block;
+}
+
+.test-project-card:hover .test-project-card-recto{
+    display: none;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
