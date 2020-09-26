@@ -4,7 +4,9 @@
     grid-auto-rows: 1fr;
     grid-gap: 80px 80px;
     padding: 5%;
+
 }
+
 
 .test-project-card-container::before {
     content: '';

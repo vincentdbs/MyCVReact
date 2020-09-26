@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/Coding/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/Coding/android-studio-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/Coding/java.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/Coding/php-programming-language.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Logo/Coding/php.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo\Coding" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image\ProjectIllustration" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Image" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\CSS\Container" />
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Component\Container" />
-      <recent name="D:\Vincent\CV\cvreact" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Vincent\CV\cvreact\src\Ressources\Logo\Coding" />
@@ -159,7 +162,7 @@
       <workItem from="1600703564475" duration="682000" />
       <workItem from="1600888141588" duration="4142000" />
       <workItem from="1600974388814" duration="1768000" />
-      <workItem from="1601122348008" duration="9854000" />
+      <workItem from="1601122348008" duration="10834000" />
     </task>
     <servers />
   </component>
@@ -236,9 +239,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600974627397" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601133006177">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601135573669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601133006177" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601135573669" />
   </component>
 </project>
