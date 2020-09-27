@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="243db61b-7647-4fe1-8b31-5c6002f0699d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/Project.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerProject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/TestCardProject.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestCardProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/TestCardProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/TestContainerProject.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/Test/TestContainerProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/TestContainerProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/CSS/CardProject.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/CSS/CardProject.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/CardProject.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,8 @@
       <workItem from="1600703564475" duration="682000" />
       <workItem from="1600888141588" duration="4142000" />
       <workItem from="1600974388814" duration="1768000" />
-      <workItem from="1601122348008" duration="13992000" />
+      <workItem from="1601122348008" duration="14853000" />
+      <workItem from="1601213675170" duration="2084000" />
     </task>
     <servers />
   </component>
@@ -199,22 +195,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598022683033" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601136041599">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601213799558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601136041599" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601136041599">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213799558" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601213799558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601136041599" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601136041599">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213799558" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601213799557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601136041599" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601136041599">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213799557" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601213799558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601136041599" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213799558" />
     <state x="739" y="212" key="SettingsEditor" timestamp="1599551387443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -223,18 +219,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594735081262" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595254346327">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601215547088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595254346327" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601215547088" />
     <state x="2010" y="-15" width="1736" height="856" maximized="true" key="dock-window-1" timestamp="1601137101700">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2010" y="-15" width="1736" height="856" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601137101700" />
-    <state x="1813" y="-15" width="1736" height="856" key="dock-window-2" timestamp="1601138330911">
+    <state x="1902" y="110" width="1736" height="856" key="dock-window-2" timestamp="1601213721341">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1813" y="-15" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601138330911" />
+    <state x="1902" y="110" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601213721341" />
     <state x="610" y="192" width="737" height="596" key="find.popup" timestamp="1595521921965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,7 +1,7 @@
+/*General div*/
 .project-card{
     box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
     background-color: var(--color-cardbg);
-    padding: 5% 5% 2%;
 }
 
 .project-card *{
@@ -12,6 +12,15 @@
     width: 90%;
     display: block;
     margin: 0 auto;
+}
+
+/*Internal div*/
+.project-card-recto{
+    margin: 5% 5% 2%;
+}
+
+.project-card-verso{
+    margin: 10% 10% 5%;
 }
 
 .project-card-info{
@@ -33,13 +42,40 @@
     display: none;
 }
 
-/*.test-project-card:hover .test-project-card-verso{*/
-/*    display: block;*/
-/*}*/
+.project-card-verso p{
+    color: rgba(255,255,255, 0.95);
+    line-height: 150%;
+}
 
-/*.test-project-card:hover .test-project-card-recto{*/
-/*    display: none;*/
-/*}*/
+
+.project-card-verso-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    margin-top: 32px;
+}
+
+.project-card-verso-logo svg{
+    width: 32px;
+    height: 32px;
+    fill: rgba(255,255,255, 0.95);
+}
+
+/*On hover card*/
+.project-card:hover{
+    background: rgb(238,112,61);
+    background: linear-gradient(0deg, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
+}
+
+.project-card:hover .project-card-verso{
+    display: block;
+}
+
+.project-card:hover .project-card-recto{
+    display: none;
+}
 
 @media (min-width: 0px) and (max-width: 480px) {
 }
