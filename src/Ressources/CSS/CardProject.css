@@ -18,10 +18,17 @@
 /*Internal div*/
 .project-card-recto{
     margin: 5% 5% 2%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .project-card-verso{
     margin: 10% 10% 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
 }
 
 .project-card-info{
@@ -39,14 +46,9 @@
 
 
 /*Reveal description on hover*/
-.project-card-verso{
-    display: none;
-}
-
 .project-card-verso p{
     color: rgba(255,255,255, 0.95);
     line-height: 150%;
-    position: relative;
 }
 
 
@@ -54,7 +56,6 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    position: relative;
     margin-top: 32px;
 }
 
@@ -67,11 +68,11 @@
 /*On hover card*/
 
 .project-card:hover .project-card-verso{
-    display: block;
+    visibility: visible;
 }
 
 .project-card:hover .project-card-recto{
-    display: none;
+    visibility: hidden;
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
