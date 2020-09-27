@@ -5,6 +5,7 @@ import SVG from "../Component/SVG";
 const CardProject = ({title, members, time, date, tech, github, description, photo, language}) => {
     return (
         <div className="project-card">
+            <div className="overlay"/>
             <div className="project-card-recto">
                 <img alt={"swapit"} src={require(`../Image/ProjectIllustration/${photo}`)}/>
                 <div className={"project-card-info"}>
