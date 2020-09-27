@@ -78,6 +78,17 @@
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+    .project-card-info {
+        display: block;
+    }
+
+    .project-card-info-language{
+        margin-top: 16px;
+    }
+
+    .project-card-recto{
+        margin: 10% 5% 0;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {

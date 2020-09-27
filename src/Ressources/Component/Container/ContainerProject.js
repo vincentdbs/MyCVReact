@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import '../../CSS/ContainerProject.css'
+import '../../CSS/Container/ContainerProject.css'
 import {LanguageContext} from "../../Language/LanguageContext";
 import CardProject from "../CardProject";
 
