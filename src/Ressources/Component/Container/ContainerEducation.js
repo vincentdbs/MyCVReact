@@ -13,9 +13,11 @@ const ContainerEducation = () => {
                 <div className="center">
                     <h1 className="section-title">{language.education.title}</h1>
                 </div>
-                <button onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "education"))))}>education</button>
-                <button onClick={() => (setExperiencesArray(language.education.timeline))}>all</button>
-                <button onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "pro"))))}>pro</button>
+                <div className="education--button">
+                    <button className="education--button-edu" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "education"))))}>education</button>
+                    <button className="education--button-all" onClick={() => (setExperiencesArray(language.education.timeline))}>all</button>
+                    <button className="education--button-pro" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "pro"))))}>pro</button>
+                </div>
                 <div className="timeline-container">
                     <div className="timeline">
                         {experiencesArray

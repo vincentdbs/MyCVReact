@@ -28,10 +28,18 @@ a:hover
     cursor:pointer;
 }
 
-p, li,a{
+p, li, a, button{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 130%;
+}
+
+button{
+    text-transform: capitalize;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 h1{
@@ -169,6 +177,7 @@ button{
     --color-mainquarter : rgba(0,0,0, 0.25);
     --color-mainthreequarter : rgba(255,255,255, 0.75);
     --color-orange : #FFAA00;
+    --color-violet: #630891;
     --color-grey : #cccccc;
     --color-whitebg : #f8f9fa;
     --color-border : rgba(0, 0, 0, 0.2);
@@ -185,6 +194,7 @@ button{
     --color-mainquarter : rgba(255,255,255, 0.67);
     --color-mainthreequarter : rgba(0,0,0, 0.75);
     --color-orange : #FFAA00;
+    --color-violet: #D580FF;
     --color-grey : #cccccc;
     --color-whitebg : #191919;
     --color-border : rgba(255,255,255, 0.8);
@@ -204,7 +214,7 @@ button{
         font-size: 0.8rem;
     }
 
-    p, li{
+    p, li, button{
         font-size: 1rem;
     }
 
@@ -250,7 +260,7 @@ button{
         font-size: 1rem;
     }
 
-    p, li{
+    p, li, button{
         font-size: 1.25rem;
     }
 
@@ -280,7 +290,7 @@ button{
         font-size: 1.125rem;
     }
 
-    p,  li{
+    p,  li, button{
         font-size: 1.25rem;
     }
 
