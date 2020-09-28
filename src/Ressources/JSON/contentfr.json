@@ -29,6 +29,7 @@
       "title":"Parcours scolaire",
       "timeline":[
          {
+            "cat": "education",
             "date":"2020 - 2021",
             "address":"Efrei Paris, Villejuif (94)",
             "title":"M1 Software Engineering",
@@ -39,16 +40,17 @@
             ]
          },
          {
-            "date":"Sept 2019 - Déc 2019",
-            "address":"Asia Pacific University, Kuala Lumpur, Malaisie",
-            "title":"Semestre international",
+            "cat": "pro",
+            "date":"Fév 2020 - Fév 2021",
+            "address":"Efrei Picture Studio, Efrei Paris (94)",
+            "title":"Président",
             "tasks":[
-               "JAVA et programmation web (PHP, CSS, JS, HTML, MySQL)",
-               "Base de données et système d'exploitation",
-               "Réseaux et protocoles"
+               "Gestion de projets (expositions, concours, captation photo et vidéo)",
+               "Gestion d’une équipe d’une vingtaine de membres"
             ]
          },
          {
+            "cat": "education",
             "date":"2017 - 2020",
             "address":"Efrei Paris, Villejuif (94)",
             "title":"Cycle licence",
@@ -59,6 +61,50 @@
             ]
          },
          {
+            "cat": "pro",
+            "date":"Fév 2019 - Fév 2020",
+            "address":"Efrei Picture Studio, Efrei Paris (94)",
+            "title":"Trésorier",
+            "tasks":[
+               "Création, défense et gestion du budget",
+               "Gestion des ventes et des dépenses"
+            ]
+         },
+         {
+            "cat": "education",
+            "date":"Sept 2019 - Déc 2019",
+            "address":"Asia Pacific University, Kuala Lumpur, Malaisie",
+            "title":"Semestre international",
+            "tasks":[
+               "JAVA et programmation web (PHP, CSS, JS, HTML, MySQL)",
+               "Base de données et système d'exploitation",
+               "Réseaux et protocoles"
+            ]
+         },
+         {
+            "cat": "pro",
+            "date":"Janvier 2019",
+            "address":"Boulanger, Vélizy 2 (78)",
+            "title":"Conseiller de vente",
+            "tasks":[
+               "Merchandising",
+               "Conseiller et aider les clients à trouver le produit désiré",
+               "Préparation des soldes d’hiver"
+            ]
+         },
+         {
+            "cat": "pro",
+            "date":"Juin - Juill 2018",
+            "address":"Auchan Supermarché, Sceaux (92)",
+            "title":"Employé polyvalent",
+            "tasks":[
+               "Merchandising",
+               "Conseiller et aider les clients à trouver le produit désiré",
+               "Préparation des soldes d’hiver"
+            ]
+         },
+         {
+            "cat": "education",
             "date":"2017",
             "address":"Lycée Marie Curie, Sceaux (92)",
             "title":"Baccalauréat scientifique section Science de la Vie et de la Terre",

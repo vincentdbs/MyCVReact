@@ -29,13 +29,40 @@
       "title":"Education",
       "timeline":[
          {
-            "date":"2020 - June 2021",
+            "date":"2020 - 2021",
             "address":"Efrei Paris, Villejuif (94), France",
             "title":"M1 Software Engineering",
             "tasks":[
                "JEE, .NET, C#",
                "Devops",
                "Project management"
+            ]
+         },
+         {
+            "date":"Feb 2020 - Feb 2021",
+            "address":"Efrei Picture Studio, Efrei Paris (94), France",
+            "title":"President",
+            "tasks":[
+               "Project management (expositions, contests, photography and video recording)",
+               "Management of a team of twenty members"
+            ]
+         },
+         {
+            "date":"2017 - 2020",
+            "address":"Efrei Paris, Villejuif (94)",
+            "title":"Licence cycle",
+            "tasks":[
+               "Development of an Android app to help students find tutoring and daily services in the school",
+               "Physic, mathematics, communication and human sciences",
+               "Highest rank : 5/371"
+            ]
+         },
+         {
+            "date":"Feb 2019 - Feb 2020",
+            "address":"Efrei Picture Studio, Efrei Paris (94), France",
+            "title":"Treasurer",
+            "tasks":[
+               "Financial management of the association"
             ]
          },
          {
@@ -49,13 +76,24 @@
             ]
          },
          {
-            "date":"2017 - 2019",
-            "address":"Efrei Paris, Villejuif (94)",
-            "title":"Licence cycle",
+            "date":"Jan 2019",
+            "address":"Boulanger, Vélizy 2 (78)",
+            "title":"Sales consultant internship",
             "tasks":[
-               "Development of an Android app to help students find tutoring and daily services in the school",
-               "Physic, mathematics, communication and human sciences",
-               "Highest rank : 5/371"
+               "Merchandising",
+               "Advise and help customer to find the desired product",
+               "Prepare sales period"
+            ]
+         },
+         {
+            "date":"June - July 2018",
+            "address":"Auchan Supermarket, Sceaux (92)",
+            "title":"Blue-collar internship",
+            "tasks":[
+               "Shelving products",
+               "Controlling orders",
+               "Shelf facing",
+               "Answering to customer’s request"
             ]
          },
          {

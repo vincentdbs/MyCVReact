@@ -122,7 +122,7 @@ class LandingPage extends Component{
                 <Navigation toggleTheme={this.toggleTheme} onClickSwitchLanguage={this.toggleLanguage} themeLogo={this.state.themeLogo}/>
                 <ContainerTop/>
                 <ContainerEducation />
-                <ContainerProject />
+                {/*<ContainerProject />*/}
                 <ContainerExperience epsLogo={this.state.epsLogo}/>
                 <ContainerSkills />
                 <Footer/>
