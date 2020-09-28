@@ -22,7 +22,9 @@ const ContainerEducation = () => {
                             .map((data, index) => (
                             <Education key={index} date={data.date} title={data.title}
                                        address={data.address}
-                                       tasks={data.tasks}/>
+                                       tasks={data.tasks}
+                                       cat={data.cat}
+                            />
                         ))}
                     </div>
                 </div>

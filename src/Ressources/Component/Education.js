@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Education = ({date, address, title, tasks}) => {
+const Education = ({date, address, title, tasks, cat}) => {
     return (
         <div className="education">
-            <div className="education--title">
+            <div className={`education--title ${"cat-" + cat}`}>
                 <h3>{date}</h3>
                 <p>{address}</p>
             </div>
