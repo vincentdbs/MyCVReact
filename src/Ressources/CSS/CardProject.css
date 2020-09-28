@@ -73,7 +73,7 @@
     top: 50%;
     left: 50%;
     transform : translate(-50%, -50%);
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 /*Reveal/Unrevea*/
@@ -86,11 +86,11 @@
 }
 
 .project-card:hover .overlay {
-    transform: scale(16) translateZ(0);
+    transform: scale(17) translateZ(0);
     visibility: visible;
     background: rgb(238,112,61);
     background: linear-gradient(0deg, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 
