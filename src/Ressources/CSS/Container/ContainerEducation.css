@@ -11,23 +11,44 @@
 .education--button button{
     outline: none;
     text-decoration: none;
-    padding: 16px;
+    padding: 8px;
     margin: 16px 16px;
     width: 150px;
-    border: 0;
+    background: transparent;
+    color: var(--color-main);
 }
 
 .education--button-edu{
-    background-color: var(--color-orange);
+    border: solid 3px var(--color-orange);
+    transition: all 0.3s ease-out;
+}
+
+.education--button-edu:hover{
+    background: var(--color-orange);
+    color: var(--color-whitebg);
 }
 
 .education--button-all{
-    background: rgb(255,170,0);
-    background: linear-gradient(90deg, rgba(255,170,0,1) 0%, rgba(99,8,145,0.5) 100%);
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, var(--color-orange), var(--color-violet));
+    transition: all 0.3s ease-out;
 }
 
+.education--button-all:hover{
+    background: linear-gradient(to right, var(--color-orange), var(--color-violet));
+    color: var(--color-whitebg);
+}
+
+
 .education--button-pro{
-    background-color: var(--color-violet);
+    border: solid 3px var(--color-violet);
+    transition: all 0.3s ease-out;
+}
+
+.education--button-pro:hover{
+    background:  var(--color-violet);
+    color: var(--color-whitebg);
 }
 
 .timeline-container {
@@ -127,6 +148,9 @@
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
+    .education--button button{
+        width: 100px;
+    }
 
     .timeline:before {
         left: -12px;
