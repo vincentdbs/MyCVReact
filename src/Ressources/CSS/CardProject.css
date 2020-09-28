@@ -10,28 +10,16 @@
     color: var(--color-main);
 }
 
+
+/*Recto*/
+.project-card-recto{
+    margin: 5% 5% 2%;
+}
+
 .project-card img{
     width: 90%;
     display: block;
     margin: 0 auto;
-}
-
-/*Internal div*/
-.project-card-recto{
-    margin: 5% 5% 2%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.project-card-verso{
-    margin: 10% 10% 5%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    z-index: 1000;
 }
 
 .project-card-info{
@@ -48,12 +36,14 @@
 }
 
 
-/*Reveal description on hover*/
-.project-card-verso p{
-    color: rgba(255,255,255, 0.95);
-    line-height: 150%;
+/*Verso*/
+.project-card-verso{
+    margin: 10% 10% 5%;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-
 
 .project-card-verso-logo {
     display: flex;
@@ -68,45 +58,7 @@
     fill: rgba(255,255,255, 0.95);
 }
 
-/*On hover card*/
-
-.project-card:hover .project-card-verso{
-    visibility: visible;
-}
-
-.project-card:hover .project-card-recto{
-    visibility: hidden;
-}
-
-@media (min-width: 0px) and (max-width: 480px) {
-    .project-card-info {
-        display: block;
-    }
-
-    .project-card-info-language{
-        margin-top: 16px;
-    }
-
-    .project-card-recto{
-        margin: 10% 5% 0;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 1024px) {
-}
-
-@media (min-width: 1025px) {
-
-}
-
-.project-card:hover .overlay {
-    transform: scale(16) translateZ(0);
-    visibility: visible;
-    background: rgb(238,112,61);
-    background: linear-gradient(0deg, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
-    transition: all 0.3s ease-out;
-}
-
+/*Overlay*/
 .overlay {
     visibility: hidden;
     width: 50px;
@@ -118,3 +70,34 @@
     transform : translate(-50%, -50%);
     transition: all 0.3s ease-out;
 }
+
+/*Reveal/Unrevea*/
+.project-card:hover .project-card-verso{
+    visibility: visible;
+}
+
+.project-card:hover .project-card-recto{
+    visibility: hidden;
+}
+
+.project-card:hover .overlay {
+    transform: scale(16) translateZ(0);
+    visibility: visible;
+    background: rgb(238,112,61);
+    background: linear-gradient(0deg, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
+    transition: all 0.3s ease-out;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+
+}
+
+
