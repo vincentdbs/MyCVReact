@@ -34,6 +34,24 @@
     margin-bottom: 18px;
 }
 
+/*Programming icon*/
+.cardskills-programming > div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.cardskills-programming > div > *{
+    margin-right: 16px;
+}
+
+.cardskills-programming-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
 @media (min-width: 0px) and (max-width: 480px) {
     .skills-icon{
         height: 25px;
@@ -70,20 +88,4 @@
 
 @media (min-width: 1025px) {
 
-}
-
-.cardskills-programming > div{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 4px 0;
-}
-
-.cardskills-programming > div > *{
-    margin-right: 16px;
-}
-
-.cardskills-programming-icon{
-    width: 30px;
-    height: 30px;
 }
