@@ -4,11 +4,11 @@
     border: 2px solid var(--color-orange);
     padding: 8px 16px;
     background-color: transparent;
-    transition: all ease 0.2s;
+    transition: all ease 0.3s;
 }
 
 .buttonOrange a{
-    color: var(--color-orange);
+    color: var(--color-main);
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -19,7 +19,7 @@
 
 @media (min-width: 1025px) {
     .buttonOrange:hover a{
-        color: var(--color-main);
+        color: var(--color-whitebg);
     }
 
     .buttonOrange:hover{
