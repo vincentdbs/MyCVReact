@@ -17,7 +17,9 @@ const ContainerSkills = () => {
                                title={data.title}
                                skills={data.desc}
                                svgPath={data.svgPath}
-                               index={index}/>
+                               index={index}
+                               programming={data.programming}
+                    />
                 ))}
             </div>
         </div>
