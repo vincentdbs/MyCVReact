@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import "../CSS/CardSkills.css"
 
 
-const CardSkill = ({title, skills, svgPath}) => {
+const CardSkill = ({title, skills, svgPath, index}) => {
     return (
-        <div className={"cardSkills"}>
+        <div className={`cardSkills item-${index}`}>
             <div className={"cardskills-title"}>
                 <SVG className={"skills-icon"} path={svgPath}/>
                 <h2>{title}</h2>

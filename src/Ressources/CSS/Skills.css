@@ -1,34 +1,74 @@
-.skills-wrapper-intro-in{
+/*.skills-wrapper-intro-in{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(auto-fill, minmax(27%, 1fr));*/
+/*    column-gap: 144px;*/
+/*    row-gap: 128px;*/
+/*    padding: 64px 15% 10% 20%;*/
+/*}*/
+
+.skills-wrapper-intro-in {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(27%, 1fr));
-    column-gap: 144px;
-    row-gap: 128px;
-    padding: 64px 15% 10% 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px 144px;
+    grid-template-areas:
+            "item-0 item-1"
+            "item-0 item-2"
+            "item-0 item-3";
 }
+.item-0 { grid-area: item-0; }
+.item-1 { grid-area: item-1; }
+.item-2 { grid-area: item-2; }
+.item-3 { grid-area: item-3; }
 
 @media (min-width: 0px) and (max-width: 480px) {
+    /*.skills-wrapper-intro-in {*/
+    /*    grid-template-columns: 100%;*/
+    /*    column-gap: 48px;*/
+    /*    row-gap: 48px;*/
+    /*    padding: 64px 15% 10%;*/
+    /*}*/
+
     .skills-wrapper-intro-in {
-        grid-template-columns: 100%;
-        column-gap: 48px;
-        row-gap: 48px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 48px;
+        grid-template-areas:
+                "item-0"
+                "item-1"
+                "item-2"
+                "item-3";
         padding: 64px 15% 10%;
     }
+
+
 
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-    .skills-wrapper-intro-in {
-        grid-template-columns: 100%;
-        column-gap: 64px;
-        row-gap: 64px;
-        padding: 64px 15% 10%;
-    }
+    /*.skills-wrapper-intro-in {*/
+    /*    grid-template-columns: 100%;*/
+    /*    column-gap: 64px;*/
+    /*    row-gap: 64px;*/
+    /*    padding: 64px 15% 10%;*/
+    /*}*/
 
+    .skills-wrapper-intro-in {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 64px;
+        grid-template-areas:
+                "item-0"
+                "item-1"
+                "item-2"
+                "item-3";
+            padding: 64px 15% 10%;
+    }
 
 }
 
 @media (min-width: 1025px) {
     .skills-wrapper-intro-in{
-        padding: 5% 20% 8%;
+        padding: 4% 20% 5%;
     }
 }

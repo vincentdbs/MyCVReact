@@ -13,7 +13,11 @@ const ContainerSkills = () => {
             </div>
             <div className="skills-wrapper-intro-in skills-info">
                 {language.softskills.skills.map((data, index) =>(
-                    <CardSkill key={index} title={data.title} skills={data.desc} svgPath={data.svgPath}/>
+                    <CardSkill key={index}
+                               title={data.title}
+                               skills={data.desc}
+                               svgPath={data.svgPath}
+                               index={index}/>
                 ))}
             </div>
         </div>
