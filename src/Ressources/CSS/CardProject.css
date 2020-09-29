@@ -95,9 +95,19 @@
 
 
 @media (min-width: 0px) and (max-width: 480px) {
+    .project-card-info{
+        display: block;
+    }
+
+    .project-card-info-language{
+        margin-top: 8px;
+    }
+
     .project-card-info-language svg {
         width: 1.5rem;
         height: 1.5rem;
+        margin-right: 8px;
+        margin-left: 0;
     }
 }
 

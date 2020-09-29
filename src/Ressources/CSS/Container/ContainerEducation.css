@@ -32,7 +32,7 @@
     border: 3px solid;
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, var(--color-orange), var(--color-violet));
-    transition: all 0.3s ease-out;
+    transition: color 0.3s ease-out;
 }
 
 .education--button-all:hover{
@@ -149,7 +149,7 @@
 
 @media (min-width: 0px) and (max-width: 480px) {
     .education--button button{
-        width: 100px;
+        width: 120px;
     }
 
     .timeline:before {

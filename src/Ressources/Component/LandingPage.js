@@ -4,7 +4,6 @@ import "../CSS/Scrollbar.css"
 
 import {LanguageContext, dictionaryList} from '../Language/LanguageContext';
 import ContainerEducation from "../Component/Container/ContainerEducation";
-import ContainerExperience from "../Component/Container/ContainerExperience";
 import ContainerSkills from "../Component/Container/ContainerSkills";
 import Footer from "../Component/Footer";
 import {svgPath} from "../Logo/svgPath";
@@ -123,7 +122,6 @@ class LandingPage extends Component{
                 <ContainerTop/>
                 <ContainerEducation />
                 <ContainerProject />
-                {/*<ContainerExperience epsLogo={this.state.epsLogo}/>*/}
                 <ContainerSkills />
                 <Footer/>
             </LanguageContext.Provider>
