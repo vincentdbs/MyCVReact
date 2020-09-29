@@ -34,7 +34,7 @@
       },
       "timeline":[
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2020 - 2021",
             "address":"Efrei Paris, Villejuif (94)",
             "title":"M1 Software Engineering",
@@ -45,7 +45,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Fév 2020 - Fév 2021",
             "address":"Efrei Picture Studio, Efrei Paris (94)",
             "title":"Président",
@@ -55,7 +55,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2017 - 2020",
             "address":"Efrei Paris, Villejuif (94)",
             "title":"Cycle licence",
@@ -66,7 +66,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Fév 2019 - Fév 2020",
             "address":"Efrei Picture Studio, Efrei Paris (94)",
             "title":"Trésorier",
@@ -76,7 +76,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"Sept 2019 - Déc 2019",
             "address":"Asia Pacific University, Kuala Lumpur, Malaisie",
             "title":"Semestre international",
@@ -87,7 +87,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Janvier 2019",
             "address":"Boulanger, Vélizy 2 (78)",
             "title":"Conseiller de vente",
@@ -98,7 +98,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Juin - Juill 2018",
             "address":"Auchan Supermarché, Sceaux (92)",
             "title":"Employé polyvalent",
@@ -109,7 +109,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2017",
             "address":"Lycée Marie Curie, Sceaux (92)",
             "title":"Baccalauréat scientifique section Science de la Vie et de la Terre",

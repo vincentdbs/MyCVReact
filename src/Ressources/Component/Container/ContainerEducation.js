@@ -6,7 +6,8 @@ import "../../CSS/Container/ContainerEducation.css"
 const ContainerEducation = () => {
     let language = useContext(LanguageContext);
 
-    let [experiencesArray, setExperiencesArray] = useState(language.education.timeline);
+    //filter of the experience categories
+    let [filter, setFilter] = useState("all");
 
     return (
         <div className="container education">
@@ -15,13 +16,14 @@ const ContainerEducation = () => {
                     <h1 className="section-title">{language.education.title}</h1>
                 </div>
                 <div className="education--button">
-                    <button className="education--button-edu" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "education"))))}>{language.education.button.education}</button>
-                    <button className="education--button-all" onClick={() => (setExperiencesArray(language.education.timeline))}>{language.education.button.all}</button>
-                    <button className="education--button-pro" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "pro"))))}>{language.education.button.professional}</button>
+                    <button className="education--button-edu" onClick={() => (setFilter("education"))}>{language.education.button.education}</button>
+                    <button className="education--button-all" onClick={() => (setFilter("all"))}>{language.education.button.all}</button>
+                    <button className="education--button-pro" onClick={() => (setFilter("pro"))}>{language.education.button.professional}</button>
                 </div>
                 <div className="timeline-container">
                     <div className="timeline">
-                        {experiencesArray
+                        {language.education.timeline
+                            .filter((data) => data.cat.includes(filter))
                             .map((data, index) => (
                             <Education key={index} date={data.date} title={data.title}
                                        address={data.address}

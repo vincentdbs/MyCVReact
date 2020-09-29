@@ -34,7 +34,7 @@
       },
       "timeline":[
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2020 - 2021",
             "address":"Efrei Paris, Villejuif (94), France",
             "title":"M1 Software Engineering",
@@ -45,7 +45,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Feb 2020 - Feb 2021",
             "address":"Efrei Picture Studio, Efrei Paris (94), France",
             "title":"President",
@@ -55,7 +55,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2017 - 2020",
             "address":"Efrei Paris, Villejuif (94)",
             "title":"Licence cycle",
@@ -66,7 +66,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Feb 2019 - Feb 2020",
             "address":"Efrei Picture Studio, Efrei Paris (94), France",
             "title":"Treasurer",
@@ -75,7 +75,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"Sept 2019 - Dec 2019",
             "address":"Asia Pacific University, Kuala Lumpur, Malaysia",
             "title":"International semester",
@@ -86,7 +86,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"Jan 2019",
             "address":"Boulanger, Vélizy 2 (78)",
             "title":"Sales consultant internship",
@@ -97,7 +97,7 @@
             ]
          },
          {
-            "cat": "pro",
+            "cat": "pro all",
             "date":"June - July 2018",
             "address":"Auchan Supermarket, Sceaux (92)",
             "title":"Blue-collar internship",
@@ -109,7 +109,7 @@
             ]
          },
          {
-            "cat": "education",
+            "cat": "education all",
             "date":"2017",
             "address":"Marie Curie Highschool, Sceaux (92)",
             "title":"Scientific baccalaureate, life and earth sciences section",

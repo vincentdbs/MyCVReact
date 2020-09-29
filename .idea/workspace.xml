@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/Component/Container/ContainerEducation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contenten.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ressources/JSON/contentfr.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1601213675170" duration="7225000" />
       <workItem from="1601301191009" duration="8236000" />
       <workItem from="1601321798001" duration="2045000" />
-      <workItem from="1601368449073" duration="824000" />
+      <workItem from="1601368449073" duration="1454000" />
     </task>
     <servers />
   </component>
