@@ -27,6 +27,11 @@
    },
    "education":{
       "title":"Parcours scolaire",
+      "button": {
+         "education": "scolaire",
+         "all": "Tout",
+         "professional": "professionnel"
+      },
       "timeline":[
          {
             "cat": "education",

@@ -5,7 +5,8 @@ import "../../CSS/Container/ContainerEducation.css"
 
 const ContainerEducation = () => {
     let language = useContext(LanguageContext);
-    const [experiencesArray, setExperiencesArray] = useState(language.education.timeline);
+
+    let [experiencesArray, setExperiencesArray] = useState(language.education.timeline);
 
     return (
         <div className="container education">
@@ -14,9 +15,9 @@ const ContainerEducation = () => {
                     <h1 className="section-title">{language.education.title}</h1>
                 </div>
                 <div className="education--button">
-                    <button className="education--button-edu" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "education"))))}>education</button>
-                    <button className="education--button-all" onClick={() => (setExperiencesArray(language.education.timeline))}>all</button>
-                    <button className="education--button-pro" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "pro"))))}>pro</button>
+                    <button className="education--button-edu" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "education"))))}>{language.education.button.education}</button>
+                    <button className="education--button-all" onClick={() => (setExperiencesArray(language.education.timeline))}>{language.education.button.all}</button>
+                    <button className="education--button-pro" onClick={() => (setExperiencesArray(language.education.timeline.filter((data)=> (data.cat === "pro"))))}>{language.education.button.professional}</button>
                 </div>
                 <div className="timeline-container">
                     <div className="timeline">

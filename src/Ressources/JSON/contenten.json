@@ -27,6 +27,11 @@
    },
    "education":{
       "title":"Education",
+      "button": {
+         "education": "education",
+         "all": "all",
+         "professional": "professional"
+      },
       "timeline":[
          {
             "cat": "education",
