@@ -72,7 +72,18 @@
 
 }
 
-.cardskills-icon-programming{
+.cardskills-programming > div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.cardskills-programming > div > *{
+    margin-right: 16px;
+}
+
+.cardskills-programming-icon{
     width: 30px;
     height: 30px;
 }
