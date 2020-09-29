@@ -1,0 +1,26 @@
+.progressBar{
+    width: 70%;
+    height: 10px;
+    position: relative;
+    background-color: var(--color-grey);
+}
+
+.progressBar > span{
+    display: block;
+    background-color: var(--color-orange);
+    position: relative;
+    overflow: hidden;
+    height: 10px;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+
+}

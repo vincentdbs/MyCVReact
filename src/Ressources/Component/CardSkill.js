@@ -2,6 +2,7 @@ import React from "react";
 import SVG from "./SVG";
 import PropTypes from "prop-types";
 import "../CSS/CardSkills.css"
+import ProgressBar from "./ProgressBar";
 
 
 const CardSkill = ({title, skills, svgPath, index, programming}) => {
@@ -13,7 +14,19 @@ const CardSkill = ({title, skills, svgPath, index, programming}) => {
             </div>
             {
                 programming ? (
-                    <p>fdsf</p>
+                    programming.map((data, index) => (
+                            <div>
+                                {/*<SVG path={data.svg}  className={"cardskills-icon-programming"}/>*/}
+                                {/*<div >*/}
+                                {/*    <span style={`width: ${data.level}`} />*/}
+                                {/*</div>*/}
+                                <div>
+                                    <SVG path={data.svg}  className={"cardskills-icon-programming"}/>
+                                    <ProgressBar percentage={data.level} />
+                                </div>
+                            </div>
+                        )
+                    )
                     )
                     : (
                         <ul className="skills-list">
