@@ -150,14 +150,18 @@
 @media (min-width: 0px) and (max-width: 480px) {
     .education--button button{
         width: 120px;
+        margin: 8px 8px;
+    }
+
+    .timeline-container{
+        margin-left: 12px;
     }
 
     .timeline:before {
-        left: -12px;
+        left: -24px;
     }
 
     .education {
-        margin-left: 12px;
         margin-bottom: 32px;
     }
 
@@ -178,11 +182,10 @@
 
 @media (min-width: 481px) and (max-width: 800px) {
     .timeline:before {
-        left: 0;
+        left: -24px;
     }
 
     .education {
-        margin-left: 24px;
         margin-bottom: 32px;
     }
 
