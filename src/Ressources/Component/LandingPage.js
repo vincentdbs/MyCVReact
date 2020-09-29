@@ -60,8 +60,6 @@ class LandingPage extends Component{
 
         //Enable dark theme after 19:00
         if (new Date().getHours() > 19) this.toggleTheme();
-        console.log((new Date().getHours() > 19));
-
 
         /**
          * Get all element to alter by scrolling/resizing window

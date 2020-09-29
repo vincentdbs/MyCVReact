@@ -12,7 +12,7 @@ const CardProject = ({title, members, time, date, tech, github, description, pho
                     <h2>{title}</h2>
                     <div className="project-card-info-language">
                         {language.map((data, index) => (
-                                <SVG path={data} key={index} id={index}/>
+                                <SVG path={data} key={index} id={index.toString()}/>
                             ))
                         }
                     </div>

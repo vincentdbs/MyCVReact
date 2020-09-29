@@ -49,6 +49,7 @@
 .cardskills-programming-icon{
     width: 30px;
     height: 30px;
+    fill: var(--color-main);
 }
 
 

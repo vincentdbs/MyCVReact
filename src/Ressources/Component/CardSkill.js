@@ -15,9 +15,9 @@ const CardSkill = ({title, skills, svgPath, index, programming}) => {
             {
                 programming ? (
                     programming.map((data, index) => (
-                            <div className="cardskills-programming">
+                            <div className="cardskills-programming" key={index}>
                                 <div>
-                                    <SVG path={data.svg}  className={"cardskills-programming-icon"}/>
+                                    <SVG id={`cardskills-programming-icon-${index}`} path={data.svg} className={"cardskills-programming-icon"}/>
                                     <ProgressBar percentage={data.level} />
                                 </div>
                             </div>
