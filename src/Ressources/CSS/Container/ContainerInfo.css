@@ -25,6 +25,7 @@
     display: block;
 }
 
+/*Info about me*/
 .wrapper-me{
     padding-left: 10%;
     padding-right: 10%;
@@ -38,20 +39,43 @@
     color: var(--color-main);
 }
 
-@media (min-width: 0px) and (max-width: 480px) {
+/*Very Small phone*/
+@media (min-width: 0px) and (max-width: 380px) {
+    .container-top-right > img{
+        width: 50%;
+    }
+
+    .wrapper-me{
+        padding-top: 64px;
+        padding-left: 8%;
+    }
+
+    .wrapper-me > .buttonOrange{
+        margin-top: 12px;
+    }
+
+    .me{
+        padding-bottom: 12px !important;
+    }
+}
+
+/*Small phone*/
+@media (min-width: 381px) and (max-width: 480px) {
     .container-top-right > img{
         width: 55%;
     }
 
     .wrapper-me{
-        padding-top: 48px;
-        padding-left: 8%;
+        padding-top: 64px;
+        padding-left: 5%;
     }
 }
 
+/*Tablet*/
 @media (min-width: 481px) and (max-width: 849px) {
     .wrapper-me{
         padding-top: 68px;
+        padding-left: 0;
     }
 }
 
