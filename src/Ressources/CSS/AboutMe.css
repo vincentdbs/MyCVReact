@@ -9,12 +9,12 @@
 
 .me > h1{
     font-size: 80px;
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
 }
 
 .me > p{
     font-size: 36px;
-    font-family: Gotham;
+    font-family: Gotham, sans-serif;
 }
 
 
