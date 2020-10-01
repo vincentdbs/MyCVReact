@@ -161,7 +161,4 @@
 }
 
 @media (min-width: 1501px) {
-    .project-card:hover .overlay {
-        transform: scale(15) translateZ(0);
-    }
 }

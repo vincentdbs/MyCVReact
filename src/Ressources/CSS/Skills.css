@@ -9,7 +9,7 @@
 .skills-wrapper-intro-in {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 0.9fr 0.9fr;
     gap: 16px 144px;
     grid-template-areas:
             "item-0 item-1"
@@ -31,14 +31,14 @@
 
     .skills-wrapper-intro-in {
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 1fr 1fr 1fr;
+        grid-template-rows: 3.2fr 0.75fr 0.75fr 0.75fr;
         gap: 24px;
         grid-template-areas:
                 "item-0"
                 "item-1"
                 "item-2"
                 "item-3";
-        padding: 64px 15% 10%;
+        padding: 48px 15% 10%;
     }
 }
 
@@ -52,7 +52,7 @@
 
     .skills-wrapper-intro-in {
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr 1fr 1fr 1fr;
+        grid-template-rows: 3fr 0.8fr 0.8fr 0.8fr;
         gap: 64px;
         grid-template-areas:
                 "item-0"
