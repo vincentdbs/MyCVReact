@@ -13,11 +13,11 @@
 
 /*Round dot*/
 .card-education .cat-education:before {
-    border: 4px solid var(--color-orange);
+    border: 4px solid var(--color-primary);
 }
 
 .card-education .cat-pro:before {
-    border: 4px solid var(--color-violet);
+    border: 4px solid var(--color-secondary);
 }
 
 .card-education .cat-education:before, .card-education .cat-pro:before {
@@ -25,7 +25,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    background-color: var(--color-whitebg);
+    background-color: var(--color-main-invert);
     border-radius: 100%;
     top: 15%;
     z-index: 1;

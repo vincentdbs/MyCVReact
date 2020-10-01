@@ -9,7 +9,7 @@ html, #root{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: var(--color-whitebg);
+    background-color: var(--color-main-invert);
 }
 
 body, #root{
@@ -95,7 +95,7 @@ button{
 
 
 .container{
-    background-color: var(--color-whitebg);
+    background-color: var(--color-main-invert);
     position: relative;
     width: 100%;
     min-height: 100%;
@@ -152,18 +152,18 @@ button{
 
 .btn-square-orange{
      padding: 8px;
-     border: 2px var(--color-orange) solid;
+     border: 2px var(--color-primary) solid;
      background-color: inherit;
      margin-top: 8px;
      transition: ease background-color 0.1s;
 }
 
 .btn-square-orange > *{
-    color: var(--color-orange);
+    color: var(--color-primary);
 }
 
 .btn-square-orange:hover{
-    background-color: var(--color-orange);
+    background-color: var(--color-primary);
 }
 
 .btn-square-orange:hover > *{
@@ -176,10 +176,10 @@ button{
     --color-mainhalf : rgba(0,0,0, 0.5);
     --color-mainquarter : rgba(0,0,0, 0.25);
     --color-mainthreequarter : rgba(255,255,255, 0.75);
-    --color-orange : #FFAA00;
-    --color-violet: #630891;
+    --color-primary : #FFAA00;
+    --color-secondary: #630891;
     --color-grey : #cccccc;
-    --color-whitebg : #f8f9fa;
+    --color-main-invert : #f8f9fa;
     --color-border : rgba(0, 0, 0, 0.2);
     --color-switch : #1e314f;
     --color-headersadow : 0 2px 2px -2px rgba(0,0,0,0.16);
@@ -193,10 +193,10 @@ button{
     --color-mainhalf :rgba(255,255,255, 0.80);
     --color-mainquarter : rgba(255,255,255, 0.67);
     --color-mainthreequarter : rgba(0,0,0, 0.75);
-    --color-orange : #FFAA00;
-    --color-violet: #D580FF;
+    --color-primary : #FFAA00;
+    --color-secondary: #D580FF;
     --color-grey : #cccccc;
-    --color-whitebg : #191919;
+    --color-main-invert : #191919;
     --color-border : rgba(255,255,255, 0.8);
     --color-switch : #ffcf96;
     --color-headersadow : 0 2px 2px -2px rgba(255,255,255,0.6);

@@ -16,13 +16,13 @@
 
 
 .footer p{
-    color: var(--color-whitebg);
+    color: var(--color-main-invert);
 }
 
 .logo-footer{
     width: 28px;
     height: 28px;
-    fill: var(--color-whitebg);
+    fill: var(--color-main-invert);
 }
 
 @media (min-width: 0px) and (max-width: 480px) {

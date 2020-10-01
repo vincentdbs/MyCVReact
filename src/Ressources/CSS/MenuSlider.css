@@ -30,7 +30,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     margin: 40px 0;
-    color: var(--color-whitebg);
+    color: var(--color-main-invert);
 }
 
 .menu-slider-li p{

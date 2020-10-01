@@ -4,7 +4,7 @@
     width: 100%;
     min-height: 54px;
     position: fixed;
-    background-color: var(--color-whitebg);
+    background-color: var(--color-main-invert);
     z-index: 500;
 }
 

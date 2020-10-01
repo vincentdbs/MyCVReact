@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--color-whitebg);
+    background: var(--color-main-invert);
 }
 
 ::-webkit-scrollbar-thumb {

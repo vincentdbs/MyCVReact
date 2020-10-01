@@ -15,36 +15,36 @@
 }
     /*Button education*/
 .education--button-edu{
-    border: solid 3px var(--color-orange);
+    border: solid 3px var(--color-primary);
     transition: all 0.3s ease-out;
 }
 
 .education--button-edu:hover{
-    background: var(--color-orange);
-    color: var(--color-whitebg);
+    background: var(--color-primary);
+    color: var(--color-main-invert);
 }
     /*Button all*/
 .education--button-all{
     border: 3px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to right, var(--color-orange), var(--color-violet));
+    border-image-source: linear-gradient(to right, var(--color-primary), var(--color-secondary));
     transition: color 0.3s ease-out;
 }
 
 .education--button-all:hover{
-    background: linear-gradient(to right, var(--color-orange), var(--color-violet));
-    color: var(--color-whitebg);
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    color: var(--color-main-invert);
 }
 
     /*Button professional*/
 .education--button-pro{
-    border: solid 3px var(--color-violet);
+    border: solid 3px var(--color-secondary);
     transition: all 0.3s ease-out;
 }
 
 .education--button-pro:hover{
-    background:  var(--color-violet);
-    color: var(--color-whitebg);
+    background:  var(--color-secondary);
+    color: var(--color-main-invert);
 }
 
 /*Timeline container*/

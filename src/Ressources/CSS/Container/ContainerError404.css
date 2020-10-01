@@ -24,7 +24,7 @@
 }
 
 .div-error404 a{
-    color: var(--color-orange);
+    color: var(--color-primary);
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
