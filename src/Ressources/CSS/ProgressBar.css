@@ -7,7 +7,7 @@
 
 .progressBar > span{
     display: block;
-    background: linear-gradient(to right, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
+    background: linear-gradient(to left, rgba(238,112,61,1) 0%, rgba(255,170,0,1) 100%);
     position: relative;
     overflow: hidden;
     height: 10px;

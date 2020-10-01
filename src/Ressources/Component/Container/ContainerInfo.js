@@ -25,7 +25,6 @@ const ContainerTop = () => {
                 <div className="wrapper-me">
                     <AboutMe/>
                     <ContactMe/>
-                    {/*todo remplacer par language context*/}
                     <ButtonOrange text={language.info.CV.text} href={language.info.CV.url}/>
                 </div>
             </div>

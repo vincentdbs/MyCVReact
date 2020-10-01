@@ -17,6 +17,13 @@ class App extends Component{
             </BrowserRouter>
     );
         // todo icon dans l'onglet
+        // todo relire texte et fautes
+        // todo description projet
+        // todo anglais
+        // todo delete unused photo/files
+        // todo resize photo
+        // todo lighthouse google
+        // todo update photo project -> rdv psy
     }
 }
 
