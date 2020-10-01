@@ -16,7 +16,6 @@ class LandingPage extends Component{
     state = {
         theme: "dark",
         language: dictionaryList.fr,
-        epsLogo: "EPS-version-noire.png",
         themeLogo: svgPath.moon,
     };
 
@@ -33,10 +32,6 @@ class LandingPage extends Component{
     //Arrow fx for binding
     toggleTheme = () => {
         this.setState(state => ({
-            epsLogo:
-                state.epsLogo === "EPS-version-noire.png"
-                    ? "EPS-version-blanche.png"
-                    : "EPS-version-noire.png",
             theme:
                 state.theme === "dark"
                     ? "light"
