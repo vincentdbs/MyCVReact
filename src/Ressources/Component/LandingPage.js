@@ -125,7 +125,7 @@ class LandingPage extends Component{
             </LanguageContext.Provider>
         );
     }
-};
+}
 
 
 export default LandingPage;
