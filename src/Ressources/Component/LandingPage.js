@@ -69,7 +69,7 @@ class LandingPage extends Component{
         let position = [];
 
         //header
-        var header = document.getElementById("header");
+        let header = document.getElementById("header");
 
         function getContainerPosition() {
             for (let i = 0; i < containers.length ; i++) {

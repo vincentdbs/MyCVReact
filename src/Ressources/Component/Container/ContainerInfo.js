@@ -9,7 +9,7 @@ import {LanguageContext} from "../../Language/LanguageContext";
 
 const ContainerTop = () => {
     useEffect(() => {
-            var info = document.querySelector('.container-arrowdown');
+            let info = document.querySelector('.container-arrowdown');
             info.addEventListener('click', function () {
                 document.querySelector('.education').scrollIntoView({
                     behavior: 'smooth'
@@ -32,7 +32,7 @@ const ContainerTop = () => {
                 <img src={require("../../Image/flat_programming.png")} alt={"logo"}/>
             </div>
             <div className="container-arrowdown">
-                <SVG className="arrowdonw" path={svgPath.arrowdown} />
+                <SVG className="arrowdown" path={svgPath.arrowdown} />
             </div>
         </div>
     );
