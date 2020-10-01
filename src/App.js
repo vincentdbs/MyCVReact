@@ -24,6 +24,7 @@ class App extends Component{
         // todo resize photo
         // todo lighthouse google
         // todo update photo project -> rdv psy
+        // todo github
     }
 }
 
