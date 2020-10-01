@@ -4,7 +4,7 @@ import "../CSS/Education.css"
 
 const Education = ({date, address, title, tasks, cat}) => {
     return (
-        <div className="education">
+        <div className="card-education">
             <div className={`education--title ${"cat-" + cat}`}>
                 <h3>{date}</h3>
                 <p>{address}</p>
