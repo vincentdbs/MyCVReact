@@ -31,10 +31,11 @@
     z-index: 1;
 }
 
-.card-education .education--title h3 {
+.card-education .education--title .education--title-date {
     margin: 0;
     color: var(--color-main);
 }
+
 .card-education .education--title p {
     color: var(--color-main);
     margin: 0;
@@ -71,6 +72,10 @@
         width: 100%;
     }
 
+    .card-education .education--title .education--title-date {
+        font-size: 1.2rem;
+    }
+
     .card-education .education--title:before {
         left: -30px;
     }
@@ -84,6 +89,10 @@
 @media (min-width: 481px) and (max-width: 800px) {
     .card-education .education--title {
         width: 100%;
+    }
+
+    .card-education .education--title .education--title-date {
+        font-size: 1.5rem;
     }
 
     .card-education .education--title:before {
@@ -107,6 +116,10 @@
         text-align: right;
     }
 
+    .card-education .education--title .education--title-date {
+        font-size: 1.5rem;
+    }
+
     .card-education .education--body {
         margin: 0 0 5rem;
         float: right;
@@ -124,6 +137,10 @@
         float: left;
         width: 33%;
         text-align: right;
+    }
+
+    .card-education .education--title .education--title-date {
+        font-size: 1.5rem;
     }
 
     .card-education .education--body {

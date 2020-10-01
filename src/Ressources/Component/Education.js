@@ -6,7 +6,7 @@ const Education = ({date, address, title, tasks, cat}) => {
     return (
         <div className="card-education">
             <div className={`education--title ${"cat-" + cat}`}>
-                <h3>{date}</h3>
+                <h2 className="education--title-date">{date}</h2>
                 <p>{address}</p>
             </div>
             <div className="education--body">
