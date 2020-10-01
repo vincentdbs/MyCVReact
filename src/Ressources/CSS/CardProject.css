@@ -109,6 +109,11 @@
         margin-right: 8px;
         margin-left: 0;
     }
+
+    .project-card-verso-logo svg {
+        width: 24px;
+        height: 24px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -121,10 +126,16 @@
     }
 
     .project-card-info-language svg {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.75rem;
+        height: 1.75rem;
         margin-right: 8px;
         margin-left: 0;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 750px) {
+    .project-card:hover .overlay {
+        transform: scale(21) translateZ(0);
     }
 }
 
@@ -143,8 +154,14 @@
         margin-right: 8px;
         margin-left: 0;
     }
+
+    .project-card:hover .overlay {
+        transform: scale(15) translateZ(0);
+    }
 }
 
 @media (min-width: 1501px) {
-
+    .project-card:hover .overlay {
+        transform: scale(15) translateZ(0);
+    }
 }
