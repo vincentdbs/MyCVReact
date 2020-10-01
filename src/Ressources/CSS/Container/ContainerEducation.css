@@ -88,6 +88,10 @@
         margin-bottom: 32px;
     }
 
+    .timeline{
+        padding: 32px 0 25px;
+    }
+
     .timeline-container{
         margin-left: 12px;
     }

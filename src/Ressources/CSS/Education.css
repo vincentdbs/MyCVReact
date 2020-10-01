@@ -76,8 +76,8 @@
     }
 
     .card-education .education--body {
-        margin: 0 0 12px;
-        width: 100%;
+        margin: 0 0 24px;
+        width: 90%;
     }
 }
 
@@ -92,7 +92,7 @@
 
     .card-education .education--body {
         margin: 0 0 36px;
-        width: 100%;
+        width: 90%;
     }
 }
 
