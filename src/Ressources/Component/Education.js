@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../CSS/Education.css"
 
 const Education = ({date, address, title, tasks, cat}) => {
     return (
