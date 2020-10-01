@@ -32,7 +32,7 @@ const ContainerTop = () => {
                 <img src={require("../../Image/flat_programming.png")} alt={"logo"}/>
             </div>
             <div className="container-arrowdown">
-                <SVG className={"arrowdonw"} path={svgPath.arrowdown} />
+                <SVG className="arrowdonw" path={svgPath.arrowdown} />
             </div>
         </div>
     );
