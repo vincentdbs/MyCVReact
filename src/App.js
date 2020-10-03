@@ -16,9 +16,6 @@ class App extends Component{
             </BrowserRouter>
     );
         // todo icon dans l'onglet
-        // todo relire texte et fautes
-        // todo description projet
-        // todo anglais
         // todo update photo project -> rdv psy
         // todo github
         // todo error 404
