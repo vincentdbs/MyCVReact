@@ -47,7 +47,8 @@
 
 .project-card-verso p{
     color: rgba(255,255,255, 0.95);
-
+    text-align: justify;
+    line-height: 150%;
 }
 
 .project-card-verso-logo {
