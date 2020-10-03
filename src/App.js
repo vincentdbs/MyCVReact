@@ -15,9 +15,6 @@ class App extends Component{
                 </Switch>
             </BrowserRouter>
     );
-        // todo icon dans l'onglet
-        // todo github
-        // todo error 404
     }
 }
 
