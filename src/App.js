@@ -19,11 +19,9 @@ class App extends Component{
         // todo relire texte et fautes
         // todo description projet
         // todo anglais
-        // todo delete unused photo/files
-        // todo resize photo
-        // todo lighthouse google
         // todo update photo project -> rdv psy
         // todo github
+        // todo error 404
     }
 }
 
